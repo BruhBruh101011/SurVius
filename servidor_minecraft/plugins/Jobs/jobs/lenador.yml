@@ -1,0 +1,61 @@
+Woodcutter:
+  fullname: Leñador
+  shortname: Le
+  FullDescription:
+  - "Gana dinero talando y plantando"
+  ChatColour: GREEN
+  chat-display: full
+  max-level: 200
+  leveling-progression-equation: (10*(joblevel)+(joblevel*joblevel*4))*0.15
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 10
+  maxDailyQuests: 1
+
+  Quests:
+    '1':
+      Name: Woodpecker
+      Objectives:
+      - Break;oak_log;50
+      - Break;birch_log;50
+      - Break;jungle_log;50
+      RewardCommands:
+      - eco give [playerName] 100
+      - msg [playerName] Completed quest!
+      RewardDesc:
+      - Break logs and get money
+      - Get 100 for this!
+
+  Gui:
+    ItemStack: birch_log
+
+  Break:
+    materials:
+    - oak_log;0.15;0.15;0.15
+    - spruce_log;0.15;0.15;0.15
+    - birch_log;0.15;0.15;0.15
+    - jungle_log;0.15;0.15;0.15
+    - acacia_log;0.15;0.15;0.15
+    - dark_oak_log;0.15;0.15;0.15
+
+    - stripped_oak_log;0.1125;0.1125;0.0375
+    - stripped_spruce_log;0.1125;0.1125;0.0375
+    - stripped_birch_log;0.1125;0.1125;0.0375
+    - stripped_jungle_log;0.1125;0.1125;0.0375
+    - stripped_acacia_log;0.1125;0.1125;0.0375
+    - stripped_dark_oak_log;0.1125;0.1125;0.0375
+
+  Kill:
+    Player:
+      income: 1.125
+      points: 1.125
+      experience: 1.125
+
+  custom-kill:
+    Woodcutter:
+      income: 1.5
+      points: 1.5
+      experience: 1.5

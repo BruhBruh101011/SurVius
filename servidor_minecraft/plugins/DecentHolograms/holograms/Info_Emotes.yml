@@ -1,0 +1,28 @@
+location: world:582.500:71.000:832.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#00FF5A&lI&#0FFF68&ln&#1FFF76&lf&#2EFF83&lo &7&l| &f&lEmotes'
+    height: 0.3
+  - content: '&7Lista de &lemotes&7/&lacciones&7:'
+    height: 0.3
+  - content: '&7- &b&o/sit &7» Sentarte donde estás'
+    height: 0.3
+  - content: '&7- &b&o/lay &7» Acostarte donde estás'
+    height: 0.3
+  - content: '&7- &b&o/spin &7» Gira y gira :p'
+    height: 0.3
+  - content: '&7- &b&o/crawl &7» Arrástrate por el piso'
+    height: 0.3
+  - content: '&7También puedes hacer &a&oclick derecho'
+    height: 0.3
+  - content: '&7en un &obloque no-completo &7para sentarte en él.'
+    height: 0.3
+  - content: '&7ejemplos: &oslab&7, &oescaleras&7, &oetc'
+    height: 0.3
+  actions: {}

@@ -1,0 +1,7 @@
+scoreboard:
+  disabled: '&cDisabled'
+  enabled: '&aEnabled'
+  names:
+    defaultscoreboard: defaultscoreboard
+    survius: survius
+  none-active: '&7None'

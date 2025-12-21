@@ -1,0 +1,12 @@
+location: world:578.500:69.200:849.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: "&#50FF95&l- &#52FF84&lS&#53FF7B&lo&#54FF72&lc&#55FF6A&li&#56FF61&la&#57FF58&ll &#59FF47&l-"
+    height: 0.3
+  actions: {}

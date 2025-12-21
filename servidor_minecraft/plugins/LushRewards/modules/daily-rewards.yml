@@ -1,0 +1,422 @@
+# Daily Rewards: Rewards that are given daily
+type: daily-rewards
+enabled: true
+
+# Reward mode changes the way that reward days are increased
+# - default: Increases every day
+# - streak: Resets if a day is missed
+# - on_claim_only: Increases every day that a reward is claimed
+# - online_only: Increases every day that the player is online
+reward-mode: streak
+# Resets player back to day 1, this does not affect streaks (Set to -1 to disable)
+reset-days-at: -1
+# Whether players will receive all rewards on a day or just the one with the highest priority
+allow-reward-stacking: false
+# Whether streaks will continue to increase following missed days (This is intended for use during server maintenance periods)
+streak-bypass: false
+
+# The redeem sound to play if unspecified
+default-redeem-sound: ENTITY_PLAYER_LEVELUP
+# Whether notifications should be sent when rewards are claimable
+enable-notifications: true
+
+# Upcoming category to display
+upcoming-category: large
+
+reward-placeholders:
+  claimed: "sí" # %claimed% (When reward day is claimed)
+  unclaimed: "no" # %claimed% (When reward day is unclaimed)
+
+# List of rewards (%player% - The user being given the reward)
+daily-rewards:
+  default:
+    category: large
+    display-item:
+      lore:
+        - "&a&lRecompensa:"
+        - "&7&l$200"
+    redeem-sound: ENTITY_EXPERIENCE_ORB_PICKUP
+    rewards:
+      - type: command
+        commands:
+        - "eco give %player% 200"
+
+  day-1:
+    on-day-num: 1
+    category: small
+    display-item:
+      lore:
+        - "&a&lRecompensa:"
+        - "&7&l$100"
+    rewards:
+      - type: command
+        commands:
+        - "eco give %player% 100"
+  day-2:
+    on-day-num: 2
+    category: small
+    display-item:
+      lore:
+        - "&a&lRecompensa:"
+        - "&7&l$100"
+    rewards:
+      - type: command
+        commands:
+        - "eco give %player% 100"
+
+  day-3:
+    on-day-num: 3
+    category: small
+    display-item:
+      lore:
+        - "&a&lRecompensa:"
+        - "&7&l$112.5"
+    rewards:
+      - type: command
+        commands:
+        - "eco give %player% 112.5"
+  day-4:
+    on-day-num: 4
+    category: small
+    display-item:
+      lore:
+        - "&a&lRecompensa:"
+        - "&7&l$112.5"
+    rewards:
+      - type: command
+        commands:
+        - "eco give %player% 112.5"
+
+  day-5:
+    on-day-num: 5
+    category: small
+    display-item:
+      lore:
+        - "&a&lRecompensa:"
+        - "&7&l$125"
+    rewards:
+      - type: command
+        commands:
+        - "eco give %player% 125"
+  day-6:
+    on-day-num: 6
+    category: small
+    display-item:
+      lore:
+        - "&a&lRecompensa:"
+        - "&7&l$125"
+    rewards:
+      - type: command
+        commands:
+        - "eco give %player% 125"
+
+  day-7:
+    on-day-num: 7
+    category: small
+    display-item:
+      lore:
+        - "&a&lRecompensa:"
+        - "&7&l$137.5"
+    rewards:
+      - type: command
+        commands:
+        - "eco give %player% 137.5"
+  day-8:
+    on-day-num: 8
+    category: small
+    display-item:
+      lore:
+        - "&a&lRecompensa:"
+        - "&7&l$137.5"
+    rewards:
+      - type: command
+        commands:
+        - "eco give %player% 137.5"
+
+  day-9:
+    on-day-num: 9
+    category: small
+    display-item:
+      lore:
+        - "&a&lRecompensa:"
+        - "&7&l$150"
+    rewards:
+      - type: command
+        commands:
+        - "eco give %player% 150"
+  day-10:
+    on-day-num: 10
+    category: small
+    display-item:
+      lore:
+        - "&a&lRecompensa:"
+        - "&7&l$150"
+    rewards:
+      - type: command
+        commands:
+        - "eco give %player% 150"
+
+  day-11:
+    on-day-num: 11
+    category: medium
+    display-item:
+      lore:
+        - "&a&lRecompensa:"
+        - "&7&l$162.5"
+    rewards:
+      - type: command
+        commands:
+        - "eco give %player% 162.5"
+  day-12:
+    on-day-num: 12
+    category: medium
+    display-item:
+      lore:
+        - "&a&lRecompensa:"
+        - "&7&l$162.5"
+    rewards:
+      - type: command
+        commands:
+        - "eco give %player% 162.5"
+  day-13:
+    on-day-num: 13
+    category: medium
+    display-item:
+      lore:
+        - "&a&lRecompensa:"
+        - "&7&l$162.5"
+    rewards:
+      - type: command
+        commands:
+        - "eco give %player% 162.5"
+  day-14:
+    on-day-num: 14
+    category: medium
+    display-item:
+      lore:
+        - "&a&lRecompensa:"
+        - "&7&l$162.5"
+    rewards:
+      - type: command
+        commands:
+        - "eco give %player% 162.5"
+  day-15:
+    on-day-num: 15
+    category: medium
+    display-item:
+      lore:
+        - "&a&lRecompensa:"
+        - "&7&l$162.5"
+    rewards:
+      - type: command
+        commands:
+        - "eco give %player% 162.5"
+
+  day-16:
+    on-day-num: 16
+    category: medium
+    display-item:
+      lore:
+        - "&a&lRecompensa:"
+        - "&7&l$175"
+    rewards:
+      - type: command
+        commands:
+        - "eco give %player% 175"
+  day-17:
+    on-day-num: 17
+    category: medium
+    display-item:
+      lore:
+        - "&a&lRecompensa:"
+        - "&7&l$175"
+    rewards:
+      - type: command
+        commands:
+        - "eco give %player% 175"
+  day-18:
+    on-day-num: 18
+    category: medium
+    display-item:
+      lore:
+        - "&a&lRecompensa:"
+        - "&7&l$175"
+    rewards:
+      - type: command
+        commands:
+        - "eco give %player% 175"
+  day-19:
+    on-day-num: 19
+    category: medium
+    display-item:
+      lore:
+        - "&a&lRecompensa:"
+        - "&7&l$175"
+    rewards:
+      - type: command
+        commands:
+        - "eco give %player% 175"
+  day-20:
+    on-day-num: 20
+    category: medium
+    display-item:
+      lore:
+        - "&a&lRecompensa:"
+        - "&7&l$175"
+    rewards:
+      - type: command
+        commands:
+        - "eco give %player% 175"
+
+  day-21:
+    on-day-num: 21
+    category: medium
+    display-item:
+      lore:
+        - "&a&lRecompensa:"
+        - "&7&l$187.5"
+    rewards:
+      - type: command
+        commands:
+        - "eco give %player% 187.5"
+  day-22:
+    on-day-num: 22
+    category: medium
+    display-item:
+      lore:
+        - "&a&lRecompensa:"
+        - "&7&l$187.5"
+    rewards:
+      - type: command
+        commands:
+        - "eco give %player% 187.5"
+  day-23:
+    on-day-num: 23
+    category: medium
+    display-item:
+      lore:
+        - "&a&lRecompensa:"
+        - "&7&l$187.5"
+    rewards:
+      - type: command
+        commands:
+        - "eco give %player% 187.5"
+  day-24:
+    on-day-num: 24
+    category: medium
+    display-item:
+      lore:
+        - "&a&lRecompensa:"
+        - "&7&l$187.5"
+    rewards:
+      - type: command
+        commands:
+        - "eco give %player% 187.5"
+  day-25:
+    on-day-num: 25
+    category: medium
+    display-item:
+      lore:
+        - "&a&lRecompensa:"
+        - "&7&l$187.5"
+    rewards:
+      - type: command
+        commands:
+        - "eco give %player% 187.5"
+
+  day-26:
+    on-day-num: 26
+    category: large
+    display-item:
+      lore:
+        - "&a&lRecompensa:"
+        - "&7&l$200"
+    rewards:
+      - type: command
+        commands:
+        - "eco give %player% 200"
+  day-27:
+    on-day-num: 27
+    category: large
+    display-item:
+      lore:
+        - "&a&lRecompensa:"
+        - "&7&l$200"
+    rewards:
+      - type: command
+        commands:
+        - "eco give %player% 200"
+  day-28:
+    on-day-num: 28
+    category: large
+    display-item:
+      lore:
+        - "&a&lRecompensa:"
+        - "&7&l$200"
+    rewards:
+      - type: command
+        commands:
+        - "eco give %player% 200"
+  day-29:
+    on-day-num: 29
+    category: large
+    display-item:
+      lore:
+        - "&a&lRecompensa:"
+        - "&7&l$200"
+    rewards:
+      - type: command
+        commands:
+        - "eco give %player% 200"
+  day-30:
+    on-day-num: 30
+    category: large
+    display-item:
+      lore:
+        - "&a&lRecompensa:"
+        - "&7&l$200"
+    rewards:
+      - type: command
+        commands:
+        - "eco give %player% 200"
+
+gui:
+  title: "&2&lRecompensas Diarias"
+  # Displays the date of the month as the amount of the item stack
+  date-as-amount: false
+  # Sets first day of gui (DAY: Starts at current day, MONTH: Starts at beginning of current month, GRID: Starts on day 1 and loops when passing end of page)
+  scroll-type: GRID
+  # Available templates: DEFAULT, COMPACT, COMPACT_PROFILE, BORDERED, BORDERED_DAILY, DAILY_REWARDS_PLUS, NDAILY_REWARDS, CUSTOM
+  # Read https://docs.lushplugins.org/lush-rewards/configuring/gui-templates#custom-templates for more info on
+  # creating and using templates
+  template: "DEFAULT"
+  item-templates:
+    # Template for default rewards
+    default-reward:
+      display-name: "&7Día %day% &7| Futuro"
+    # Template for collectable rewards
+    redeemable-reward:
+      material: player_head
+      skull-texture: e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmI1N2Y0ODVlOWVjY2E1MzIzNDQ4NTBjNTFhYjQ0ZGQ2YWE1ZDQ1MTRiMzFjNmRmOWZjMjBlMzZiM2E4OWQ4YyJ9fX0=
+      display-name: "&2Día %day% &7| Reclamable"
+      enchanted: true
+    # Template for collected rewards
+    collected-reward:
+      material: player_head
+      skull-texture: e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWZkNTEyY2NlNGU3OTUyOGI2MGIzNWRmZTZmN2JmYzg0M2IyOTY4NDIxMDViMWNkMjY4MjdiNTkwOGIxMzU0ZCJ9fX0=
+      display-name: "&aDía %day% &7| Reclamado"
+      enchanted: false
+    # Template for missed rewards
+    missed-reward:
+      material: player_head
+      skull-texture: e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGRkMzBhYWMyYTFmMmQxOGM3NzU1Y2ZjYTJiYzYwOWZjMzkxZjQxOTg5YjA2NmNlOTMxNjA3NzY5MDZiZTg1YSJ9fX0=
+      display-name: "&7Día %day% &7| Perdido"
+    'P':
+      material: player_head
+      display-name: "&a&lPerfil:"
+      skull-texture: mirror
+      lore:
+        - "&7&lDía Numero: &f%lushrewards_daily-rewards_day_num%"
+        - "&7&lReclamado: &f%lushrewards_daily-rewards_collected%"
+        - "&7&lRacha Activa: &f%lushrewards_daily-rewards_streak%"
+        - "&7&lMejor Racha: &f%lushrewards_daily-rewards_highest_streak%"

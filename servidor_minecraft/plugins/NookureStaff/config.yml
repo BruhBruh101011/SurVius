@@ -1,0 +1,177 @@
+# ▐ ▄             ▄ •▄ ▄• ▄▌▄▄▄  ▄▄▄ .    .▄▄ · ▄▄▄▄▄ ▄▄▄· ·▄▄▄·▄▄▄
+# •█▌▐█▪     ▪     █▌▄▌▪█▪██▌▀▄ █·▀▄.▀·    ▐█ ▀. •██  ▐█ ▀█ ▐▄▄·▐▄▄·
+# ▐█▐▐▌ ▄█▀▄  ▄█▀▄ ▐▀▀▄·█▌▐█▌▐▀▀▄ ▐▀▀▪▄    ▄▀▀▀█▄ ▐█.▪▄█▀▀█ ██▪ ██▪
+# ██▐█▌▐█▌.▐▌▐█▌.▐▌▐█.█▌▐█▄█▌▐█•█▌▐█▄▄▌    ▐█▄▪▐█ ▐█▌·▐█ ▪▐▌██▌.██▌.
+# ▀▀ █▪ ▀█▄▀▪ ▀█▄▀▪·▀  ▀ ▀▀▀ .▀  ▀ ▀▀▀      ▀▀▀▀  ▀▀▀  ▀  ▀ ▀▀▀ ▀▀▀
+# 
+# Remember to join my Discord server if you need help:
+# https://discord.nookure.com/
+
+database:
+  # The type of the database.
+  # This can be either MYSQL or SQLITE.
+  # For MariaDB, use MYSQL driver.
+  # ¿When use MYSQL or SQLITE?
+  # - If you have more than 1 server, use MYSQL.
+  # - If you have only 1 server, but you want
+  # to be able to scale, use MYSQL.
+  type: SQLITE
+
+  # The host of the database.
+  # This can be an IP address or a domain name.
+  # ┏━━━━━━ Pterodactyl Users ━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+  # ┃If you are using pterodactyl, I recommend using the ┃
+  # ┃docker bridge IP address, smth like 172.x.x.x       ┃
+  # ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+  host: localhost
+
+  # The port of the database.
+  # This is usually 3306 for MySQL
+  port: 3306
+
+  # The username of the database.
+  username: nookure
+
+  # The password of the database.
+  password: yourSecurePassword
+
+  # The name of the database.
+  database: database
+
+# Here you can enable or disable any part of the plugin.
+# If you disable a module, the commands and the features
+# of that module will be disabled.
+modules:
+  # Enable or disable the staff mode.
+  # This include /staff command and the staff
+  # vault.
+  staff-mode: true
+
+  # Enable or disable the freeze module.
+  # This include /freeze command
+  freeze: true
+
+  # Enable or disable the vanish module.
+  # This include /vanish command and the plugin vanish
+  # on StaffMode.
+  vanish: true
+
+  # Enable or disable the StaffChat module.
+  # This include /staffchat command and
+  # the staff chat prefix.
+  staff-chat: true
+
+  # This module is required to be enabled
+  # if you want to use any module that requires
+  # player data like user notes
+  player-data: true
+
+  # Enable or disable the user notes module.
+  # This include /note command and the user notes
+  # vault.
+  user-notes: true
+
+  # Enable or disble the player-list module.
+  # This will allow you to list all the players on the server
+  # and perform actions on them.
+  player-list: true
+
+  # Enable or disable the pin code module.
+  # This will allow you to set a pin code to the staff's accounts
+  # and use it to login.
+
+  # WARNING: STILL IN BETA
+  pin-code: false
+
+# Here you can configure some settings for the staffmode
+staff-mode:
+  # If true when a chest is opened by a staff member, the chest will not make any sound
+  # or animation.
+  silent-chest-open: true
+
+  # If true when a staff disables staff mode, they will be teleported to their previous location.
+  # This is useful for preventing staff members abusing the staff mode to teleport to a player or
+  # fly to a location.
+  teleport-to-previous-location: true
+
+  # Enable or disable night vision when the player enters the staff mode.
+  night-vision: true
+
+  # Enable or disable custom potion effects when the player enters the staff mode.
+  custom-potion-effects: false
+
+  # Potion effects to add when the player enters the staff mode.
+  # Format: "effect:level:duration"
+  potion-effects:
+    - speed:1:999999
+    - jump:1:999999
+
+  # Enable the vanish when the staff member enables the staff mode.
+  enable-vanish-on-staff-enable: true
+
+  # Disable the vanish when the staff member disables the staff mode.
+  disable-vanish-on-staff-disable: true
+
+  # Enable or disable the action bar for the people who are in staff mode and
+  # they have the nookure.staff.actionbar permission.
+  action-bar: true
+
+  # Enable or disable the action bar when the user is in vanish
+  action-bar-on-vanish: true
+
+  # The type of vanish to use when the player enters the staff mode.
+  # Available options:
+  # ----> INTERNAL_VANISH, SUPER_VANISH, PREMIUM_VANISH
+  vanish-type: INTERNAL_VANISH
+
+  # Time to create a PIN code, before the player is kick
+  pin-time: 60s
+permission:
+  # Listen when a player gets `nookure.staff` permission to reconstruct the player wrapper.
+  watch-luck-perms-permissions: true
+
+# Here you can configure some settings for the freeze module
+freeze:
+  #   Execute a command when the player is frozen and he or she
+  #   exits of the servers.
+  execute-command-on-exit: true
+
+  #   Ask the player to execute a command when he or she exits
+  #   of the server.
+  ask-to-execute-command-on-exit: true
+
+  # Enable or disable the chat freeze.
+  # This will prevent the player from sending messages in the chat
+  # and he will be able to chat with the staff members only.
+  freeze-chat: true
+
+  # The value is with the following format: 1h 1m 1s
+  # Set "false" to disable the freeze timer.
+  # If the timer gets to 0, the player will be banned.
+  freeze-timer: 5m
+
+  # The commands to execute when the player is banned.
+  # You can use the following placeholders:
+  # ↳ {player} - Player name
+  # ↳ {staff} - Staff member name
+  # Use the proxy: prefix to execute a command in the proxy.
+  commands:
+    - ban {player} <red>You have been baned for ss evading
+
+# Here you can configure some settings for the player actions
+player-actions:
+  # If true, the player will be able to inspect a player by
+  # shift and right-clicking on them.
+  shift-and-right-click-to-inspect: true
+staff-chat:
+  # If this is enabled, the staff chat will be logged in the console.
+  log-staff-chat-in-console: true
+
+# Enable or disable debug mode.
+# This will print out more information to the console.
+# It's recommended to find bugs.
+debug: false
+
+# The name of the server.
+# This will be used in the messages or identifiers.
+server-name: Server 1

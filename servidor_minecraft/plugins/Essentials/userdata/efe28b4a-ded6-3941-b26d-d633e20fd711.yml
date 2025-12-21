@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.49.91.133
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1765685714588
+  login: 1765684692768
+money: '340940.16'
+last-account-name: Arriinmc
+logoutlocation:
+  world: 9ee61a61-a706-4632-bd12-4d8d4f7bca49
+  world-name: world
+  x: 607.6030542882571
+  y: 74.24290868923521
+  z: 866.2037327282084
+  yaw: 64.34530639648438
+  pitch: 30.571182250976562

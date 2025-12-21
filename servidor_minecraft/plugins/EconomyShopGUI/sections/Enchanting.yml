@@ -1,0 +1,14 @@
+enable: true
+slot: 32
+title: ''
+hidden: true
+sub-section: false
+display-item: false
+fill-item:
+  material: AIR
+nav-bar:
+  mode: INHERIT
+item:
+  material: ENCHANTED_BOOK
+  displayname: '&d&lEncantamientos'
+  name: '&d&lEnchanting'

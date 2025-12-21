@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.15.235.130
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1765942190124
+  login: 1765941617770
+money: '7775.94324999999901255'
+last-account-name: Tinuiilz
+logoutlocation:
+  world: c7549c64-5aa9-4634-9030-856b406dae77
+  world-name: world
+  x: 577.3127341665428
+  y: 66.0
+  z: 867.6153301171959
+  yaw: -10.6031494140625
+  pitch: 14.97378921508789
+lastlocation:
+  world: 22ad2569-fc89-4e0d-a37c-e9375446e91a
+  world-name: world
+  x: 19.959927865108277
+  y: 86.43300088988308
+  z: 36.79491285938823
+  yaw: 96.92031860351562
+  pitch: 50.15550231933594

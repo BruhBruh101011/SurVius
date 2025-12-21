@@ -1,0 +1,22 @@
+location: world:606.500:71.000:856.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#00FF5A&lI&#0FFF68&ln&#1FFF76&lf&#2EFF83&lo &7&l| &f&lSubastas'
+    height: 0.3
+  - content: '&7Quieres &lvender &7o &lcomprar&7 items?, usa &b&o/ah'
+    height: 0.3
+  - content: '&7y empieza a adentrarte en la economía'
+    height: 0.3
+  - content: '&7del servidor!'
+    height: 0.3
+  - content: '&7para empezar, puedes usar &b&o/ah sell <precio>'
+    height: 0.3
+  - content: '&7para vender el objeto que tienes en la mano.'
+    height: 0.3
+  actions: {}

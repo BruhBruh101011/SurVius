@@ -1,0 +1,1590 @@
+break-shop-use-supertool: <gray>Puedes romper la tienda cofre usando la super herramienta.
+fee-charged-for-price-change: <green>Has pagado <red>{0}<green> para cambiar de precio.
+not-allowed-to-create: <red>No puedes crear una tienda cofre aquí.
+disabled-in-this-world: <red>El sistema de tiendas está deshabilitado en este mundo.
+how-much-to-trade-for: <green>Ingresa en el chat, por cuánto deseas intercambiar <gray>{1}x {0}<green>.
+client-language-changed: <green>El sistema de tiendas ha detectado que la configuración de idioma del cliente ha sido cambiada, ahora estamos usando la configuración regional de {0} para ti.
+shops-backingup: Creando copia de seguridad de la tienda cofre desde la base de datos...
+_comment: Hi translator! If you're editing this on GitHub or through the source code should you go to https://crowdin.com/project/cofre-hikari instead.
+unlimited-shop-owner-changed: <gray>El propietario de esta tienda cofre ilimitada ha cambiado a {0}.
+bad-command-usage-detailed: '<red>¡Argumentos incorrectos del comando! Acepta los siguientes parámetros: <gray>{0}'
+thats-not-a-number: <red>Número inválido.
+shop-name-disallowed: <red>The shop name <gray>{0} <red>is disallowed. Pick another one!
+console-only-danger: <red>Este es un comando peligroso, por lo que solo la consola puede ejecutarlo.
+not-a-number: <red>Solo puedes introducir un número, tu entrada era {0}.
+not-looking-at-valid-shop-block: <red>No se pudo encontrar un bloque para crear una tienda cofre. Tienes que mirar uno.
+shop-removed-cause-ongoing-fee: <red>¡Tu tienda cofre en {0} ha sido eliminada porque no tenías fondos para mantenerla!
+tabcomplete:
+  amount: '[cantidad]'
+  item: '[item]'
+  price: '[precio]'
+  name: '[name]'
+  range: '[rango]'
+  currency: '[nombre de divisa]'
+  percentage: '[percentage%]'
+taxaccount-unset: <green>La cuenta de impuestos de esta tienda cofre ahora está siguiendo la configuración global del servidor.
+blacklisted-item: <red>No puedes vender este artículo porque está en la lista negra
+command-type-mismatch: <red>Este comando solo puede ser ejecutado por <aqua>{0}.
+server-crash-warning: '<red>El servidor puede fallar después de ejecutar el comando " /cofre reload " si reemplaza/borra el archivo .Jar (plugin) de QuickShop mientras se ejecuta el servidor.'
+you-cant-afford-to-change-price: <red>Cuesta {0} para cambiar el precio en tu tienda cofre.
+safe-mode: <red>El sistema de tiendas cofres ahora en modo seguro, no puede abrir este contenedor de la tienda cofre, comuníquese con el administrador del servidor para corregir los errores.
+forbidden-vanilla-behavior: <red>La operación está prohibida por no ser compatible con el comportamiento vainilla
+shop-out-of-space-name: <dark_purple>¡Tu tienda cofre {0} está llena!
+paste-disabled: |-
+  <red>Paste functionality has been disabled! You cannot request technical support. <newline>Reason: {0}
+quick-fill:
+  entry-own: ' <gray>- <red>[own] <aqua>{0} <light_purple>{1}'
+  hover:
+    - '<gray>Nombre: <aqua>{0}'
+    - '<gray>Propietario: <aqua>{0}'
+    - '<gray>Tipo: <aqua>{0}'
+    - '<gray>Precio: <aqua>{0}'
+    - '<gray>Artículo: <aqua>{0}'
+    - '<gray>Ubicación: <aqua>{0}'
+  hover-arg-filled:
+    - '<gray>Nombre: <aqua>{name}'
+    - '<gray>Propietario: <aqua>{owner}'
+    - '<gray>Tipo: <aqua>{type}'
+    - '<gray>Precio: <aqua>{price}'
+    - '<gray>Artículo: <aqua>{item}'
+    - '<gray>Ubicación: <aqua>{location}'
+  header: '<gray>You have multiple shops with name "<green>{0}<gray>", choose one to continue:'
+  entry-normal: ' <gray>- <aqua>{0} <light_purple>{1}'
+  entry-cooperation: ' <gray>- <red>[co] <aqua>{0} <light_purple>{1}'
+3rd-plugin-build-check-failed-admin: '<gray>(AdminOnly) <light_purple>{0}<dark_gray> denego las comprobaciones de permisos. Si esto no se espera, prueba añadiendo <light_purple>{1} <gray> a la lista negra de escucha. Guia de Configuración:https://cofre-community.github.io/cofre-Hikari-Documents/docs/modules/shops/protection-checker'
+average-price-nearby: '<green>Precio medio en esta zona: <gray>{0}'
+inventory-check-global-alert: "<red>[[Inventory Check] ¡Aviso! Encontró un elemento del sistema de tiendas cofre<gold>{2}</gold> en inventario en <aqua>{0}</aqua> <dark_gray>[{1}]</dark_gray>, que no debería ocurrir, Esto generalmente significa que alguien está explotando malintencionadamente el exploit para duplicar el elemento de visualización."
+digits-reach-the-limit: <red>Has alcanzado el límite de decimales en el precio.
+currency-unset: <green>Divisa de la tienda cofre ha sido removida con éxito. Usando la configuración predeterminada ahora.
+you-cant-create-shop-in-there: <red>No tienes permiso para crear una tienda cofre en este lugar.
+no-pending-action: <red>No tienes ninguna acción pendiente
+refill-success: <green>Reabastecido con éxito
+failed-to-paste: <red>Fallo al subir datos a Pastebin. Comprueba tu conexión a internet e intenta de nuevo. (Revisa la consola para más detalles)
+shop-out-of-stock-name: <dark_purple>¡Tu tienda cofre {0} se ha quedado sin {1}!
+shop-name-invalid: <red>El nombre de la tienda cofre <gray>{0}</yellow> no es válido. ¡Elige otro!
+how-many-buy-stack: <aqua>Ingresa en el chat <gray>el <aqua>número <gray>de paquetes que desea <aqua>COMPRAR<green>. Hay <gray>{0}<green> unidades en cada paquete y quedan <gray>{1}<green> paquetes disponibles. Ingresa <aqua>{2}<green> en el chat para comprar todos los disponibles.
+exceeded-maximum: <red>El valor excedió el valor máximo en Java.
+unlimited-shop-owner-keeped: '<gray>Atención: El dueño de la tienda cofre todavía es un dueño ilimitado de la tienda, necesitas reconfigurar tu nuevo dueño de la tienda.'
+no-enough-money-to-keep-shops: <red>¡No dispones del suficiente dinero para mantener tus tiendas cofre! todas tus tiendas cofre han sido eliminadas...
+3rd-plugin-build-check-failed: '<red>El complemento de terceros: <bold>{0}<reset><red> ha denegado la comprobación de permisos, ¿has ajustado los permisos?'
+not-a-integer: <red>Solo puedes introducir un número, tu entrada era {0}.
+translation-country: '&c&lIdioma: &b&lEspañol (es_ES)'
+buying-more-than-selling: '<red>ATENCIÓN: ¡Estás comprando artículos por más de lo que los estás vendiendo!'
+purchase-failed: '<red>Compra sin éxito: fallo interno. Por favor, contacta con el administrador del servidor.'
+denied-put-in-item: <red>¡No puedes poner este artículo en tu tienda cofre!
+shop-has-changed: <red>¡La tienda cofre que trataste de usar ha cambiado desde que hiciste clic!
+flush-finished: <green>Mensajes purgados con éxito.
+no-price-given: <red>Por favor ingresa un precio válido.
+shop-already-owned: <red>Esto ya es una tienda cofre.
+backup-success: <green>Copia de seguridad exitosa.
+not-looking-at-shop: <red>No se pudo encontrar ninguna tienda cofre. Tienes que mirar hacia una.
+you-cant-afford-a-new-shop: <red>Cuesta {0} crear una tienda cofre.
+success-created-shop: <red>Tienda cofre creada.
+shop-creation-cancelled: <red>Creación de tienda cofre cancelada.
+shop-owner-self-trade: <gray>Estás operando con tu propia tienda cofre, por lo que no ganarás nada de saldo.
+shop-owner-self-trade-denied: spanish.
+purchase-out-of-space: <red>Esta tienda cofre se quedó sin espacio. Contacte con el propietario o personal de la tienda cofre para vaciar la tienda.
+reloading-status:
+  success: <green>Recarga completada sin errores.
+  scheduled: <green>Recarga completada. <gray>(Algunos cambios requieren un tiempo para hacer efecto)
+  require-restart: <green>Recarga completada. <gray>(Algunos cambios requieren un reinicio del servidor para hacer efecto)
+  failed: <red>Recarga fallida, comprueba la consola del servidor
+player-bought-from-your-store-tax: <green>{0} compró {1} {2} de tu tienda empresa y ganaste {3} ({4} en impuestos).
+not-enough-space: <red>¡Sólo tienes sitio para {0} más!
+shop-name-success: <green>Nombre de la tienda cofre establecido a <gray>{0}<green>.
+shop-staff-added: <green>Agregado a {0} como personal de tu tienda cofre con éxito.
+shop-staff-empty: <gray>Esta tienda cofre no tiene personal.
+shops-recovering: Recuperando tiendas cofres desde la copia de seguridad...
+virtual-player-component-hover: "<gray>Este es un usuario virtual.\n<gray>Hace referencia a una cuenta del sistema con este nombre con el mismo nombre.</gray>\n<green>UUID: <gray>{0}</yellow></green>\n<green>Nombre de usuario: <gray>{1}</yellow></green>\n<green>Exhibir como: <gray>{2}</yellow></green>"
+real-player-component-hover: "<gray>Este es un usuario realmente.\n<green>UUID: <gray>{0}</yellow></green>\n<green>Nombre de usuario: <gray>{1}</yellow></green>\n<green>Exhibir como: <gray>{2}</yellow></green>\n<gray>Si desea utilizar una cuenta de sistema virtual con el mismo nombre, agregue <dark_gray>\"[]\"</dark_gray> a ambos lados del nombre de usuario: <dark_gray>[{1}]</dark_gray>."
+menu:
+  sell-tax: <green>Pagaste <gray>{0} <green>en impuestos.
+  owner: '<green>Propietario: {0}'
+  preview: <aqua>[Vista previa del artículo]
+  enchants: <dark_purple>Encantamientos
+  sell-tax-self: <green>No has pagado impuestos porque esta tienda cofre te pertenece.
+  shop-information: '<green>Descripción de tienda cofre:'
+  item: '<green>Artículo: <gray>{0}'
+  price-per: <green>Precio por <gray>{0} <green>- <gray>{1}
+  item-name-and-price: <gray>{0} {1} <green>por <gray>{2}
+  item-name-and-price-tax: <gray>{0} {1} <green>por</green> {2} <gray>(<green>{3}</green> en impuestos)</gray>
+  successful-purchase: '<green>Comprado con éxito:'
+  price-per-stack: <green>Precio por <gray>{2}x {0} - {1}
+  stored-enchants: <dark_purple>Encantamientos Almacenados
+  item-holochat-error: <red>[Error]
+  this-shop-is-selling: <green>Esta tienda cofre está <light_purple>VENDIENDO<green> artículos.
+  shop-stack: '<green>Cantidad de paquetes: <gray>{0}'
+  space: '<green>Espacio: <gray>{0}'
+  effects: <green>Efectos
+  damage-percent-remaining: <gray>{0}% <green>restante.
+  item-holochat-data-too-large: <red>[Error] El elemento NBT del artículo es demasiado grande para exhibirlo
+  stock: '<green>Existencias <gray>{0}'
+  this-shop-is-buying: <green>Esta tienda cofre está <light_purple>COMPRANDO<green> artículos.
+  this-shop-is-frozen: <green>La tienda cofre está actualmente <red>congelada<green>. No opera por el momento.
+  successfully-sold: '<green>Vendido con éxito:'
+  total-value-of-chest: '<green>Valor total del cofre: <gray>{0}'
+currency-not-exists: <red>No se puede encontrar la divisa que quieres establecer, tal vez sea mala ortografía o esa moneda no está disponible en este mundo.
+no-nearby-shop: <red>No hay ninguna tienda en la zona que coincida con {0}.
+translation-author: 'alexbm0'
+integrations-check-failed-trade: La integración {0} impide la creación de la tienda cofre
+shop-transaction-failed: <red>Sorry, but an internal error occurred while processing your purchase. The purchase has been cancelled and any operation has been rollback. Please contact the server administrators if it keeping occurred.
+success-change-owner-to-server: <green>Establecido exitosamente el dueño de la tienda cofre al Servidor.
+shop-name-not-found: <red>The shop named <gray>{0} <red>not exists.
+shop-name-too-long: <red>El nombre de la tienda cofre es demasiado largo (logitud máxima {0}), por favor elige otro!
+metric:
+  header-player: '<gray>{0}''s {1} {2} transacciones:'
+  action-hover: <gray>{0}
+  price-hover: <gray>Total {0}, incluyendo {1} impuestos.
+  unknown: <gray>(desconocido)
+  undefined: <gray>(sin nombre)
+  no-results: <red>No se encontraron transacciones.
+  action-description:
+    DELETE: <gray>Player deleted a shop. And refunded the shop creation fee to owner if possible.
+    ONGOING_FEE: <gray>Player paid the ongoing fee because the payment period.
+    PURCHASE_BUYING_SHOP: <gray>El jugador vendió algunos artículos a una tienda cofre.
+    CREATE: <gray>El jugador creó una tienda cofre.
+    PURCHASE_SELLING_SHOP: <gray>El jugador compró algunos artículos en una tienda cofre
+    PURCHASE: <gray>Artículo comprado en una tienda cofre
+  query-argument: 'Argumento de consulta: {0}'
+  amount-hover: <gray>{0}x
+  header-shop: '<gray>Tienda cofre {0}, transacciones:{1} {2} '
+  player-hover: |-
+    <gray>{0}<newline><gold>UUID: <gray>{1}
+  looking-up: <gray>Realizando búsquedas métricas, Por favor espere...
+  tax-hover: <gray>{0} impuestos
+  header-global: '<gray>El servidor {0} {1} transacciones:'
+  na: <gray>N/A
+  transaction-count: <gray>{0} en total
+  shop-hover: |-
+    <gray>{0}<newline><gold>Pos: <gray>{1} {2} {3}, Mundo: {4}<newline><gold>Dueño: <gray>{5}<newline><gold>Tipo de tienda: <gray>{6}<newline><gold>Artículo: <gray>{7}<newline><gold>Precio: <gray>{8}
+  time-hover: '<gray>Tiempo: {0}'
+  amount-stack-hover: <gray>{0}x paquete
+permission-denied-3rd-party: '<red>Permiso denegado: Plugin de terceros [{0}].'
+you-dont-have-that-many-items: <red>Solo tienes {0} {1}.
+complete: <green>¡Terminado!
+translate-not-completed-yet-url: 'La traducción del lenguaje {0} aún no fue completada por {1}. ¿Quieres ayudarnos a mejorar la traducción? Navegar: {2}'
+success-removed-shop: <green>La tienda cofre ha sido eliminada.
+currency-set: <green>Divisa de la tienda cofre ha sido establecida correctamente a {0}.
+shop-purged-start: <green>La purga de la tienda cofre ha comenzado, revisa la consola para más detalles.
+economy-transaction-failed: <red>Lo sentimos, pero se ha producido un error interno al procesar su transacción. La transacción se ha cancelado y se ha revertido cualquier operación económica. Póngase en contacto con los administradores del servidor si el error persiste.
+nothing-to-flush: <green>No tienes nuevos mensajes de tienda cofre.
+no-price-change: <red>¡Esto no cambiaría el precio!
+edition-confilct: QuicShop-Hikari with QuickShop-Reremake installed may conflict each other, uninstall one of them.
+inventory-unavailable: |-
+  <red>This shop InventoryWrapper not exists or invalid. Did you using addon to re-binding the shop Inventory? Information: InventoryWrapper={0}, WrapperProvider={1}, SymbolLink={2}. Please contact the server administrators.
+file-test: Este es un archivo de texto de prueba. Lo usamos para probar si el messages.json está roto. Puedes llenarlo con los huevos de pascua que quieras aquí :)
+unknown-player: <red>Dicho jugador no existe, por favor revisa el nombre de usuario que escribiste.
+player-offline: <red>The target player currently is offline.
+player-profile-format: <aqua>{0}</aqua><gold>(<gray>{1}</yellow>)</gold>
+shop-type:
+  selling: VENTA
+  buying: COMPRA
+  frozen: CONGELADO
+language:
+  qa-issues: '<gray>Problemas de garantía de calidad: <aqua>{0}%'
+  code: '<gray>Código: <gold>{0}'
+  approval-progress: '<gray>Progreso de aprobación: <aqua>{0}%'
+  translate-progress: '<gray>Progreso de traducción: <aqua>{0}%'
+  name: '<gray>Nombre: <gold>{0}'
+  help-us: <green>[Ayúdanos a mejorar la calidad de la traducción]
+warn-to-paste: |-
+  <gray>Recopilando datos y subiendo a Pastebin, esto puede llevar un tiempo. <red><bold>Aviso:<red> ¡Los datos serán públicos durante una semana! Esto puede revelar la configuración de tu servidor y otra información sensible. Asegúrate de enviarlo solamente a <bold>personal/desarrolladores de confianza.
+how-many-sell-stack: <aqua>Ingresa en el chat <gray>el <aqua>número <gray>de paquetes que desea <aqua>VENDER<green>. Hay <gray>{0}<green> unidades en cada paquete y puedes vender hasta <gray>{1}<green> paquetes. Ingresa <aqua>{2}<green> en el chat para vender todos los dispongas.
+updatenotify:
+  buttontitle: '[Actualizar Ahora]'
+  onekeybuttontitle: '[Actualización Automática]'
+  label:
+    github: '[GitHub]'
+    ore: '[Ore]'
+    lts: '[LTS]'
+    nbtapi: '[+NBTAPI]'
+    qualityverifyed: '[Calidad]'
+    master: '[Master]'
+    unstable: '[Inestable]'
+    paper: '[+Optimizado para Paper]'
+    stable: '[Estable]'
+    spigotmc: '[SpigotMC]'
+    papermc: '[PaperMC]'
+    bukkitdev: '[BukkitDev]'
+    polymart: '[Polymart]'
+    modrinth: '[Modrinth]'
+    basic: '[Basic]'
+  list:
+    - '{0} lanzada. ¡Aún estás usando {1}!'
+    - '¡Boom! Nueva actualización {0} a la vista. ¡Actualiza!'
+    - '¡Sorpresa! {0} ha salido. Estás en {1}'
+    - Parece que necesitas actualizar. ¡{0} ha sido lanzada!
+    - Oops! {0} ha sido lanzada. ¡Tú estás en {1}!
+    - Te lo juro, QS ha sido actualizada a {0}. ¿Por qué sigues sin actualizar?
+    - Corrigiendo y repa... Lo siento, ¡pero {0} ha sido lanzada!
+    - '¡Grr! Nop. No es un error. ¡{0} ha sido lanzada!'
+    - '¡OMG! {0} ya salió! ¿Por qué aún usas {1}?'
+    - 'Noticias del día: ¡El sistema de tiendas ha sido actualizado a {0}!'
+    - Plugin desparecido en combate. ¡Deberías actualizar a {0}!
+    - Actualización {0} prendida. ¡Guárdala!
+    - Hay una actualización disponible, comandante. ¡{0} acaba de salir!
+    - Mira qué flow que llevo---{0} actualizada. Tú aún usas {1}
+    - '¡Ahhhhhhh! ¡Nueva versión {0}! ¡Actualiza!'
+    - '¿Qué piensas? ¡{0} ha sido lanzada! ¡Actualiza!'
+    - '¡Doctor, el sistema de tiendas tiene una nueva actualización {0}! Debería actualizar~'
+    - Ko~ko~da~yo~ el sistema de tiendas tiene una nueva actualización {0} ~
+    - '¡Paimon quiere decirte que el sistema de tiendas tiene una nueva actualización {0}!'
+  remote-disable-warning: '<red>Esta versión de el sistema de tiendas ha sido marcada como deshabilitada por el servidor remoto. Esto significa que esta versión puede tener serios problemas. Más detalles en nuestra página de SpigotMC: {0}. Este aviso aparecerá y te advertirá en tu consola hasta que cambies a una versión aceptada. Sin embargo, esto no tiene por qué afectar al rendimiento de tu servidor.'
+purchase-out-of-stock: <red>Esta tienda cofre se quedó sin existencias, Contacte con el propietario o personal de la tienda cofre para rellenar las existencias.
+nearby-shop-entry: '<green>- Info:{0} <green>Precio:<aqua>{1} <green>x:<aqua>{2} <green>y:<aqua>{3} <green>z:<aqua>{4} <green>Distancia: <aqua>{5} <green>Bloque(s)'
+chest-title: Sistema de tienda cofre
+console-only: <red>Este comando solo puede ser ejecutado por Consola.
+failed-to-put-sign: <red>No hay espacio suficiente alrededor de la tienda cofre para colocar el cartel informativo.
+shop-name-unset: <red>This shop's name now removed
+shop-nolonger-freezed: <green>Has descongelado la tienda cofre. ¡Ha vuelto a operar!
+no-permission-build: <red>No puedes construir una tienda cofre aquí.
+tableformat:
+  left_half_line: <dark_purple>+--------------------
+  right_half_line: <dark_purple>--------------------+
+  full_line: <dark_purple>+---------------------------------------------------+
+  left_begin: '<dark_purple>| '
+quickshop-gui-preview: Vista previa del GUI del sistema de tiendas
+translate-not-completed-yet-click: La traducción del lenguaje {0} aún no fue completada por {1}. ¿Quieres ayudarnos a mejorar la traducción? ¡Clic aquí!
+taxaccount-invalid: <red>La cuenta de destino no es válida, por favor ingresa un nombre de jugador válido o UUID(con guiones).
+player-bought-from-your-store: <red>{0} ha comprado {1} {2} por un valor de {3} en tu tienda cofre.
+reached-maximum-can-create: <red>¡Ya has creado un máximo de {0}/{1} tiendas cofre!
+translation-version: 'Versión de soporte: Hikari'
+no-double-chests: <red>No puedes crear tiendas cofre de cofres dobles.
+price-too-cheap: <red>El precio debe ser mayor a <gray>${0}
+shop-not-exist: <red>No hay ninguna tienda cofre.
+bad-command-usage: <red>¡Argumentos incorrectos!
+cleanghost-warning: <gray>Este comando eliminará <red>todas</red> las tiendas cofre si la tienda cofre está dañada, se creó en mundos no permitidos, vende/compra artículos no permitidos o <red><bold>EXISTE EN UN MUNDO NO CARGADO</bold></red>. Asegúrate de crear primero una copia de seguridad completa de los datos de tu tienda y utiliza <aqua>/cofre cleanghost confirm</aqua> para continuar.
+cleanghost-starting: <green>Empezando a comprobar si hay tiendas fantasmas cofres (faltan bloques de contenedores). Se eliminarán todas las tiendas cofre que no existan...
+cleanghost-deleting: <gray>Has encontrado una tienda cofre corrupta <aqua>{0}</aqua> porque {1}, márcalo para eliminarlo...
+cleanghost-deleted: <green>Un total <gray>{0}</yellow> de tiendas cofre han sido eliminadas.
+shop-purchase-cancelled: <red>Compra cancelada.
+bypassing-lock: <red>¡Omitiendo el bloqueo de una tienda!
+bungee-cross-server-msg: '<gray>Tienda Rápida CSM: <green>{0}'
+saved-to-path: Copia de seguridad guardad en {0}.
+shop-now-freezed: <green>Has congelado la tienda cofre. ¡Nadie puede comerciar con ella ahora!
+price-is-now: <green>El nuevo precio de la tienda cofre es <gray>{0}
+shops-arent-locked: <red>¡Recuerda, las tiendas cofre NO están protegidas contra el robo! ¡Si quieres detener a los ladrones, protege tu cofre con otro sistema de seguridad!
+that-is-locked: <red>Esta tienda cofre está bloqueada.
+shop-has-no-space: <red>La tienda cofre sólo tiene espacio para {0} más de {1}.
+safe-mode-admin: '<red><bold>ADVERTENCIA: <red>El sistema de tiendas en este servidor ahora se ejecuta en modo seguro, no funcionará ninguna característica, escribe el comando <gray>/cofre<red> para verificar cualquier error.'
+shop-stock-too-low: <red>Sólo queda {0} {1} en la tienda cofre!
+world-not-exists: <red>El mundo <gray>{0}<red> no existe
+how-many-sell: <green>Ingresa en el chat, cuánto desea <light_purple>VENDER<green>. Puede vender <gray>{0}<green>. Introduce <aqua>{1}<green> en el chat para vender todo.
+shop-freezed-at-location: <gray>¡Tu tienda cofre {0} en {1} se ha congelado!
+translation-contributors: 'Contribuidores: Randall_Rut, Timtower, Netherfoam, KaiNoMood, Mgazul, JackTheChicken y Andre_601'
+empty-success: <green>Vaciado con éxito
+taxaccount-set: <green>La cuenta de impuestos de esta tienda cofre ha sido establecida en <gray>{0}
+support-disable-reason:
+  hot-reload: <gray>Unsupported hot reloaded, restart the server and check again.
+  outdated: <gray>Esta versión de QuickShop ya está desactualizada, ¡actualícela antes de solicitar asistencia!
+  bad-hosts: |-
+    <gray>This server HOSTS has been modified and QuickShop some functions require connect to Mojang API correctly. Fix the HOSTS before asking support, Windows at C:\windows\system32\drivers\etc\hosts, Linux at /etc/hosts.
+  privacy: <gray>This server running under cracked (offline) mode. If you are running bukkit server under proxy and online-mode=true on proxy, please configure the proxy related settings correctly.
+  modified: <gray>File integrity check failed, this QuickShop build has been modified by others.
+  consolespamfix-installed: <gray>ConsoleSpamFix installed, it will hidden exception details, temporarily disable it during asking support.
+  authlib-injector-detected: <gray>This server running under 3rd-party authlib provider like authlib-injector.
+  unsupported-server-software: <gray>Unsupported server software, Any modded hybrid server software is unsupported including MCPC, Cauldron, CatServer, Mohist, Magma, Fukkit, Cardboard etc.
+supertool-is-disabled: <red>Superherramienta deshabilitada. No se puede romper ninguna tienda cofre.
+unknown-owner: Desconocido
+restricted-prices: '<red>Precio restringido de {0}: Mín. {1}, Máx. {2}'
+nearby-shop-this-way: <green>La tienda cofre está a {0} bloques de ti.
+owner-bypass-check: <gray>Pasado todos los controles. ¡Comercio exitoso! (¡Ahora eres el propietario de la tienda cofre!)
+april-rick-and-roll-easter-egg: "<green>---------------------------------------------------</green>\n<rainbow><bold>LIMITED TIME EVENT -- QuickShop-Hikari</bold></rainbow>\n<gray>Get your <gold>PREMIUM</gold> particle effect on all QuickShop server!</yellow>\n<aqua>Claim it by watch the video tutorial below!</aqua>\n<hover:show_text:'<gold>Click to open rewards claim page in your browser.</gold><click:open_url:'https://youtu.be/dQw4w9WgXcQ'>https://youtu.be/dQw4w9WgXcQ</click></hover>\n<green>---------------------------------------------------</green>"
+signs:
+  item-right: ''
+  out-of-space: Lleno
+  unlimited: Ilimitado
+  stack-selling: Vendo {0}pqt
+  stack-price: '{0} por {1}x {2}'
+  status-unavailable: <red>
+  out-of-stock: Agotado
+  stack-buying: Compro {0}pqt
+  freeze: Sin Servicio
+  price: '{0} c/u'
+  buying: Compro {0}u
+  header: '{1}{0}'
+  header-available: <green>{0}
+  header-unavailable: <red>{0}
+  selling: Vendo {0}u
+  status-available: <green>
+  item-left: ''
+negative-amount: <red>No puedes comerciar con valores negativos
+display-turn-on: <green>Se encendió con éxito la exhibición de la tienda cofre.
+display-turn-off: <green>Se apagó con éxito la exhibición de la tienda cofre.
+display-turn-on-owned: <green>Se ha activado correctamente la exhibición de la tienda cofre para todas las tiendas propias.
+display-turn-off-owned: <green>Se ha desactivado correctamente la exhibición de la tienda cofre para todas las tiendas propias.
+display-turn-on-all: <green>Se ha activado correctamente la exhibición de la tienda cofre para todas las tiendas propias.
+display-turn-off-all: <green>Se ha desactivado correctamente la exhibición de la tienda cofre para todas las tiendas propias.
+shop-staff-deleted: <green>Eliminado a {0} como personal de tu tienda cofre con éxito.
+nearby-shop-header: '<green>Tienda cofre cercana que coincida con <aqua>{0}</aqua>:'
+backup-failed: No se puede hacer una copia de seguridad de la base de datos. Revisa la consola para más detalles.
+shop-staff-cleared: <green>Todo el personal de tu tienda cofre ha sido eliminado con éxito.
+price-too-high: <red>¡El precio establecido es demasiado alto! No puedes crear una tienda cofre con un precio superior a {0}.
+plugin-cancelled: '<red>Operation cancelled, Reason: {0}'
+player-sold-to-your-store: <green>{0} ha vendido {1} {2} en tu tienda cofre.
+shop-out-of-stock: <dark_purple>Tu tienda cofre en {0}, {1}, {2} se ha quedado sin {3}!
+how-many-buy: <green>Ingresa en el chat, cuantos desea <aqua>COMPRAR<green>. Puede comprar <gray>{0}<green>. Introduce <aqua>{1}<green> para comprarlos todos.
+language-info-panel:
+  help: 'Ayúdanos: '
+  code: 'Código: '
+  name: 'Idioma: '
+  progress: 'Progreso: '
+  translate-on-crowdin: '[Traduce en Crowdin]'
+item-not-exist: <red>El artículo <gray>{0} <red>no existe, por favor comprueba tu ortografía.
+shop-creation-failed: <red>Falló la creación de la tienda cofre, por favor contacte con el administrador del servidor.
+inventory-space-full: <red>Tu espacio restante en el inventario solo permite agregar <green>{1}</green> artículos más. ¡Intenta liberar espacio en tu inventario!
+no-creative-break: <red>No puedes romper las tiendas cofre de otros jugadores en modo Creativo. Cambia a modo Supervivencia o intenta usar super herramienta {0} en su lugar.
+booleanformat:
+  success: <green>✔
+  failed: <red>✘
+controlpanel:
+  stack: "<green>Cantidad por paquete: <aqua>{0} <gray>[<light_purple><bold>Cambiar</bold><gray>]\n"
+  price-hover: <gray>Clic para establecer un precio nuevo.
+  remove: <red><bold>[Eliminar tienda cofre]
+  mode-buying-hover: <gray>Clic para cambiar a modo de VENTA.
+  empty: '<green>Vaciar: Eliminar todos los elementos <gray>[<light_purple><bold>OK</bold><gray>]'
+  stack-hover: <gray>Clic para establecer la cantidad de artículos por paquete. Introduce 1 para comportamiento por defecto.
+  alwayscounting-hover: <gray>Haga clic para alternar si la tienda cofre siempre está contando contenedores.
+  alwayscounting: '<green>Siempre contando: {0} <gray>[<light_purple><bold>Cambiar</bold><gray>]'
+  setowner: '<green>Propietario: <aqua>{0} <gray>[<light_purple><bold>Cambiar</bold><gray>]'
+  freeze: '<green>Congelado: <aqua>{0} <gray>[<bold><light_purple>Cambiar</light_purple></bold>]'
+  price: '<green>Precio: <aqua>{0} <gray>[<light_purple><bold>Cambiar</bold><gray>]'
+  currency-hover: <gray>Clic para establecer o remover la divisa que utiliza la tienda cofre
+  lock: '<gray>Shop lock: <aqua>{0} <gray>[<light_purple><bold>Toggle<gray>]'
+  mode-selling: '<green>Modo: <aqua>Tú vendes <gray>[<light_purple><bold>Cambiar</bold><gray>]'
+  currency: '<green>Currency: <aqua>{0} <gray>[<light_purple><bold>Set<gray>]'
+  setowner-hover: <gray>Click para cambiar el dueño.
+  mode-buying: '<green>Modo: <aqua>Tú compras <gray>[<light_purple><bold>Cambiar</bold><gray>]'
+  item: '<green>Artículo: {0} <gray>[<light_purple><bold>Cambiar</bold><gray>]'
+  unlimited: '<green>Ilimitado: {0} <gray>[<light_purple><bold>Cambiar</bold><gray>]'
+  unlimited-hover: <gray>Clic para alternar si la tienda cofre es ilimitada.
+  refill-hover: <gray>Clic para rellenar la tienda cofre.
+  remove-hover: <gray>Clic para eliminar esta tienda cofre.
+  toggledisplay-hover: <gray>Alternar el estado para exhibir el artículo de la tienda cofre
+  refill: '<green>Rellenar: Recarga los artículos. <gray>[<light_purple><bold>OK</bold><gray>]'
+  freeze-hover: <gray>Cambiar estado de congelación de la tienda cofre.
+  lock-hover: <gray>Activar/Desactivar protección contra bloqueo/seguro de la tienda cofre.
+  item-hover: <gray>Clic para cambiar el artículo de la tienda cofre
+  infomation: '<green>Panel de Control de la tienda cofre:'
+  mode-selling-hover: <gray>Clic para cambiar a modo de COMPRA.
+  empty-hover: <gray>Clic para limpiar el inventario de la tienda cofre.
+  toggledisplay: '<green>Exhibición del artículo: <aqua>{0} <gray>[<light_purple><bold>Cambiar</bold></light_purple>]'
+  history: '<green>Historial: <gray>[<bold><light_purple>Ver</light_purple></bold>]'
+  history-hover: <gray>Haga clic para ver los registros del historial de la tienda cofre
+timeunit:
+  behind: atrás
+  week: "{0} semana"
+  weeks: "{0} Semanas"
+  year: "{0} año"
+  before: antes
+  scheduled: programado
+  years: "{0} años"
+  scheduled-in: programado en {0}
+  second: "{0} segundo"
+  std-past-format: '{5}{4}{3}{2}{1}{0}hace'
+  std-time-format: HH:mm:ss
+  seconds: "{0} segundos"
+  hour: "{0} hora"
+  scheduled-at: programado en {0}
+  after: después
+  day: "{0} día"
+  recent: reciente
+  between: entre
+  hours: "{0} horas"
+  months: "{0} meses"
+  longtimeago: hace mucho tiempo
+  between-format: entre {0} y {1}
+  minutes: "{0} minutos"
+  justnow: justo ahora
+  minute: "{0} minuto"
+  std-format: Dd/MM/yyyy HH:mm:ss
+  future-plain-text: futuro
+  month: "{0} mes"
+  future: en {0}
+  days: "{0} días"
+command:
+  reloading: '<green>Configuration reloaded. <gray>Some changes may require reboot to affect. <newline><gray>(Notice: Reloading behavior has been changed after 4.0.9.10, we now only reload configuration but not whole plugin to ensure the server won''t crashed.)'
+  description:
+    buy:              <gray>Cambia la tienda cofre a modo <light_purple>COMPRA<gray>
+    about:            <gray>Muestra información del sistema de tiendas
+    language:         <gray>Cambiar el idioma actual
+    purge:            <green>Iniciar la tarea de purga de la tienda cofre en segundo plano
+    paste:            <gray>Carga datos del servidor a Pastebin
+    title:            <b><gradient:#00FF5A:#3DFF91>Ayuda</gradient> <gray>|</gray></b> <gray>Tiendas cofre</gray>
+    remove:           <gray>Elimina la tienda cofre seleccionada
+    ban:              <gray>Banear a un jugador de la tienda cofre
+    empty:            <gray>Elimina todos los artículos de una tienda cofre
+    alwayscounting:   <gray>Establecer si la tienda  cofre siempre cuenta el contenedor incluso es ilimitado
+    setowner:         <gray>Cambia al propietario de la tienda cofre.
+    reload:           <gray>Recarga el archivo config.yml del sistema de tiendas cofre
+    freeze:           <gray>Desactivar o activar el comercio en la tienda cofre
+    price:            <gray>Cambia el precio de compra/venta de la tienda cofre
+    find:             <gray>Localiza la tienda cofre más cercana de un tipo específico.
+    create:           <gray>Crea una tienda cofre nueva en el cofre que miras
+    lock:             <gray>Cambiar el estado de bloqueo de la tienda cofre
+    currency:         <gray>Establece o remueve la configuración de divisa en la tienda cofre
+    removeworld:      <gray>Remueve todas las tiendas cofre en el mundo especificado
+    info:             <gray>Mostrar estadísticas del sistema de tiendas
+    owner:            <gray>Cambia al propietario de la tienda de empres.
+    amount:           <gray>Para establecer la cantidad de artículos (útil cuando se tienen problemas con el chat)
+    item:             <gray>Cambia el artículo de una tienda cofre
+    debug:             <gray>Habilita el modo desarrollador
+    unlimited: <gray>Da un stock ilimitado a una tienda cofre.
+    sell: <gray>Cambia la tienda cofre a modo <aqua>VENTA<gray>
+    fetchmessage: <gray>Mostrar mensajes sin leer del sistema de tienda cofre
+    staff: <gray>Gestionar personal de tu tienda cofre
+    staffall: <gray>Controla el staff de todas las tiendas cofre que controlas.
+    clean: <gray>Suprime todas las tiendas cofre (cargadas) fuera de existencias
+    refill: <gray>Agrega un número dado de artículos a la tienda cofre
+    help: <gray>Muestra la ayuda del sistema de tiendas
+    removeall: <gray>Elimina todas las tiendas cofre de un jugador especificado
+    unban: <gray>Banear a un jugador de la tienda cofre
+    transfer: <gray>Transferir todas las tiendas cofre de alguien a otro usuario
+    transferall: <gray>Transferir todas las tiendas cofre de alguien a otro usuario
+    transferownership: <gray>Transfiere la tienda cofre que estás viendo a otra persona
+    size: <gray>Cambiar cantidad de artículos por paquete especificado de una tienda cofre
+    supercreate: '<gray>Crear una tienda cofre omitiendo todas las comprobaciones de seguridad'
+    taxaccount: <gray>Configure la cuenta de impuestos que compra usando
+    name: <gray>Naming a shop to specific name
+    toggledisplay: <gray>Alterna el estado de exhibición del artículo de la tienda cofre
+    toggledisplayall: <gray>Alternar todos los artículos de exhibición de la tienda cofre que posees, o para el servidor.
+    permission: <gray>Gestión de permisos de la tienda cofre
+    lookup: <gray>Administrar tabla de elementos consultables
+    database: <gray>Ver y mantener la base de datos del sistema de tiendas cofres
+    benefit: <gray>Configuración de dividir el porcentaje de beneficios (ingresos) entre el dueño de la tienda cofre y otros jugadores
+    browse: <gray>Explorar tiendas cofre que existen en este servidor
+    tag: <gray>Añadir, eliminar o consultar etiquetas de una tienda cofre
+    suggestprice: <gray>Sugerir un precio recomendado para la tienda cofre, basado en otras tiendas
+    history: <gray>Ver el historial de transacciones de una tienda cofre
+    sign: <gray>Cambiar el material del letrero de una tienda cofre
+  bulk-size-not-set: '<red>Usa: /cofre cantidadpaquete \<cantidad>'
+  no-type-given: '<red>Usa: /cofre encontrar \<artículo>'
+  feature-not-enabled: La característica no está habilitada en la configuración.
+  now-debuging: <green>Modo desarrollador habilitado. Recargando QuickShop...
+  no-amount-given: <red>No se especificó cantidad. Usa <green>/cofre rellenar <amount><red>
+  no-owner-given: <red>No hay dueño proporcionado
+  disabled: '<red>Este comando esta deshabilitado: <gray>{0}'
+  bulk-size-now: <green>Ahora intercambiando <gray>{0}x {1}
+  toggle-always-counting:
+    counting: <green>Shop ahora siempre cuenta contenedores, incluso es ilimitado
+    not-counting: <green>La tienda cofre ya no cuenta el contenido del contenedor
+  cleaning: <green>Eliminando tiendas cofre sin existencias...
+  now-nolonger-debuging: <green>Modo desarrollador deshabilitado. Recargando QuickShop...
+  toggle-unlimited:
+    limited: <green>La tienda cofre ahora es limitada.
+    unlimited: <green>La tienda cofre ahora es ilimitada.
+  transfer-success-other: <green>Se ha transferido la tienda cofre de <gray>{0} {1}<green> a <gray>{2}
+  no-trade-item: <green>Ten en la mano principal un artículo para comerciar
+  wrong-args: <red>Argumento no válido. Usa <bold>/cofre help<red> para ver una lista de comandos.
+  some-shops-removed: <gray>{0} <green>tienda(s) cofre eliminada
+  new-owner: '<green>Nuevo dueño: <gray>{0}'
+  format: <green>/{0} {1} <gray>- {2}
+  transfer-success: <green>Transferido <gray>{0} <green>shop(s) a <gray>{1}
+  now-buying: <green>Ahora <light_purple>COMPRANDO <gray>{0}
+  now-selling: <green>Ahora <light_purple>VENDIENDO <gray>{0}
+  cleaned: <green><gray>{0}<green> tiendas cofre eliminadas.
+  trade-item-now: <green>Ahora intercambiando <gray>{0}x {1}
+  no-world-given: <red>Por favor especifica un nombre de mundo
+  format-disabled: <red>/{0} {1} <gray>- {2}
+  invalid-bulk-amount: <red>El valor dado {0} es mayor que el tamaño máximo del paquete o inferior a uno
+currency-not-support: <red>El plugin de economía no soporta funciones multidivisas.
+trading-in-creative-mode-is-disabled: <red>No puedes comerciar con esta tienda cofre mientras estás en modo creativo.
+the-owner-cant-afford-to-buy-from-you: <red>Este artículo vale {0} pero el propietario de la tienda cofre solo tiene de {1}
+you-cant-afford-shop-naming: <red>No puedes pagar el cambio de nombre de la tienda cofre, cuesta {0}.
+inventory-error: |-
+  <red>Failed to processing the InventoryWrapper. Did you using addon to re-binding the shop Inventory? Information: Exception={0}, InventoryWrapper={1}, WrapperType={2}, WrapperProvider={3}, SymbolLink={4}. Please contact the server administrators.
+integrations-check-failed-create: La integración {0} impide la creación de la tienda cofre
+shop-out-of-space: <dark_purple>Tu tienda cofre en {0}, {1}, {2} ahora está llena.
+admin-shop: Tienda cofre (admin)
+no-anythings-in-your-hand: <red>No hay nada en tu mano.
+no-permission: <red>No tienes permiso para hacer eso.
+chest-was-removed: <red>El cofre ha sido eliminado.
+you-cant-afford-to-buy: <red>Cuesta {0} pero sólo tienes {1}
+shops-removed-in-world: <gray>Un total <aqua>{0}<gray> de tiendas cofre han sido eliminadas en el mundo <aqua>{1}<gray>.
+client-language-unsupported: <gray>El sistema de tiendas cofres no soporta el idioma de tu cliente, ahora volvemos a {0}.
+language-version: '63'
+not-managed-shop: <red>No eres el dueño o el gestor de esta tienda cofre
+shop-cannot-trade-when-freezing: <red>No puedes comerciar con esta tienda cofre porque se encuentra congelada.
+invalid-container: <red>Invalid container, You can only create the shop on block who have inventory.
+permission:
+  header: <green>Permisos de la tienda cofre
+  header-player: <green>Detalles de permisos de la tienda cofre {0}
+  header-group: <green>Detalles de permisos de la tienda cofre para el grupo {0}
+  table: <gold><b>{0}</b>:</gold> <gray>{1}</gray>
+  item:
+    purchase: <gray>Permission to allow users who have this to purchase the shop. (including buying and selling)
+    show-information: <gray>Permiso para permitir a los usuarios que tienen esto ver la información de la tienda cofre. (Abrir panel de información de la tienda)
+    preview-shop: <gray>Permiso para permitir a los usuarios que tienen esto previsualizar la tienda cofre. (vista previa del artículo)
+    search: <gray>Permission to allow users who have this to search the target shop. (remove permission will hide shop from search result)
+    delete: <gray>Permiso para permitir a los usuarios que tienen esto borrar la tienda cofre.
+    receive-alert: <gray>Permission to allow users who have this to receive alert message (e.g out-of-stock or new trade).
+    access-inventory: <gray>Permiso para permitir a los usuarios que tienen esto acceder al inventario de la tienda cofre.
+    ownership-transfer: <gray>Permiso para permitir a los usuarios que tienen esto transferir la propiedad de la tienda cofre.
+    management-permission: <gray>Permission to allow users who have this to manage the groups permissions and edit user's group.
+    toggle-display: <gray>Permiso para permitir a los usuarios que tienen esto alternar el artículo de exhibición de la tienda cofre.
+    set-shoptype: <gray>Permission to allow users who have this to set the shop type (switch buying or selling).
+    set-price: <gray>Permiso para permitir a los usuarios que tienen esto establecer el precio de la tienda cofre.
+    set-item: <gray>Permiso para permitir a los usuarios que tienen esto establecer el artículo de la tienda cofre.
+    set-stack-amount: <gray>Permiso para permitir a los usuarios que tienen esto establecer la cantidad del paquete de la tienda cofre.
+    set-currency: <gray>Permiso para permitir a los usuarios que tienen esto establecer la moneda de la tienda cofre.
+    set-name: <gray>Permiso para permitir a los usuarios que tienen esto establecer el nombre de la tienda cofre.
+    set-sign-type: <gray>Cambia el material del letrero que se asignó a la tienda cofre.
+    view-purchase-logs: <gray>Permiso para ver los registros de compras de la tienda cofre.
+  group:
+    everyone: <gray>Default group for all users excepted shop owner.
+    staff: <gray>System group for shop staffs.
+    administrator: <red>System group for administrators, the users in this group will have permissions almost same with shop owner.
+invalid-group: <red>Nombre de grupo inválido.
+invalid-permission: <red>Permisos no válidos.
+invalid-operation: <red>Operación no válida, solo se permiten {0}.
+player-no-group: <gray>El jugador {0} no está en ningún grupo en esta tienda cofre.
+player-in-group: <green>El jugador {0} está en el grupo <aqua>{1}</aqua> en esta tienda cofre.
+permission-required: <red>No tienes el permiso {0} en esta tienda cofre para hacer eso.
+no-permission-detailed: <red>No tienes permiso <gray>{0}</yellow> para hacer esto.
+paste-notice: "<gray>Nota: Si está creando un Pegado para solucionar problemas, asegúrese de reproducir el error antes de crear el Pegado lo más rápido posible; Necesitamos que los registros se conserven brevemente en el búfer para solucionar problemas. Si crea un Pegado demasiado lento o sin reproducir primero el error o reiniciar el servidor, el Pegado no registrará nada e inútil."
+paste-uploading: <aqua>Por favor, espere... Subiendo la copia a Pastebin......
+paste-created: '<green>Paste created, click to open in browser: <gray>{0}</yellow><newline><red>Warning: <gray>Never send paste to who you don''t trust.'
+paste-created-local: |-
+  <green>Paste created and saved to your local disk at: {0}<newline><red>Warning: <gray>Never send paste to who you don't trust.
+paste-created-local-failed: <red>Error al guardar la copia en su disco local, por favor compruebe su disco.
+paste-451: |-
+  <gray><b>TIPS: </b> Your current country or region seems to have blocked the CloudFlare Workers service and QuickShop Paste may not be loaded properly.<newline><gray>If the subsequent operation fails, try adding the --file additional parameter to generate a local Paste: <dark_gray>/cofre paste --file</dark_gray>
+paste-upload-failed: <red>Failed to upload paste to {0}, trying other pastebin provider...
+paste-upload-failed-local: <red>Failed to upload paste, trying generate local paste...
+command-incorrect: '<red>Uso incorrecto del comando, usa /cofre ayuda para consultar ayuda. Uso: {0}.'
+successfully-set-player-group: <green>Se ha establecido correctamente el grupo de jugadores {0} a <aqua>{1}</aqua>.
+successfully-unset-player-group: <green>Successfully remove player group in this shop.
+successfully-set-player-permission: <green>Se ha establecido correctamente el permiso <aqua>{1}</aqua> al jugador{0} en la tienda cofre <aqua>{2}</aqua>.
+lookup-item-created: <green>Se ha creado un artículo llamado <aqua>{0}</aqua> en la tabla de búsqueda. Ahora puedes referenciar este artículo en las configuraciones.
+lookup-item-exists: <red>Un elemento llamado <gray>{0}</yellow> ya existe en la tabla de búsqueda, elimínela o elija otro nombre.
+lookup-item-not-found: <red>No existe ningún artículo llamado <gray>{0}</yellow>.
+lookup-item-name-illegal: <red>Nombre de artículo no válido. Solo se permiten caracteres alfanuméricos y guiones bajos.
+lookup-item-name-regex: '<red>El nombre debe coincidir con esta expresión regular: <aqua>{0}</aqua>.'
+lookup-item-test-not-found: '<gold>Test: <gray>The item in your hand not registered in lookup table.'
+lookup-item-test-found: '<gold>Test: <green>The item in your hand was registered as name <aqua>{0}</aqua> in lookup table.'
+lookup-item-removed: <green>El artículo especificado <aqua>{0}</aqua> ha sido eliminado correctamente de la tabla de búsqueda.
+internal-error: <red>Se ha producido un error interno, póngase en contacto con el administrador del servidor.
+argument-cannot-be: <red>El argumento <aqua>{0}</aqua> no puede ser <gray>{1}</yellow>.
+argument-must-between: <red>The argument <aqua>{0}</aqua> value must between <gray>{1}</yellow> and <gray>{2}</yellow>
+invalid-percentage: <red>Porcentaje no válido, debe añadir '%' después del número de porcentaje.
+display-fallback: |-
+
+not-a-valid-time: |-
+  <red>The string <gray>{0}</yellow> not a valid timestamp, please enter a <aqua>Zulu Time (ISO 8601)</aqua> or <aqua>Unix Epoch Time in seconds</aqua>.
+  <gold>Valid timestamp example: (for Sat, 17 Dec 2022 10:31:37 GMT)</gold>
+  <aqua>-<aqua> <gray>2022-12-17T10:31:37Z</yellow> <grey>(Zulu Time)</grey>
+  <aqua>-<aqua> <gray>1671273097</yellow> <grey>(Unix Epoch Time in seconds)</grey>
+invalid-past-time: <red>No se puede especificar una hora en el pasado.
+debug:
+  arguments-invalid: <red>Provided arguments <gray>{0}</yellow> invalid.
+  sign-located: '<green>Sign valid: <gray>{0}</yellow>.'
+  operation-missing: <red>You must specific an operation.
+  operation-invalid: <red>You must specific an valid operation.
+  invalid-base64-encoded-sql: <red>The SQL provided must be base64 encoded.
+  warning-sql: |-
+    <red><bold>Warning:</bold></red><gray>You're executing a SQL statement, this may corrupt your database or destroy any data in database even it belongs to other plugins.
+    <red>Don't confirm if you don't trust who send you this command.
+  warning-sql-confirm: <gray>To confirm this dangerous operation, please type <aqua>/cofre debug database sql confirm {0}</aqua> in 60 seconds.
+  warning-sql-confirm-hover: <gray>Click to confirm this dangerous operation.
+  sql-confirm-not-found: <gray>Didn't found the operation that you given, it may invalid or expired.
+  sql-executing: '<gray>Executing SQL statement: <aqua>{0}</aqua>'
+  sql-completed: <green>Completed, {0} rows affected.
+  sql-exception: <red>An error occurred while executing the SQL query, check the Console for details!
+  sql-disabled: '<red>For security reason, SQL queries are disabled in this server, If you really need this feature, you can add the following flag to startup arguments: <aqua>{0}</aqua> with `true` value to enable it.'
+  force-shop-reload: <gray>Forzando recargar todas las tiendas cofre cargadas...
+  force-shop-reload-complete: <green>Forzó recargar <aqua>{0}</aqua> tiendas cofre.
+  force-shop-loader-reload: <gray>Forzando recarga del cargador de tienda cofre...
+  force-shop-loader-reload-unloading-shops: <gray>Descargando <aqua>{0}</aqua> tiendas cofre cargadas...
+  force-shop-loader-reload-unloading-shops-from-memory: <gray>Eliminando <aqua>{0}</aqua> tiendas cofre de la memoria...
+  force-shop-loader-reload-reloading-shop-loader: <gray>Volviendo a llamar al cargador de tiendas cofre para recargar todas las tiendas desde la base de datos...
+  force-shop-loader-reload-complete:
+  toggle-shop-loaded-status: <aqua>Toggle this shop loaded status to <gold>{0}</gold>
+  shop-internal-data: '<gray>The internal data of this shop: <reset>{0}</reset>'
+  handler-list-not-valid-bukkit-event-class: quicks
+  update-player-shops-signs-no-username-given: <red>You must provide a valid player username.
+  update-player-shops-signs-create-async-task: <gray>Creating async tasks for force updating signs...
+  update-player-shops-player-selected: '<gray>Player selected: <gold>{0}</gold>'
+  update-player-shops-player-shops: <gray>Total <gold>{0}</gold> shops waiting for updates.
+  update-player-shops-per-tick-threshold: '<gray>Max shops can be update per tick: <gold>{0}</gold>'
+  update-player-shops-complete: <green>Task completed, Used <gray>{0}ms</yellow> for updating.
+  update-player-shops-task-started: <gold>The tasks has been started, please wait for it to complete.
+  item-info-store-as-string: "<green>The store you looking at: <gold>{0}</gold> Hash: <white>{1}</white>"
+  item-info-hand-as-string: "<green>The item in your hand: <gold>{0}</gold> Hash: <white>{1}</white>"
+  item-matching-result: "<green>Hand2Store: <aqua>{0}</aqua>, Store2Hand: <aqua>{1}</aqua>"
+  hikari-cp-size-tweak: "<green>HikariCP MaximumPoolSize and MinimumIdle was set to <white>{0}</white>"
+  hikari-cp-testing: "<green>Please wait, testing HikariCP connection..."
+  hikari-cp-working: "<green>Pass! HikariCP working well!"
+  hikari-cp-not-working: "<red>¡Fracasado! ¡La conexión que devolvió HikariCP está muerta! (No pasó la prueba en 1 segundo)"
+  hikari-cp-timeout: "<red>HikariCP is timed out while getting a valid connection, please clean up all active queries to release connection resources."
+  queries-stopped: "<green>Stopped <white>{0}</white> active queries."
+  queries-dumping: "<gray>Dumping active queries..."
+  restart-database-manager: "<gray>Restarting SQLManager..."
+  restart-database-manager-clear-executors: "<gray>Clearing executors..."
+  restart-database-manager-unfinished-task: "<gray>Unfinished task: <white>{0}</white>"
+  restart-database-manager-unfinished-task-history-query: "<gray>Unfinished task (History Query): <white>{0}</white>"
+  restart-database-manager-reconnect: "<gray>Re-launching SQLManager via initial sequence (via async executor)"
+  restart-database-manager-done: "<green>Done!"
+  property-incorrect: "<gray>You must enter a (and only one) property key=value set. E.g   aaa=bbb"
+  property-security-block: "<red>Request was rejected, for security reason, you can only change the property that startsWith <aqua>com.ghostchu.quickshop</aqua> or <aqua>quickshop</aqua>."
+  property-removed: "<green>Removed property key <white>{0}</white>"
+  property-changed: "<green>Property key <white>{0}</white> was changed from <white>{1}</white> to <white>{2}</white>"
+  marked-as-dirty: ""
+  display-removed: ""
+database:
+  scanning: <green>Scanning the isolated data in QuickShop databases, the database load may increase in scan progress, this might need a while...
+  scanning-async: <gray>Scanning the isolated data in QuickShop databases on async task thread, the database load may increase in scan progress, this might need a while, try again later.
+  already-scanning: <red>An scan task has been started, please wait until it finished.
+  trim-warning: '<gray><red><bold>Warning: </red>Backup your database before continue database trim to avoid the data loss. Once you get ready, execute <aqua>/cofre database trim confirm</aqua> to continue.'
+  status: '<gray>Status: {0}'
+  status-good: <green>Good
+  status-bad: <gray>Maintenance Required
+  isolated: '<gray>Isolated Data:'
+  isolated-data-ids: '<gray><aqua>└</aqua> Data Records: <gold>{0}</gold>'
+  isolated-shop-ids: '<gray><aqua>└</aqua> Shop Indexes: <gold>{0}</gold>'
+  isolated-logs: '<gray><aqua>└</aqua> Logs: <gold>{0}</gold>'
+  isolated-external-caches: '<gray><aqua>└</aqua> External Caches: <gold>{0}</gold>'
+  last-purge-time: <gray>Last time of trim at {0}
+  report-time: <gray>Last time of scan at {0}
+  auto-scan-alert: <gray>The QuickShop database on this server require a maintenance. Found <gold>{0}</gold> isolated data wait for trimming.
+  auto-trim: <green>Auto trim has been enabled on this server, no manually trim required.
+  trim-complete: <green>Database trim completed, <gray>{0}</yellow> isolated trimmed.
+  auto-trim-started: <green>Auto trim has been started, please wait...
+  trim-start: <green>Database trim started, please wait...
+  trim-exception: <red>Database trim failed, an exception raised during database trimming, check the server console.
+  generated-at: '<gray>Generated at: <gold>{0}</gold>'
+  purge-date: <red>You must given a date.
+  purge-warning: <gray>This operation will purge the history that stored in your database including shop creates/changes/deletes, purchases, transactions and system logs. Delete those data can free the disk space but all history metric will lost, and other plugins that depend on metrics will stop working. To continue execute this operation, execute `/cofre database purgelogs <before-days> confirm`
+  purge-task-created: <green>Task created! Database are silent purging history records in background.
+  purge-done-with-line: <green>Purge task completed, total <gold>{0}</gold> lines purged from database.
+  purge-done-with-error: <red>Purge task failed, check the server console for details.
+  purge-players-cache: <gray>Please wait, purging players caches...
+  purge-players-completed: |-
+    <green>Successfully purged {0} players caches from both memory and database.<newline><aqua>Note: You server performance may impact by this operation.
+  purge-players-error: <red>Failed to purge players caches, please check the server console.
+  suggestion:
+    trim: <gray>This database require a isolated data trim, execute command <aqua>/cofre database trim</aqua> to trim the database.
+always-counting-removal-early-warning: <red>Always Counting feature is scheduled for removal, you shouldn't use it anymore and will stop work in future.
+exporting-database: <green>Exporting database, please wait...
+exporting-failed: <red>Failed to export database, please check the server console.
+exported-database: <green>Database exported to <gray>{0}</yellow>.
+importing-not-found: <red>The <gray>{0}</yellow> file not found, please check the file path.
+importing-early-warning: |-
+  <gray><red><bold>Warning: </bold></red>The backup will be imported to the current database, any exists data will be purged and permanently lost if you don't have a backup.<newline><red>Are you sure to continue the import progress?</red><gray>Type <aqua>/cofre recovery confirm</aqua> to continue.
+importing-database: <green>Importando base de datos desde la copia de seguridad, por favor espere...
+importing-failed: <red>Error al importar la base de datos, por favor comprueba la consola del servidor.
+imported-database: <green>Base de datos importada de <gray>{0}</yellow>.
+transfer-sent: <green>Shops transfer request sent to <gray>{0}</yellow>.
+transfer-request: <gray>Player <aqua>{0}</aqua> requested to transfer their shops to you. Did you want accept the transfer?
+transfer-single-request: <gray>El Jugador <aqua>{0}</aqua> desea transferirte una tienda cofre. ¿Quieres aceptar la solicitud?
+transfer-ask: |-
+  <gold>Escribe <red>/cofre transfer accept</red> para aceptar.<red>/cofre transfer deny</red> para rechazar. La solicitud expira después de <red>{0}</red> segundos.
+transferall-ask: |-
+  <gold>Escribe <red>/cofre transferirtodas accept</red> para aceptar o <red>/cofre transferirtodas deny</red> para rechazar. La solicitud expira después de <red>{0}</red> segundos.
+transfer-single-ask: |-
+  <gold>Escribe <red>/cofre transferirpropiedad accept</red> para aceptar o <red>/cofre transferirpropiedad deny</red> para rechazar. La solicitud expira después de <red>{0}</red> segundos.
+transfer-accepted-fromside: <green>Player <aqua>{0}</aqua> accepted your shop transfer request.
+transfer-accepted-toside: <green>You accepted <aqua>{0}</aqua>'s transfer request.
+transfer-rejected-fromside: <red>Player <aqua>{0}</aqua> rejected your shop transfer request.
+transfer-rejected-toside: <red>You rejected <aqua>{0}</aqua>'s shop transfer request.
+transfer-no-pending-operation: <red>You don't have pending transfer request yet.
+transfer-no-self:
+benefit-overflow: <red>La suma de todos los beneficios no puede ser mayor o igual al 100%.
+benefit-exists: <red>El jugador objetivo ya está en la lista de beneficios de esta.
+benefit-removed: <red>El jugador objetivo ha sido eliminado de los beneficios de la tienda cofre.
+benefit-added: '¡<green>El jugador <aqua>{0}</aqua> se ha agregado a los beneficios de la tienda cofre!'
+benefit-updated: <green>¡Se han actualizado los beneficios del jugador <aqua>{0}</aqua>!
+benefit-query: <green>¡Esta tienda cofre tiene <gray>{0}</yellow> jugadores en la lista de beneficios!
+benefit-query-list: <gray> - </yellow><white>Player <gold>{0}</gold>, Benefit <gold>{1}%</gold></white>
+tag-added: '<green>¡Se ha añadido <aqua>#{0}</aqua> a esta tienda cofre!'
+tag-add-duplicate: '<red>¡La etiqueta <aqua>#{0}</aqua> ya existe en esta tienda cofre!'
+tag-removed: '<green>Eliminado con éxito <aqua>#{0}</aqua> de esta tienda cofre!'
+tag-remove-not-exists: '¡La etiqueta <aqua>#{0}</aqua> no existe en esta tienda cofre!'
+tag-cleared: <green>¡Has eliminado con éxito todas las etiquetas de esta tienda cofre!
+tag-shops-cleared: '<green>Successfully cleared <aqua>#{0}</aqua> from all your tagged shops!'
+tag-query: '<green>This shop have <gray>{0}</yellow> tags:'
+tag-query-listing: '<gray> - <aqua>#{0}</aqua>'
+tag-query-no-tag: <red>This shop have no tags.
+tag-query-shops: '<green>This tag contains <gray>{0}</yellow> shops:'
+tag-query-shops-listing: <gray> - <aqua>{0}</aqua>
+batch-operations-based-on-tags-no-failure: <green>Successfully batch processed <gray>{0}</yellow> shops.
+batch-operations-based-on-tags-have-failure: <gray>Total <gray>{0}</yellow> shops in batch processing successfully completed, but <red>{1}</red> requests not completed.
+batch-operations-based-on-tags-have-failure-with-reason: '<gray>Total <gray>{0}</yellow> shops in batch processing successfully completed, but <red>{1}</red> requests not completed. Reason: <gold>{2}</gold>'
+batch-operations-based-on-tags-have-failure-error-messages-may-appears-above: <gray>The error messages will send to you above this message in the chat.
+addon:
+  towny:
+    commands:
+      town: <gray>Set or unset a shop to a Town shop
+      nation: <gray>Set or unset a shop to a Nation shop
+    make-shop-owned-by-town: <green>You have made the shop owned by town <gray>{0}</yellow>.
+    make-shop-no-longer-owned-by-town: <green>You have reset shop ownership, it now transfer back to original shop owner.
+    make-shop-owned-by-nation: <green>You have made the shop owned by nation <gray>{0}</yellow>.
+    make-shop-no-longer-owned-by-nation: <green>You have reset shop ownership, it now transfer back to original shop owner.
+    shop-owning-changing-notice: <grey>Esta tienda ahora es propiedad de una ciudad/nación, el propietario original de la tienda se ha añadido automáticamente a la lista de administradores. Modifica o añade cualquier nuevo propietario/personal utilizando el comando /cofre permiso.
+    target-shop-already-is-town-shop: <red>The target shop is already owned by a town.
+    target-shop-already-is-nation-shop: <red>The target shop is already owned by a nation.
+    target-shop-not-in-town-region: <red>The target shop is not in the town.
+    target-shop-not-in-nation-region: <red>The target shop is not in the nation.
+    item-not-allowed: <red>This shop's item are not allowed used by town/nation shop, pick another one!
+    operation-disabled-due-shop-status: <red>This shop operation has been disabled due this already is a town/nation shop.
+    plot-type-disallowed: <red>You can't create town/nation shop on this type of plot.
+    flags:
+      own: <red>You can only create shops at your owned shop type towny plot.
+      modify: <red>You didn't have build permission on this towny plot.
+      shop-type: <red>You must create shop on a shop type towny plot.
+  residence:
+    creation-flag-denied: <red>You don't have permission to create shops in this residence.
+    trade-flag-denied: <red>You don't have permission to purchase in this residence.
+    you-cannot-create-shop-in-wildness: <red>You can't create shop in wildness.
+  griefprevention:
+    creation-denied: <red>You don't have permission to create shops in this claim.
+    trade-denied: <red>You don't have permission to purchase shops in this claim.
+  lands:
+    world-not-enabled: <red>You are not allowed to create or purchase in this world.
+    creation-denied: <red>You don't have permission to create shops in this Land area.
+  quests:
+    create-quest-required: <red>You must complete the quest <aqua>{0}</aqua> to create a shop.
+    sell-quest-required: <red>You must complete the quest <aqua>{0}</aqua> to sell items to a shop.
+    buy-quest-required: <red>You must complete the quest <aqua>{0}</aqua> to buy items from a shop.
+  dominion:
+    creation-denied: <red>You don't have permission to create shops in this Dominion area.
+    trade-denied: <red>The shop must be within a Dominion to trade with it.
+  plotsquared:
+    no-plot-whitelist-creation: <red>You cannot create shop outside of Plot.
+    no-plot-whitelist-trade: <red>You cannot purchase shop outside of Plot.
+    creation-denied: <red>You don't have permission to create shops in this Plot.
+    trade-denied: <red>You don't have permission to purchase shops in this Plot.
+    flag:
+      create: Create QuickShop-Hikari shops
+      trade: Purchase QuickShop-Hikari shops
+  superiorskyblock:
+    owner-create-only: <red>Only island owner can create shop there.
+    owner-member-create-only: <red>Only island owner or member can create shop there.
+  fabledskyblock:
+    owner-create-only: <red>Only island owner can create shop there.
+    owner-member-create-only: <red>Only island owner or member can create shop there.
+  worldguard:
+    creation-flag-test-failed: <red>No tienes permiso para crear una tienda cofre en esta región.
+    trade-flag-test-failed: <red>No tienes permiso para comerciar en esta región.
+    reached-per-region-amount-limit: "<red>Has alcanzado el número máximo de tiendas cofre en esta región."
+  discord:
+    __to_translators: 'To translators: `addon.discord.discord-messages` use a special variable in strings, %%LANG_KEY%% instead of QuickShop''s style {LANG_INDEX}, do not translate anything inside double ''%'' section. BUT for any other section texts, it respect the normal QuickShop Text System syntax ({0},{1} etc.) This may be difficult to understand because two different variable forms are used in the same program at the same time, but trust me, it is reasonable. (you don''t need translate this string, it''s a comment)'
+    __to_users: Al igual que el Sistema de Texto del sistema de tiendas cofres, el complemento de Discord también detectará automáticamente el idioma del usuario y usará ese idioma para enviar mensajes en Discord, siguiendo la configuración del sistema de idiomas del sistema de tiendas cofres.
+    __to_message_designer: ''
+    discord-enabled: <aqua>Has <green>activado</green> correctamente los mensajes del sistema de tiendas cofres en Discord, ahora puedes recibir los mensajes de la tienda desde Discord.
+    discord-disabled: <aqua>Has <red>desactivado</red> correctamente los mensajes del sistema de tiendas cofres en Discord, ya no recibirás mensajes de la tienda en Discord.
+    discord-not-integrated: <red>¡Aún no has vinculado tu Discord! Por favor, vincula tu cuenta de Discord primero.
+    feature-enabled-for-user: <aqua>Has <green>activado</green> la notificación <gold>{0}</gold>.
+    feature-disabled-for-user: <aqua>Has <red>desactivado</red> la notificación <gold>{0}</gold>.
+    link-help: <gray>Este servidor usa <gold>{0}</gold> como controlador de Discord, por favor usa <green>{0}</green> para vincular tu cuenta de Discord.
+    save-notifaction-exception: <red>Ocurrió un error al guardar la configuración de tus notificaciones de Discord, por favor contacta al administrador del servidor.
+    feature-status-changed: <green>Se estableció correctamente el estado de la notificación <aqua>{0}</aqua> a <gold>{1}</gold>
+    commands:
+      discord:
+        description: <gray>Gestionando tu configuración del sistema de tiendas cofres en Discord
+    discord-messages:
+      sold-to-your-shop: |
+        {
+         "embed":
+           {
+             "title": ":inbox_tray: Somebody sold items to your shop",
+             "description": "The player %%purchase.name%% sold x%%purchase.amount%% %%shop.item.name%% to your shop.",
+             "color": 52084,
+             "author": {
+               "name": "QuickShop-Hikari",
+               "icon_url": ""
+             },
+             "thumbnail": {
+               "url": ""
+             },
+             "image": {
+               "url": ""
+             },
+             "footer": {
+               "text": "QuickShop-Hikari Discord Notification",
+               "icon_url": ""
+             },
+             "fields": [
+               {
+                 "name": "Shop",
+                 "value": "%%shop.display-name%%",
+                 "inline": false
+               },
+               {
+                 "name": "Purchaser",
+                 "value": "%%purchase.name%%",
+                 "inline": true
+               },
+               {
+                 "name": "Item",
+                 "value": "%%shop.item.name%%",
+                 "inline": true
+               },
+               {
+               {
+                 "name": "Amount",
+                 "value": "%%purchase.amount%% (x%%shop.stacking-amount%%)",
+                 "inline": true
+               },
+               {
+                 "name": "Your paid",
+                 "value": "%%purchase.balance-formatted%%",
+                 "inline": true
+               },
+               {
+                 "name": "Taxes",
+                 "value": "%%purchase.taxes-formatted%%",
+                 "inline": true
+               }
+             ]
+           }
+        }
+      bought-from-your-shop: |
+        {
+          "embed": {
+            "title": ":outbox_tray: Alguien compró artículos en la tienda",
+            "description": "El jugador %%purchase.name%% compró x%%purchase.amount%% %%shop.item.name%% en tu tienda.",
+            "color": 52084,
+            "author": {
+              "name": "QuickShop-Hikari",
+              "icon_url": ""
+            },
+            "thumbnail": {
+              "url": ""
+            },
+            "image": {
+              "url": ""
+            },
+            "footer": {
+              "text": "Notificación de QuickShop-Hikari por Discord",
+              "icon_url": ""
+            },
+            "fields": [
+              {
+                "name": "Tienda",
+                "value": "%%shop.display-name%%",
+                "inline": false
+              },
+              {
+                "name": "Comprador",
+                "value": "%%purchase.name%%",
+                "inline": true
+              },
+              {
+                "name": "Artículo",
+                "value": "%%shop.item.name%%",
+                "inline": true
+              },
+              {
+                "name": "Cantidad",
+                "value": "%%purchase.amount%% (x%%shop.stacking-amount%%)",
+                "inline": true
+              },
+              {
+                "name": "Ganancia",
+                "value": "%%purchase.balance-formatted%%",
+                "inline": true
+              },
+              {
+                "name": "Impuestos",
+                "value": "%%purchase.taxes-formatted%%",
+                "inline": true
+              }
+            ]
+          }
+        }
+      mod-shop-purchase: |
+        {
+          "embed": {
+            "title": ":dollar: ¡Alguien ha comprado en una tienda!",
+            "description": "El jugador **%%purchase.name%%** compró **x%%purchase.amount%% %%shop.item.name%%** en una tienda.",
+            "color": 6061450,
+            "author": {
+              "name": "QuickShop-Hikari",
+              "icon_url": ""
+            },
+            "thumbnail": {
+              "url": ""
+            },
+            "image": {
+              "url": ""
+            },
+            "footer": {
+              "text": "Notificación de QuickShop-Hikari",
+              "icon_url": ""
+            },
+            "fields": [
+              {
+                "name": "Tienda",
+                "value": "%%shop.display-name%%",
+                "inline": false
+              },
+              {
+                "name": "Comprador",
+                "value": "%%purchase.name%%",
+                "inline": true
+              },
+              {
+                "name": "Ítem",
+                "value": "%%shop.item.name%%",
+                "inline": true
+              },
+              {
+                "name": "Cantidad",
+                "value": "%%purchase.amount%% (x%%shop.stacking-amount%%)",
+                "inline": true
+              },
+              {
+                "name": "Saldo restante",
+                "value": "%%purchase.balance-formatted%%",
+                "inline": true
+              },
+              {
+                "name": "Impuestos",
+                "value": "%%purchase.taxes-formatted%%",
+                "inline": true
+              }
+            ]
+          }
+        }
+      out-of-space: |
+        {
+          "embed": {
+            "title": ":mailbox_with_mail: Tu tienda se ha quedado sin espacio",
+            "description": "¡El contenedor de tu tienda está lleno de artículos!\\nNecesitas vaciar el contenedor de tu tienda para liberar espacio y así poder seguir aceptando nuevos artículos.",
+            "color": 16065893,
+            "author": {
+              "name": "Sistema de Tiendas cofres",
+              "icon_url": ""
+            },
+            "thumbnail": {
+              "url": ""
+            },
+            "image": {
+              "url": ""
+            },
+            "footer": {
+              "text": "Notificación de discord para el sistema de tiendas cofres de Ciudad Aurora de StartLifeRP",
+              "icon_url": ""
+            },
+            "fields": [
+              {
+                "name": "Tienda cofre",
+                "value": "%%shop.display-name%%",
+                "inline": false
+              }
+            ]
+          }
+        }
+      out-of-stock: |
+        {
+            "embed":
+                {
+                    "title": ":mailbox_with_no_mail: Tu tienda se quedó sin existencias",
+                    "description": "¡El inventario de tu tienda está vacío!\\nNecesitas rellenar el contenedor de tu tienda para seguir vendiendo!",
+                    "color": 16065893,
+                    "author": {
+                        "name": "Sistema de Tiendas cofres",
+                        "icon_url": ""
+                    },
+                    "thumbnail": {
+                        "url": ""
+                    },
+                    "image": {
+                        "url": ""
+                    },
+                    "footer": {
+                        "text": "Notificación de discord para el sistema de tiendas cofres de Ciudad Aurora de StartLifeRP",
+                        "icon_url": ""
+                    },
+                    "fields": [
+                        {
+                            "name": "Tienda cofre",
+                            "value": "%%shop.display-name%%",
+                            "inline": false
+                        }
+                    ]
+                }
+        }
+      mod-shop-created: |
+        {
+          "embed": {
+            "title": ":classical_building: ¡Se ha creado una nueva tienda!",
+            "description": "¡Un usuario ha creado una nueva tienda en tu servidor!",
+            "color": 6061450,
+            "author": {
+              "name": "Sistema de Tiendas cofres",
+              "icon_url": ""
+            },
+            "thumbnail": {
+              "url": ""
+            },
+            "image": {
+              "url": ""
+            },
+            "footer": {
+              "text": "Notificación de discord para el sistema de tiendas cofres de Ciudad Aurora de StartLifeRP",
+              "icon_url": ""
+            },
+            "fields": [
+              {
+                "name": "Tienda cofre",
+                "value": "%%shop.display-name%%",
+                "inline": false
+              },
+              {
+                "name": "Propietario",
+                "value": "%%shop.owner.name%%",
+                "inline": true
+              },
+              {
+                "name": "Artículo",
+                "value": "%%shop.item.name%%",
+                "inline": true
+              },
+              {
+                "name": "Cantidad",
+                "value": "%%shop.stacking-amount%%",
+                "inline": true
+              },
+              {
+                "name": "Tipo",
+                "value": "%%shop.type%%",
+                "inline": true
+              }
+            ]
+          }
+        }
+      mod-remove-shop: |
+        {
+          "embed": {
+            "title": ":recycle: Una tienda ha sido eliminada del servidor",
+            "description": "Una tienda fue eliminada de este servidor.",
+            "color": 6061450,
+            "author": {
+              "name": "Sistema de Tiendas cofres",
+              "icon_url": ""
+            },
+            "thumbnail": {
+              "url": ""
+            },
+            "image": {
+              "url": ""
+            },
+            "footer": {
+              "text": "Notificación de discord para el sistema de tiendas cofres de Ciudad Aurora de StartLifeRP",
+              "icon_url": ""
+            },
+            "fields": [
+              {
+                "name": "Tienda cofre",
+                "value": "%%shop.display-name%%",
+                "inline": false
+              },
+              {
+                "name": "Motivo",
+                "value": "%%delete.reason%%",
+                "inline": false
+              }
+            ]
+          }
+        }
+      shop-transfer-to-you: |
+        {
+          "embed": {
+            "title": ":placard: Una tienda ha sido transferida a ti",
+            "description": "Una tienda te ha sido transferida por otro usuario.",
+            "color": 16172079,
+            "author": {
+              "name": "Sistema de Tiendas cofres",
+              "icon_url": ""
+            },
+            "thumbnail": {
+              "url": ""
+            },
+            "image": {
+              "url": ""
+            },
+            "footer": {
+              "text": "Notificación de discord para el sistema de tiendas cofres de Ciudad Aurora de StartLifeRP",
+              "icon_url": ""
+            },
+            "fields": [
+              {
+                "name": "Tienda cofre",
+                "value": "%%shop.display-name%%",
+                "inline": false
+              },
+              {
+                "name": "Transferida por",
+                "value": "%%transfer.from%%",
+                "inline": false
+              }
+            ]
+          }
+        }
+      mod-shop-transfer: |
+        {
+          "embed": {
+            "title": ":money_with_wings: El precio de una tienda ha sido modificado",
+            "description": "Una tienda ha cambiado su configuración de precios.",
+            "color": 6061450,
+            "author": {
+              "name": "Sistema de Tiendas cofres",
+              "icon_url": ""
+            },
+            "thumbnail": {
+              "url": ""
+            },
+            "image": {
+              "url": ""
+            },
+            "footer": {
+              "text": "Notificación de discord para el sistema de tiendas cofres de Ciudad Aurora de StartLifeRP",
+              "icon_url": ""
+            },
+            "fields": [
+              {
+                "name": "Tienda cofre",
+                "value": "%%shop.display-name%%",
+                "inline": true
+              },
+              {
+                "name": "Propietario",
+                "value": "%%shop.owner.name%%",
+                "inline": true
+              },
+              {
+                "name": "",
+                "value": "",
+                "inline": true
+              },
+              {
+                "name": "De",
+                "value": "%%change-price.from%%",
+                "inline": true
+              },
+              {
+                "name": "A",
+                "value": "%%change-price.to%%",
+                "inline": true
+              }
+            ]
+          }
+        }
+      shop-price-changed: |
+        {
+          "embed": {
+            "title": ":money_with_wings: El precio de tu tienda fue modificado",
+            "description": "Tú o el personal de tu tienda cambiaron el precio de la tienda.",
+            "color": 16172079,
+            "author": {
+              "name": "Sistema de Tiendas cofres",
+              "icon_url": ""
+            },
+            "thumbnail": {
+              "url": ""
+            },
+            "image": {
+              "url": ""
+            },
+            "footer": {
+              "text": "Notificación de discord para el sistema de tiendas cofres de Ciudad Aurora de StartLifeRP",
+              "icon_url": ""
+            },
+            "fields": [
+              {
+                "name": "Tienda cofre",
+                "value": "%%shop.display-name%%",
+                "inline": false
+              },
+              {
+                "name": "De",
+                "value": "%%change-price.from%%",
+                "inline": true
+              },
+              {
+                "name": "A",
+                "value": "%%change-price.to%%",
+                "inline": true
+              }
+            ]
+          }
+        }
+      mod-shop-price-changed: |
+        {
+          "embed": {
+            "title": ":money_with_wings: Precio de tienda actualizado",
+            "description": "El precio de una tienda ha sido modificado.",
+            "color": 6061450,
+            "author": {
+              "name": "QuickShop-Hikari",
+              "icon_url": ""
+            },
+            "thumbnail": {
+              "url": ""
+            },
+            "image": {
+              "url": ""
+            },
+            "footer": {
+              "text": "Notificación de Discord de QuickShop-Hikari",
+              "icon_url": ""
+            },
+            "fields": [
+              {
+                "name": "Tienda",
+                "value": "%%shop.display-name%%",
+                "inline": true
+              },
+              {
+                "name": "Dueño",
+                "value": "%%shop.owner.name%%",
+                "inline": true
+              },
+              {
+                "name": "Precio anterior",
+                "value": "%%change-price.from%%",
+                "inline": true
+              },
+              {
+                "name": "Precio nuevo",
+                "value": "%%change-price.to%%",
+                "inline": true
+              }
+            ]
+          }
+        }
+      shop-permission-changed: |
+        {
+            "embed": {
+                "title": ":closed_lock_with_key: La configuración de permisos de tu tienda ha sido modificada",
+                "description": "Uno de los ajustes de permisos de tu tienda ha sido cambiado.",
+                "color": 15879747,
+                "author": {
+                    "name": "Sistema de Tiendas cofres",
+                    "icon_url": ""
+                },
+                "thumbnail": {
+                    "url": ""
+                },
+                "image": {
+                    "url": ""
+                },
+                "footer": {
+                    "text": "Notificación de discord para el sistema de tiendas cofres de Ciudad Aurora de StartLifeRP",
+                    "icon_url": ""
+                },
+                "fields": [
+                    {
+                        "name": "Tienda cofre",
+                        "value": "%%shop.display-name%%",
+                        "inline": false
+                    },
+                    {
+                        "name": "Usuario",
+                        "value": "%%change-permission.player%%",
+                        "inline": true
+                    },
+                    {
+                        "name": "Asignado al grupo",
+                        "value": "%%change-permission.to-group%%",
+                        "inline": true
+                    },
+                    {
+                        "name": "",
+                        "value": "",
+                        "inline": true
+                    },
+                    {
+                        "name": "Permisos otorgados (heredados del grupo)",
+                        "value": "```\\n%%change-permission.perms-list%%\\n```",
+                        "inline": false
+                    }
+                ]
+            }
+        }
+    field:
+      player: Jugador
+      item: Artículo
+      amount: Cantidad
+      balance: Saldo
+      balance-after-tax: Saldo (después de impuestos)
+      account: Saldo de tu cuenta
+      taxes: Impuestos
+      cost: Costo
+  discount:
+    commands:
+      discount:
+        description: <gray>Aplica un código de descuento o gestiona tus códigos de descuento.
+    tab-complete:
+      discount:
+        general:
+          code: <code>
+        create:
+          rate: |
+            Cómo usar este argumento:
+            Argumento: \<porcentaje>
+            Descripción: Porcentaje del total o cantidad que obtendrás
+            Si colocas `30%` (con %), obtienes: precio normal * 0.3
+            Si colocas `50` (sin el %), obtienes: precio normal - 50
+          max-usage: |
+            Cómo usar este argumento:
+            Argumento: [max-usos]
+            Descripción: Veces que el código de descuento puede usarse
+            Coloca `-1` para hacerlo ilimitado.
+          threshold: |
+            Cómo usar este argumento:
+            Argumento: [precio-mínimo]
+            Descripción: Precio mínimo al que se puede aplicar el código
+            Coloca `-1` para hacerlo ilimitado.
+          expired: |
+            Cómo usar este argumento:
+            Argumento: [expiración]
+            Descripción: ¿Cuándo expira el código de descuento?.
+            Coloca `-1` para hacerlo permanente hasta que tú lo elimines.
+            Permite tanto formato de tiempo `Zulu` y `UNIX` en segundos.
+            Ejemplo Zulu: 2025-04-27T14:58:00Z ó 2025-04-27T14:58:00-06:00
+            La Z al final hace referencia a la zona horaria UTC
+            Si en vez de Z usas +hh:mm o -hh:mm cambias la zona horaria
+            Ejemplo UNIX: 1671273097
+    discount-code-already-exists: <red>Lo sentimos, el nombre de su código de descuento ya está en uso.
+    invalid-discount-code-regex: '<red>Formato de código incorrecto, debe coincidir con el REGEX: <gray>{0}</yellow>.'
+    invalid-discount-code: <red>Este código de descuento no es válido.
+    discount-code-added: <green>Tu código de descuento <gray>{0}</yellow> ha sido agregado a la tienda cofre <aqua>{1}</aqua>
+    discount-code-removed: <green>Tu código de descuento <gray>{0}</yellow> ha sido removido de la tienda cofre <aqua>{1}</aqua>
+    invalid-code-type: <red>El tipo de código <gray>{0}</yellow> no es válido.
+    invalid-usage-restriction: <red>La restricción de uso <gray>{0}</yellow> no es válida.
+    invalid-threshold-restriction: <red>La restricción de umbral <gray>{0}</yellow> no es válida.
+    invalid-effect-scope: <red>El ámbito <gray>{0}</yellow> no es válido.
+    invalid-expire-time: <red>No se puede especificar una hora en el pasado.
+    invalid-discount-rate: <red>La tasa de descuento <gray>{0}</yellow> no es válida, puede ser un número fijo o un porcentaje.
+    discount-code-expired: <red>¡Tu código de descuento <gray>{0}</yellow> ha expirado!
+    discount-code-installed: "<green>Has instalado el código de descuento <gold>{0}</gold>. El código se aplicará automáticamente a todas las próximas compras aplicables disponibles durante esta sesión.\nPara desinstalar el código de descuento, ejecuta <aqua>/cofre descuento uninstall {0}</aqua>. Podrás instalarlo nuevamente cuando lo necesites."
+    discount-code-uninstalled: <green>Has desinstalado tu código de descuento. Ya no se utilizará en tus próximas tiendas hasta que vuelvas a instalarlo.
+    discount-code-query-nothing: <red>¡Aún no has instalado un código de descuento!
+    discount-code-query: '<green>Está utilizando el código de descuento: <gray>{0}</yellow>.'
+    discount-code-applicable: '<color:#bcef26>El código de descuento <gray><bold>{0}</bold></yellow> es <bold>aplicable</bold> en esta tienda cofre!'
+    discount-code-applicable-with-threshold: '<color:#bcef26>El código de descuento <gray><bold>{0}</bold></yellow> es <bold>aplicable</bold> en esta tienda cofre, pero solo si el costo total de una sola compra es superior a <gray>{1}</yellow>.'
+    discount-code-not-applicable: <red>El código de descuento <gray><bold>{0}</bold></yellow> <bold>no es aplicable</bold> en esta tienda cofre!
+    discount-code-reach-the-limit: <red>Alcanzaste el límite de usos para el código de descuento <gray><bold>{0}</bold></yellow>, ya no se aplicarán más descuentos con este código.
+    discount-code-no-permission: <red>¡No tenías permiso para usar ningún código de descuento en esta tienda cofre!
+    discount-code-has-been-expired: <red>¡Tu descuento ha caducado!
+    discount-code-config-shop-added: <green>Correctamente añadida esta tienda cofre a tu lista de códigos de descuento permitidos.
+    discount-code-config-shop-add-failure: <red>Esta tienda cofre ya está en tu lista de códigos de descuento permitidos.
+    discount-code-config-shop-removed: <green>Se ha eliminado esta tienda cofre de su lista de permitidos para su código de descuento.
+    discount-code-config-shop-remove-failure: <red>Esta tienda cofre no existe en tu lista de tiendas autorizadas para usar tu código de descuento.
+    discount-code-config-expire: <green>Caducidad del código cambiado correctamente.
+    discount-code-config-applied: <green>¡Configuración el código de descuento con éxito!
+    discount-code-created-successfully: |
+      <green>¡Tu código de descuento <gray>{0}</yellow> se ha creado correctamente!
+      <gold>Ámbito: <aqua>{1}</aqua></gold>.
+      <gold>Comparte con otros: <color:#bcef26>{2}</color:#bcef26></gold>.
+      <gray>Solo para el ámbito <gray>Tiendas Específicas</gray>: Para agregar tiendas a la lista permitida de tu código de descuento, haz clic derecho en una tienda y ejecuta el comando <aqua>{3}</aqua>
+      <gray>You can use <aqua>/cofre descuento config {0}</aqua> para editar en cualquier momento tu código de descuento.
+    discount-code-under-threshold: <red>The discount not applied to your purchase because the total value under the discount code threshold <gray>{0}</yellow>.
+    percentage-off: '<bold><color:#bcef26>-{0}%</color:#bcef26></bold>'
+    fixed-off: '<bold><color:#bcef26>-{0}</color:#bcef26></bold>'
+    discount-code-list: '<gold>Tus códigos de descuento existentes:</gold>'
+    discount-code-applied-in-purchase: '<color:#bcef26>El código de descuento <gray>{0}</yellow> se aplicó en esta compra y ahorraste <gold>{1}</gold>!'
+    scope:
+      this-shop: '{0}'
+      your-shops-owned: todas tus tiendas cofre (propias)
+      your-shops-managed: todas tus tiendas cofre (administradas)
+      server: todo el servidor
+    code-type:
+      SERVER_ALL_SHOPS: todas las tiendas cofre en esta ciudad
+      PLAYER_ALL_SHOPS: todas las tiendas cofre creadas por el creador del código
+      SPECIFIC_SHOPS: Tiendas cofre específicas
+    discount-code-details: |-
+      <gold>Código: <gray>{0}</yellow>
+      <gold>Creador: <gray>{1}</yellow>
+      <gold>Aplica a: <gray>{2}</yellow>
+      <gold>Usos restantes: <gray>{3}</yellow>
+      <gold>Expira el: <gray>{4}</yellow>
+      <gold>Precio mínimo aplicado: <gray>{5}</yellow>
+      <gold>Descuento: <gray>{6}</yellow>
+  list:
+    commands:
+      list: Listado de todas las tiendas cofre que son propiedad tuya o de un jugador específico.
+    table-prefix: '<gray>Tiendas cofre de <green>{0}</green> <gray>(Total {1})</gray>: '
+    table-prefix-pageable: '<gray>Tiendas cofre de <green>{0}</green> <gray>(Página {1}/{2})</gray>: '
+    entry: "<hover:show_text:'<gray>{1}</yellow>\n<gray>{2} {3},{4},{5}</gray>\n<aqua>Price <gray>{6}</yellow> - <light_purple>x{7}</light_purple> <gray>{8}</yellow>\n<green>{9}'><gray>{0}. <aqua>{1}</aqua></hover>"
+  shopitemonly:
+    message: <red>You can't put non-shop items into shop container, all non-shop items will dropped at your location.
+  limited:
+    commands:
+      limit: <gray>Establece un límite que restrinja la compra que el jugador puede hacer en el periodo
+    titles:
+      title: <green>Compra Exitosa
+      subtitle: <aqua>Aún puedes comprar <gold>{0}</gold> más en esta tienda cofre
+    reach-the-limit: Has alcanzado el límite en esta tienda cofre. Puedes comprar <green>{0}</green> artículos, pero estás intentando comprar <gray>{1}</yellow> artículos.
+    success-reset: <green>Restableció la restricción de esta tienda cofre con éxito
+    success-remove: <green>Eliminó con éxito todas las restricciones de esta tienda cofre
+    success-setup: <green>La configuración de restricciones para esta tienda cofre se ha guardado correctamente
+    trade-limit-reached-cancel-reason: <red>Alcanzó la restricción de esta tienda cofre
+    remains-limits: '<gold>Aún puedes hacer <gray>{0}</yellow> transacciones en esta tienda</gold>'
+    remains-limits-before-reset-period-note: '<gold>Esta tienda reiniciará su límite de transacciones cada: <gray>{0}</yellow>'
+  dynmap:
+    markerset-title: QuickShop-Hikari Shops
+    marker-name: '{0} @ {2} @ {3} for x{4} @ {5}'
+    marker-description: |
+      Name: {0}
+      Owner: {1}
+      Item: {2}
+      Price: {3} for x{4} item(s)
+      Type: {5}
+      Unlimited: {6}
+      Location: {7}
+  bluemap:
+    markerset-title: QuickShop-Hikari Shops
+    marker-name: '{0} @ {2} @ {3} for x{4} @ {5}'
+    marker-description: |
+      Name: {0}
+      Owner: {1}
+      Item: {2}
+      Price: {3} for x{4} item(s)
+      Type: {5}
+      Unlimited: {6}
+      Location: {7}
+  chestprotect:
+    protection-exists: <red>Esta región ya está protegida por el sistema de protecciones y candados para contenedores, puertas y otros objetos y no tienes permiso para crear tiendas cofre aquí.
+    shops-exsts: <red>La región que deseas proteger contiene tiendas cofre de otros jugadores y no tienes permiso para acceder a ellas.
+  displaycontrol:
+    toggle: |-
+      <green>Cambiaste con éxito la exhibición de tu tienda cofre a <aqua>{0}</aqua>.
+      <gray>Puede que necesite volver a unirse para que surta efecto.
+    toggle-exception: <red>No se ha podido cambiar la configuración de exhibición debido a un error interno. Póngase en contacto con el administrador del servidor.
+    command:
+      displaycontrol: <gray>Alterna tu exhibición sistema de tiendas cofres
+  reremake-migrator:
+    commands:
+      migratefromreremake: Migrate QuickShop-Reremake's data to QuickShop-Hikari
+    server-not-empty: "<red>No players are allowed to be online on the server during the conversion progress, please enable server whitelist or maintenance mode."
+    starting-convert-progress: "<gold>Starting the convert progress, <red>DO NOT SHUTDOWN YOUR SERVER!</red>"
+    executing: "<gold>Executing migrate component <aqua>{0}</aqua> <dark_gray>({1}/{2})</dark_gray>..."
+    completed: "<green>Done! Migrate completed, please restart your server and remove QuickShop-Reremake from plugins directory."
+    join_blocking_converting: "<red>[QuickShop-Hikari Migrator] This server is performing a data conversion and you cannot join the server at this time, try again later!"
+    join_blocking_finished: "<red>[QuickShop-Hikari Migrator] This server has just completed a data conversion and is waiting for a reboot to apply the changes, try again later!"
+    failed: "<red>Migration progress exited with error, please check the server console."
+    modules:
+      config:
+        copy-values: "<gray>Copying values (total {0} entries)..."
+        copying-value: "<gray> - Copying <aqua>{0}</aqua> <dark_gray>({1}/{2})</dark_gray>..."
+        migrate-price-restriction: "<gray>Migrating price-restriction related settings..."
+        migrate-price-restriction-entry: "<gray> - Migrating <aqua>{0}</aqua> <dark_gray>({1}/{2})</dark_gray>..."
+      shop:
+        start-migrate: "<gray>Migrating shops (total {0} entries)..."
+        migrate-entry: "<gray> - Migrating <aqua>{0}</aqua> <dark_gray>({1}/{2})</dark_gray>..."
+        unloading-reremake: "<gold>Unloading Reremake to avoid data overwrite..."
+        register-entry: "<gray> - Registering <aqua>{0}</aqua> <dark_gray>({1}/{2})</dark_gray>..."
+        save-entry: "<gray> - Saving <aqua>{0}</aqua> <dark_gray>({1}/{2})</dark_gray>..."
+        saving-shops: "<gray>Saving <gold>{0}</gold> shops, this may need a while™ (the time based on shops amounts)..."
+        conflict: "<gray> - CONFLICT > Detects a conflict between a Reremake store and an existing Hikari store location, taking a predefined behavior: <dark_gray>{0}</dark_gray>"
+      translation:
+        start-migrate: "<gray>Migrating translation files...</yellow>"
+        copy-values: "<gray>Copying values in locale <gold>{0}</gold> (total {1} entries)..."
+        migrate-entry: "<gray> - Migrating <aqua>{0}</aqua> <dark_gray>({1}/{2})</dark_gray>..."
+        copying-value: "<gray> - Copying <aqua>{0}</aqua> <dark_gray>({1}/{2})</dark_gray>..."
+      shop-logs:
+        start-migrate: "<gray>Migrating shop logs (details in console), please wait...</yellow>"
+        extract-history-files: "<gray>Please wait for us to unzip and append the history logs..."
+        filter-history-files: "<gray>Please wait for us to filter the history log..."
+        filtered-history-files: "<gray>Filtered {0} lines out of queue."
+        import-entry: "<gray> - Migrating <aqua>{0}</aqua> <dark_gray>({1}/{2})</dark_gray>..."
+compat:
+  advancedchests:
+    created: <green>You're successfully created a shop on AdvancedChests container!
+    permission-denied: <red>Sorry! You don't have the permission to create a shop on a AdvancedChests container!
+suite:
+  dynmap:
+    title: '{0} - {1} - {2}'
+    description: |-
+      Item: {0}
+      Owner: {1}
+      Type: {2} {3}
+      Price: {4}
+      Location: {5} {6}, {7}, {8}
+      Space: {9}
+      Stock: {10}
+  limited:
+    command-description: <gray>Establece un límite que restrinja las transacciones que los clientes pueden hacer en un periodo de tiempo.
+    reach-the-quota-limit: <red>Ha alcanzado el límite de transacciones en esta tienda cofre ({0}/{1}).
+    quota-reset-countdown: <gray>El límite de esta tienda cofre se restablecerá en {0}.
+    quota-reset-player-successfully: <green>El límite para el cliente {0} en esta tienda cofre se ha restablecido correctamente.
+    quota-reset-everybody-successfully: <green>El límite para todos los clientes de esta tienda cofre se ha restablecido correctamente.
+    quota-setup: <green>¡La restricción de compra ahora se aplica a esta tienda cofre!
+    quota-remove: <green>¡La restricción de compra ha sido eliminada de esta tienda cofre!
+    subtitles:
+      title: <green>Compra Exitosa
+      subtitle: <aqua>Puedes comprar <gray>{0}</yellow> más en esta tienda cofre
+  list:
+    command-description: <gray>Listar todas las tiendas cofre de tu propiedad o de otra persona.
+    table-prefix: <gray>Tú posees un total <aqua>{0}</aqua> tiendas cofre en esta ciudad.
+    entry-syntax: <aqua>- <gray>{0}
+    entry-syntax-fallback-name: '<gray>Artículo:{0} X:{1}, Y:{2}, Z:{3}, Mundo: {4}'
+    hover-text: |-
+      <gray>{0}
+      <gray>{1} {2}, {3}, {4}
+      <aqua>{5} - <gray>{6}
+      <gray>{7} artículos cada paquete.
+  shopitemonly:
+    message: <red>No puedes colocar artículos que no pertenecen a la tienda dentro del contenedor de la tienda. Todos los artículos no relacionados con la tienda serán soltados en tu ubicación.
+compatibility:
+  elitemobs:
+    soulbound-disallowed: You can't trade item which have EliteMobs Soulbound enchantment.
+internet-paste-forbidden-privacy-reason: "<red>Failed! According your privacy setting, QuickShop-Hikari are not allowed upload your paste to Internet, turn on DIAGNOSTIC permission in privacy setting in config.yml or use <aqua>/cofre paste --file</aqua> instead."
+no-sign-type-given: "<red>Necesitas proporcionar el material para los carteles. Los materiales disponibles son: {0}"
+sign-type-invalid: "<red>El tipo <gray>{0}</yellow> no es un material de letrero válido."
+delete-controlpanel-button-confirm: "<red>¿De verdad quieres eliminar esta tienda cofre? Haga clic en el botón <bold>[Eliminar tienda cofre]</bold> de nuevo en {0} segundos para confirmar."
+cannot-suggest-price: "<red>Lo sentimos, por el momento, no hay más personas que estén comerciando el mismo artículo que tú y no hay datos suficientes para generar un precio sugerido."
+price-suggest: "<green>Basado en datos de <aqua>{0}</aqua> tiendas cofre que comercian este mismo artículo, el precio más alto es <light_purple>{1}</light_purple>, el precio más bajo es <light_purple>{2}</light_purple>, el precio promedio es <light_purple>{3}</light_purple>y la mediana del precio es <light_purple>{4}</light_purple>. <newline><gray>Es recomendable que fijes tu precio alrededor de <gold>{5}</gold>.</yellow>"
+price-suggest-multi: "<green>Sugerencia para el tipo {0}.</green>{1}"
+suggest-wait: "<green>Por favor espere... Calculando el precio recomendado."
+history:
+  shop:
+    gui-title: "Ver historial de compras"
+    header-icon-multiple-shop: "<white>El resultado de la consulta a través de {0} tiendas cofre</white>"
+    header-icon-shop-name: '<gray>Tienda: {0}</yellow>'
+    header-icon-shop-empty-name: '<gray>Tienda cofre en el mundo ''{0}'' en x: {1}, y: {2}, z: {3}</yellow>'
+    header-icon-description:
+      - "Tipo: <white>: <gray>{0}</yellow></white>"
+      - "<white>Propietario: <gray>{1}</yellow></white>"
+      - "<white>Artículo: <gray>{2}</yellow></white>"
+      - "<white>Precio: <gray>{3} <aqua>x{4}</aqua></yellow></white>"
+      - "<white>Ubicación: <gray>{5}</yellow></white>"
+    log-icon-title: "<reset><green>Hora: {0}</green>"
+    log-icon-description:
+      - "<white>Comprador: <gray>{0}</yellow></white>"
+      - "<white>Artículo: <gray>{1} <aqua>x{2}</aqua></yellow></white>"
+      - "<white>Saldo: <gray>{3}</yellow></white>"
+      - "<white>Impuesto: <gray>{4}</yellow></white>"
+    log-icon-description-with-store-name:
+      - "<white>Tienda cofre: <gray>{0}</yellow></white>"
+      - "<white>Comprador: <gray>{1}</yellow></white>"
+      - "<white>Artículo: <gray>{2} <aqua>x{3}</aqua></yellow></white>"
+      - "<white>Saldo: <gray>{4}</yellow></white>"
+      - "<white>Impuesto: <gray>{5}</yellow></white>"
+      - "<white>Ganancia Final: <gray>{6}</yellow></white>"
+    query-icon: "<gray>Por favor espere, consultando...</gray>"
+    previous-page: "<white><< Página Anterior</white>"
+    next-page: "<white>Página siguiente >></white>"
+    current-page: "<white>Página {0}</white>"
+    summary-icon-title: "<green>Resumen de la tienda cofre"
+    recent-purchases: "<white>Compras recientes en <aqua>{0}</aqua>: <gray>{1}</yellow></white>"
+    recent-purchase-balance: "<white>Ganancias recientes en <aqua>{0}</aqua>: <gray>${1}</yellow></white>"
+    total-purchases: "<white>Compras totales: <gray>{0}</yellow></white>"
+    total-balances: "<white>Ganancias totales: <gray>${0}</yellow></white>"
+    total-unique-purchasers: "<white>Total de compradores únicos: <gray>{0}</yellow></white>"
+    top-n-valuable-customers-title: "<gold>Top {0} clientes valiosos</gold>"
+    top-n-valuable-customers-entry: "<white>- <gray>{0}</yellow> <aqua>{1}</aqua></white>"
+    no-result: "<white>No hay resultados</white>"
+about:
+  text:
+    - "<gray>Plugin original: QuickShop-Hikari</gray>"
+    - "<gray>Adaptado a SurVius por bruh :D</gray>"
+  valid-donation-key: "<color:#00AFF1>Bound to <color:#F9C23C>{0}</color></color>"
+  invalid-donation-key: "<gray>Invalid donation key</gra>"
+  kofi-thanks: "<gold>Special thanks to those who support QuickShop on Ko-fi :)</gold>"
+history-command-leave-blank: "<Leave blank for seeing store>"
+browse-command-leave-blank: "<Leave blank for seeing all stores in server>"
+shop-information-not-shown-due-an-internal-error: "<red>An internal error occurred. The store information panel may be displayed incompletely, please contact the server administrator."

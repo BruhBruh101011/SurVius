@@ -1,0 +1,8 @@
+{
+  "skillCooldown": 0,
+  "skillId": "morph:none",
+  "abilities": [
+    "morph:burns_under_sun"
+  ],
+  "settings": {}
+}

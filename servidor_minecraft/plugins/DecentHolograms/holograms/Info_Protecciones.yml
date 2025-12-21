@@ -1,0 +1,24 @@
+location: world:610.500:71.000:860.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#00FF5A&lI&#0FFF68&ln&#1FFF76&lf&#2EFF83&lo &7&l| &f&lProtecciones'
+    height: 0.3
+  - content: '&7Necesitas &oprotegerte &7de griefers?, usa'
+    height: 0.3
+  - content: '&b&o/ps &7para ver &otodo &7sobre las &eprotecciones.'
+    height: 0.3
+  - content: '&7Empieza usando &b&o/ps get &7para ver todas'
+    height: 0.3
+  - content: '&7las &eprotecciones&7, y sus &aprecios&7.'
+    height: 0.3
+  - content: '&7Solo dale click a una y ejecuta el comando'
+    height: 0.3
+  - content: '&7para comprarla.'
+    height: 0.3
+  actions: {}

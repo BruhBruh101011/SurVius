@@ -1,0 +1,6 @@
+success: '&aSuccess'
+number-required: '&cNumber is required'
+illegal-from-to-index: '&cThe from index should be less than the to index'
+top-empty: '&cNo top entry'
+top-holder-not-found: '&cThe top holder is not found'
+prefix: '&7[&bTopper&7] &r'

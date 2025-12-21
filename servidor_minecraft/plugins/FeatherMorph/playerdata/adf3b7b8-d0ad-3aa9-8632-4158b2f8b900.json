@@ -1,0 +1,12 @@
+{
+  "playerName": "A7Mango",
+  "unlockedDisguiseIdentifiers": [
+    "minecraft:zombie"
+  ],
+  "showDisguiseToSelf": false,
+  "shownDisplayToSelfHint": false,
+  "shownServerSkillHint": false,
+  "shownClientSkillHint": false,
+  "shownMorphHint": true,
+  "shownMorphClientHint": false
+}

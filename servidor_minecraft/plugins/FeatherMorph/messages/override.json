@@ -1,0 +1,6 @@
+{
+  ".comment4": "Any overrides except these comments will not be affected by the message update",
+  ".comment3": "You can check the rest customizable messages in \"en_us.json\"",
+  ".comment2": "For how to override messages, please check FAQ on the plugin homepage: https://modrinth.com/plugin/feathermorph",
+  ".comment1": "Add your overrides here."
+}

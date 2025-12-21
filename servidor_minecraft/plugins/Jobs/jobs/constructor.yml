@@ -1,0 +1,109 @@
+Builder:
+  fullname: Constructor
+  shortname: C
+  FullDescription:
+  - "Gana dinero construyendo."
+  ChatColour: WHITE
+  chat-display: full
+  max-level: 200
+  leveling-progression-equation: (10*(joblevel)+(joblevel*joblevel*4))*0.15
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 10
+  maxDailyQuests: 1
+  Quests:
+    '1':
+      Name: Architect
+      Objectives:
+      - Place;spruce_planks;50
+      - Place;birch_planks;50
+      - Place;wool;50
+      RewardCommands:
+      - eco give [playerName] 100
+      - msg [playerName] Completed quest!
+      RewardDesc:
+      - Place blocks and get money
+      - Get 100 for this!
+  Gui:
+    ItemStack: brick_stairs
+
+  Place:
+    stone: {income: 0.195, points: 0.195, experience: 0.3}
+    andesite: {income: 0.195, points: 0.195, experience: 0.3}
+    granite: {income: 0.195, points: 0.195, experience: 0.3}
+    diorite: {income: 0.195, points: 0.195, experience: 0.3}
+    cobblestone: {income: 0.105, points: 0.105, experience: 0.3}
+
+    oak_planks: {income: 0.225, points: 0.225, experience: 0.3}
+    spruce_planks: {income: 0.225, points: 0.225, experience: 0.3}
+    birch_planks: {income: 0.225, points: 0.225, experience: 0.3}
+    jungle_planks: {income: 0.225, points: 0.225, experience: 0.3}
+    acacia_planks: {income: 0.225, points: 0.225, experience: 0.3}
+    dark_oak_planks: {income: 0.225, points: 0.225, experience: 0.3}
+    wool: {income: 0.225, points: 0.225, experience: 0.3}
+
+    gold_block: {income: 0.225, points: 0.225, experience: 0.3}
+    iron_block: {income: 0.225, points: 0.225, experience: 0.3}
+    diamond_block: {income: 0.225, points: 0.225, experience: 0.3}
+    emerald_block: {income: 0.225, points: 0.225, experience: 0.3}
+    coal_block: {income: 0.225, points: 0.225, experience: 0.3}
+    redstone_block: {income: 0.225, points: 0.225, experience: 0.3}
+
+    oak_slab: {income: 0.12, points: 0.12, experience: 0.3}
+    spruce_slab: {income: 0.12, points: 0.12, experience: 0.3}
+    birch_slab: {income: 0.12, points: 0.12, experience: 0.3}
+    jungle_slab: {income: 0.12, points: 0.12, experience: 0.3}
+    acacia_slab: {income: 0.12, points: 0.12, experience: 0.3}
+    dark_oak_slab: {income: 0.12, points: 0.12, experience: 0.3}
+    stone_slab: {income: 0.12, points: 0.12, experience: 0.3}
+    sandstone_slab: {income: 0.12, points: 0.12, experience: 0.3}
+    cobblestone_slab: {income: 0.12, points: 0.12, experience: 0.3}
+
+    bricks: {income: 0.225, points: 0.225, experience: 0.3}
+    bookshelf: {income: 0.225, points: 0.225, experience: 0.3}
+    obsidian: {income: 0.225, points: 0.225, experience: 0.3}
+    chest: {income: 0.225, points: 0.225, experience: 0.3}
+    crafting_table: {income: 0.225, points: 0.225, experience: 0.3}
+    furnace: {income: 0.225, points: 0.225, experience: 0.3}
+    ladder: {income: 0.225, points: 0.225, experience: 0.3}
+
+    glass: {income: 0.225, points: 0.225, experience: 0.3}
+    glass_pane: {income: 0.225, points: 0.225, experience: 0.3}
+    glowstone: {income: 0.225, points: 0.225, experience: 0.3}
+    sea_lantern: {income: 0.225, points: 0.225, experience: 0.3}
+
+    stone_bricks: {income: 0.225, points: 0.225, experience: 0.3}
+    mossy_stone_bricks: {income: 0.225, points: 0.225, experience: 0.3}
+    cracked_stone_bricks: {income: 0.225, points: 0.225, experience: 0.3}
+    chiseled_stone_bricks: {income: 0.225, points: 0.225, experience: 0.3}
+
+    prismarine: {income: 0.195, points: 0.195, experience: 0.285}
+    prismarine_bricks: {income: 0.195, points: 0.195, experience: 0.285}
+    dark_prismarine: {income: 0.195, points: 0.195, experience: 0.285}
+
+    terracotta: {income: 0.225, points: 0.225, experience: 0.3}
+    white_terracotta: {income: 0.225, points: 0.225, experience: 0.3}
+    orange_terracotta: {income: 0.225, points: 0.225, experience: 0.3}
+    magenta_terracotta: {income: 0.225, points: 0.225, experience: 0.3}
+    light_blue_terracotta: {income: 0.225, points: 0.225, experience: 0.3}
+    yellow_terracotta: {income: 0.225, points: 0.225, experience: 0.3}
+    lime_terracotta: {income: 0.225, points: 0.225, experience: 0.3}
+    pink_terracotta: {income: 0.225, points: 0.225, experience: 0.3}
+    gray_terracotta: {income: 0.225, points: 0.225, experience: 0.3}
+    light_gray_terracotta: {income: 0.225, points: 0.225, experience: 0.3}
+    cyan_terracotta: {income: 0.225, points: 0.225, experience: 0.3}
+    purple_terracotta: {income: 0.225, points: 0.225, experience: 0.3}
+    blue_terracotta: {income: 0.225, points: 0.225, experience: 0.3}
+    brown_terracotta: {income: 0.225, points: 0.225, experience: 0.3}
+    green_terracotta: {income: 0.225, points: 0.225, experience: 0.3}
+    red_terracotta: {income: 0.225, points: 0.225, experience: 0.3}
+    black_terracotta: {income: 0.225, points: 0.225, experience: 0.3}
+
+  Kill:
+    Player:
+      income: 1.125
+      points: 1.125
+      experience: 1.125

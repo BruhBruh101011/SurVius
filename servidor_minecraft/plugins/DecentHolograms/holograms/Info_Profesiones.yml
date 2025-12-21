@@ -1,0 +1,24 @@
+location: world:606.500:71.000:864.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#00FF5A&lI&#0FFF68&ln&#1FFF76&lf&#2EFF83&lo &7&l| &f&lProfesiones'
+    height: 0.3
+  - content: '&7Necesitas una manera de &ogenerar'
+    height: 0.3
+  - content: '&aingreso &opasivo?&7, usa &b&o/jobs browse'
+    height: 0.3
+  - content: '&7para buscar alguna &aprofesión&7, y elige'
+    height: 0.3
+  - content: '&7la que más &ote convenga!&7, ten en cuenta que'
+    height: 0.3
+  - content: '&7solo puedes tener &ouna &aprofesión &7a la vez.'
+    height: 0.3
+  - content: '&7&o(Puedes cambiar de profesión cuando desees)'
+    height: 0.3
+  actions: {}

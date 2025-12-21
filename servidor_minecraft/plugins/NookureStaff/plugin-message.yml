@@ -1,0 +1,21 @@
+# ▐ ▄             ▄ •▄ ▄• ▄▌▄▄▄  ▄▄▄ .    .▄▄ · ▄▄▄▄▄ ▄▄▄· ·▄▄▄·▄▄▄
+# •█▌▐█▪     ▪     █▌▄▌▪█▪██▌▀▄ █·▀▄.▀·    ▐█ ▀. •██  ▐█ ▀█ ▐▄▄·▐▄▄·
+# ▐█▐▐▌ ▄█▀▄  ▄█▀▄ ▐▀▀▄·█▌▐█▌▐▀▀▄ ▐▀▀▪▄    ▄▀▀▀█▄ ▐█.▪▄█▀▀█ ██▪ ██▪
+# ██▐█▌▐█▌.▐▌▐█▌.▐▌▐█.█▌▐█▄█▌▐█•█▌▐█▄▄▌    ▐█▄▪▐█ ▐█▌·▐█ ▪▐▌██▌.██▌.
+# ▀▀ █▪ ▀█▄▀▪ ▀█▄▀▪·▀  ▀ ▀▀▀ .▀  ▀ ▀▀▀      ▀▀▀▀  ▀▀▀  ▀  ▀ ▀▀▀ ▀▀▀
+# 
+# Remember to join my Discord server if you need help:
+# https://discord.nookure.com/
+
+enabled: false
+
+# Base64-encoded encryption key for plugin messages, generated if not present, must be 128, 192, or 256 bits
+# You should have the same key on all servers in the network
+encryption-key: lv5EVlXyF1JeLsmew8icBHwT5Pq0yliQH453QQRLh+8=
+
+# It's a security feature to prevent players from tampering with the plugin messages
+# if the plugin detects tampering, it will disconnect the player
+player-tampering-detection: true
+
+# The message to send to the player when tampering is detected
+player-tampering-detection-message: <red>Plugin message tampering detected!

@@ -1,0 +1,24 @@
+location: world:582.500:69.000:864.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#00FF5A&lI&#0FFF68&ln&#1FFF76&lf&#2EFF83&lo &7&l| &f&lSpawn'
+    height: 0.3
+  - content: '&7Este es el &aspawn&7, una zona &ozegura,'
+    height: 0.3
+  - content: '&7donde puedes &l&oaprender &7cómo funciona el server'
+    height: 0.3
+  - content: '&7quedarte &l&oafk&7, o lo que quieras,'
+    height: 0.3
+  - content: '&7tú lo nombras. puedes volver aquí usando &b&o/spawn'
+    height: 0.3
+  - content: '&7en cualquier momento.'
+    height: 0.3
+  - content: '&7(Corre lo que quieras aquí, no perderás puntos de hambre)'
+    height: 0.3
+  actions: {}

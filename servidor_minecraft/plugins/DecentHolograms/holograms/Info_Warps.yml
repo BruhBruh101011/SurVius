@@ -1,0 +1,16 @@
+location: world:546.500:73.000:865.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#00FF5A&lI&#0FFF68&ln&#1FFF76&lf&#2EFF83&lo &7&l| &f&lWarps'
+    height: 0.3
+  - content: '&7Lista de &owarps &7disponibles:'
+    height: 0.3
+  - content: '&7- &b&o/warp Spawn'
+    height: 0.3
+  actions: {}

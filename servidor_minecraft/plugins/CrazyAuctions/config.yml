@@ -1,0 +1,301 @@
+Settings:
+  Prefix: '#3DFF91&lSurVius Subastas &7&l| ' #Prefix of when you get Crazy Auctions Messages.
+  GUIName: '&2&lSurVius Subastas' #Name of the Main GUI.
+  Players-Current-Items: '&8Your Current Listings' #The Name of the Player Current Items GUI.
+  Cancelled/Expired-Items: '&8Objetos Cancelados/Expirados' #Name of the Cancelled/Expired GUI.
+  Buying-Item: '&8¿Estas seguro que quiers comprar el objeto?' #Name of the Buying GUI.
+  Bidding-On-Item: '&8You Are Bidding On This Item.' #Name of the Bidding GUI.
+  Categories: '&8Categorias' #Name of the Category GUI.
+  Sell-Time: 30d #The time that each item will sell for.
+  Bid-Time: 2m 30s #Time for each item that is biddable.
+  Full-Expire-Time: 10d #The full time the item is in the crazy auctions.
+  Bid-Winner-Time: 20d #The time the winner of a bid has to claim there prize.
+  Minimum-Sell-Price: 1 #Minimum amount you can sell a item for.
+  Max-Beginning-Sell-Price: 1000000 #Max amount you can sell a item for.
+  Minimum-Bid-Price: 1 #Minimum starting bid.
+  Max-Beginning-Bid-Price: 1000000 #Maximum starting bid.
+  Allow-Damaged-Items: true #Allow items that have been damaged.
+  Category-Page-Opens-First: false #If set to true the categories page will open when they do /CA.
+  Feature-Toggle: #Toggle if a feature is on or off.
+    Selling: true #Able to use the selling part of the auction house.
+    Bidding: true #Able to use the bidding part of the auction house.
+  Sounds:
+    Toggle: false #Disable the clicking sound.
+    Sound: 'CLICK' #Make sure if you use 1.8 or lower you use the 1.8 sound and 1.9 and up use 1.9 sounds. The default sound is 1.8.
+    #Sounds are found here: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+  GUISettings: #Settings for things in the gui.
+    SellingItemLore: #The lore on items that are being sold.
+      - '&7-------------------------'
+      - '&aHaz click para comparar.'
+      - ''
+      - '&9Precio: &e$%price%'
+      - '&9Vendedor: &e%seller%'
+      - '&7-------------------------'
+    CurrentLore: #Lore on items that are in your current items GUI.
+      - '&7-------------------------'
+      - '&aHaz click para cancelar.'
+      - ''
+      - '&9Precio: &e$%price%'
+      - '&9Expira: &e%time%'
+      - '&7-------------------------'
+    Cancelled/ExpiredLore: #Lore on items that are in your canceled/expired GUI.
+      - '&7-------------------------'
+      - '&aHaz click para recoger el objeto.'
+      - ''
+      - '&9Desaparece en: &e%time%'
+      - '&7-------------------------'
+    Bidding: #Lore on Bidding Items.
+      - '&7-------------------------'
+      - '&aHaz click para hacer una oferta.'
+      - ''
+      - '&9Vendedor: &e%seller%'
+      - '&9Subasta actual: &e$%topbid%'
+      - '&9Mayor oferta: &e%topbidder%'
+      - '&9Tiempo restante: &e%time%'
+      - '&7-------------------------'
+    Category-Settings:
+      Armor:
+        Item: 'GOLDEN_CHESTPLATE'
+        Toggle: true
+        Slot: 11
+        Name: '&6&lArmadura'
+        Lore:
+          - '&7Esta categoria contiene'
+          - '&7armadura que se estan en venta.'
+      Weapons:
+        Item: 'GOLDEN_SWORD'
+        Toggle: true
+        Slot: 12
+        Name: '&6&lWeapons'
+        Lore:
+          - '&7Esta categoria contiene'
+          - '&7armas que se estan en venta.'
+      Tools:
+        Item: 'GOLDEN_PICKAXE'
+        Toggle: true
+        Slot: 13
+        Name: '&6&lHerramientas'
+        Lore:
+          - '&7Esta categoria contiene'
+          - '&7herramienras que se estan en venta.'
+      Food:
+        Item: 'GOLDEN_APPLE'
+        Toggle: true
+        Slot: 14
+        Name: '&6&lComida'
+        Lore:
+          - '&7Esta categoria contiene'
+          - '&7comida que se estan en venta.'
+      Potions:
+        Item: 'POTION'
+        Toggle: true
+        Slot: 15
+        Name: '&6&lPociones'
+        Lore:
+          - '&7Esta categoria contiene'
+          - '&7pociones que se estan en venta.'
+      Blocks:
+        Item: 'GRASS_BLOCK'
+        Toggle: true
+        Slot: 16
+        Name: '&6&lBloques'
+        Lore:
+          - '&7Esta categoria contiene'
+          - '&7bloques que se estan en venta.'
+      Other:
+        Item: 'GOLD_NUGGET'
+        Toggle: true
+        Slot: 17
+        Name: '&6&lOtros'
+        Lore:
+          - '&7Esta categoria contiene '
+          - '&7otros objetos que se estan en venta.'
+      None:
+        Item: 'BARRIER'
+        Toggle: true
+        Slot: 23
+        Name: '&6&lNinguna'
+        Lore:
+          - '&7Esta categoria contiene'
+          - '&7todos lo objetos que estan en venta.'
+    OtherSettings: #Other Settings for the GUIs.
+      SellingItems: #The button for your current items.
+        Item: 'DIAMOND' #The item that this button is.
+        Toggle: true #If the item is in the gui or not.
+        Slot: 46 #The slot it is in. I recommend not changing these. If you do make sure they are still in the bottom row.
+        Name: '&6Objetos que estas vendiendo' #Name of the item.
+        Lore: #Lore of the item.
+          - '&aHaz click para ver los items'
+          - '&aque estas vendiendo.'
+      Cancelled/ExpiredItems: #The button for Cancelled/Expired Items.
+        Item: 'POISONOUS_POTATO'
+        Toggle: true
+        Slot: 47
+        Name: '&6Coger objetos Expirados / Canceladas'
+        Lore:
+          - '&aHaz click para ver y coger los '
+          - '&aobjetos que has cancelado o han expirado.'
+      PreviousPage: #The button for Previous Page.
+        Item: 'PAPER'
+        Toggle: true
+        Slot: 49
+        Name: '&6Pagina Anterior'
+        Lore: {}
+      Refesh: #The button for Refresh Page.
+        Item: 'SUNFLOWER'
+        Toggle: true
+        Slot: 50
+        Name: '&6Refrescar pagina'
+        Lore: {}
+      NextPage: #The button for Next Page.
+        Item: 'PAPER'
+        Toggle: true
+        Slot: 51
+        Name: '&6Pagina Siguiente'
+        Lore: {}
+      Category1: #The button for Next Page.
+        Item: 'CHEST'
+        Toggle: true
+        Slot: 52
+        Name: '&6Categorias'
+        Lore:
+          - '&bCategoria actual: &6%category%'
+          - '&aQuieres ver una categoria en especial?'
+          - '&aHaz click para ver las categorias.'
+      Category2: #The button for Next Page.
+        Item: 'CHEST'
+        Toggle: true
+        Slot: 48
+        Name: '&6Categorias'
+        Lore:
+          - '&bCategoria actual: &6%category%'
+          - '&aQuieres ver una categoria en especial?'
+          - '&aHaz click para ver las categorias.'
+      Bidding/Selling: #Switch between Bidding and Selling.
+        Selling:
+          Item: 'SLIME_BALL'
+          Toggle: true
+          Slot: 53
+          Name: '&6Estas viendo objetos en venta.'
+          Lore:
+            - '&7&l(&6&l!&7&l) &7Haz click para ver los items'
+            - '&7que se estan subastando.'
+        Bidding:
+          Item: 'MAGMA_CREAM'
+          Toggle: true
+          Slot: 53
+          Name: '&6Estas viendo objetos en subasta.'
+          Lore:
+            - '&7&l(&6&l!&7&l) &7Haz click para ver los items'
+            - '&7que estan en venta.'
+      WhatIsThis: #The info on all the Books buttons.
+        SellingShop: #The Book in the main shop.
+          Item: 'BOOK'
+          Toggle: true
+          Slot: 54
+          Name: '&6¿Que es esta pagina?'
+          Lore:
+            - '&aEsto es crazy auctions, aqui puedes'
+            - '&aponer objetos en venta, y comprar objetos'
+            - '&aque otros jugadores han puesto en venta.'
+            - ''
+            - '&aEsta casa de ventas tambien es un buen sitio'
+            - '&apara hacer dinero vendiendo objetos'
+            - '&aque otras personas estan interesados en comprar.'
+        BiddingShop: #The Book in the main shop.
+          Item: 'BOOK'
+          Toggle: true
+          Slot: 54
+          Name: '&6¿Que es esta pagina?'
+          Lore:
+            - '&aEsto es crazy auctions, aqui puedes'
+            - '&aaponer objetos en venta, y puedes suabastar objetos'
+            - '&aque otros jugadores han puesto en venta.'
+            - ''
+            - '&aEsta casa de suabasta tambien es un buen sitio'
+            - '&apara hacer dinero subastando objetos'
+            - '&aque otras personas estan interesados en comprar.'
+        CurrentItems: #The Book in the Current items GUI.
+          Item: 'BOOK'
+          Toggle: true
+          Slot: 54
+          Name: '&6¿Que es esta pagina?'
+          Lore:
+            - '&aAqui estan todos'
+            - '&alos objetos que estan en venta'
+            - ''
+            - '&aPuedes cancelar y ver tus objetos en venta'
+        Cancelled/ExpiredItems: #The Book in the Cancelled/Expired Items GUI.
+          Item: 'BOOK'
+          Toggle: true
+          Slot: 54
+          Name: '&6¿Que es esta pagina?'
+          Lore:
+            - '&aEsta es la pagina donde estan los objetos cancelados y'
+            - '&aexpiados, cuando una venta se cancela'
+            - '&ao expira podras recuperar el obejeto'
+            - '&adesde este menu.'
+            - ''
+            - '&aSolo haz click y si tienes sufuciente'
+            - '&aespacio en el inventario se te devolvera el ob.'
+        Viewing: #The Book in the Viewing Items GUI.
+          Item: 'BOOK'
+          Toggle: true
+          Slot: 50
+          Name: '&6¿Que es esta pagina?'
+          Lore:
+            - '&aEsta pagina enseña los objetos que'
+            - '&a un jugador se estan subastando'
+            - '&ay que se estan vendido. Aqui podras ver'
+            - '&alo que esta vendio/subastando una persona especifica.'
+        Categories: #The Book in the Viewing Items GUI.
+          Item: 'BOOK'
+          Toggle: true
+          Slot: 54
+          Name: '&6¿Que es esta pagina?'
+          Lore:
+            - '&aEsta pagina muestra todas las categorias'
+            - '&aque puedes elegir. Cuandos haces click'
+            - '&ala categoria abrira ek gui con solo'
+            - '&acon solo objeto que pertenecen a esa categoria.'
+      Back: #The Back Buttons.
+        Item: 'PAPER'
+        Slot: 46
+        Name: '&6Atras'
+      Return: #The Return Buttons.
+        Item: 'FLOWER_POT'
+        Slot: 50
+        Name: '&6Recoger todo'
+        Lore:
+          - '&aHaz click para recoger tus objetos'
+          - '&acancelados y expirados.'
+      Confirm: #The Confirm Buttons.
+        Item: 'LIME_STAINED_GLASS_PANE'
+        Name: '&aConfirmar'
+      Cancel: #The Cancel Buttons.
+        Item: 'RED_STAINED_GLASS_PANE'
+        Name: '&cCancelar'
+      Your-Item: #The item that shows when you try to buy/bid on your item.
+        Item: 'BARRIER'
+        Name: '&cNo puedes comprar tu propio objeto.'
+      Cant-Afford: #The item that shows when you cant afford this item.
+        Item: 'BARRIER'
+        Name: '&cNo te puedes permitir el objeto.'
+      Top-Bidder: #The item for when a player is already the top bidder.
+        Item: 'BARRIER'
+        Name: '&cYa tienes la mayor oferta.'
+      Bidding: #The item in the middle when bidding on an item.
+        Item: 'BLACK_STAINED_GLASS_PANE'
+        Name: '&7Hacer oferta'
+        Lore:
+          - '&7<--&aAñadir &cQuitar&7-->'
+          - '&9Tu oferta actual: &e$%bid%'
+          - '&9Oferta maxima actual: &e$%topbid%'
+      Bid: #The button for when you want to confirm your bid.
+        Item: 'LIGHT_BLUE_STAINED_GLASS_PANE'
+        Name: '&bHacer oferta'
+        Lore:
+          - '&7Haz click para hacer la oferta.'
+  BlackList:
+    - 'BEDROCK'
+    - 'END_PORTAL_FRAME'

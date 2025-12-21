@@ -1,0 +1,989 @@
+[20:22:26] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.9+10-Ubuntu-124.04; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[20:22:26] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
+[20:22:26] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[20:22:31] [ServerMain/INFO]: [PluginInitializerManager] Initialized 43 plugins
+[20:22:31] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (5):
+ - EconomyShopGUI (6.16.2), FeatherMorph (2.4.6), HuskHomes (4.9.9-50a32dc), MiniMOTD (2.2.1), NookureStaff (1.5.6-85844ef)
+[20:22:31] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (38):
+ - AnimatedScoreboard (0.3.7), CMILib (1.5.7.5), Chunky (1.4.40), ChunkyBorder (1.2.23), Clans (1.6.1), CommandWhitelist (2.12.0), CrazyAuctions (1.7.0), CustomJoinMessages (17.9.1), DecentHolograms (2.9.8), Essentials (2.21.2), EssentialsChat (2.21.2), FakeSeed (1.0.0), FastAsyncWorldEdit (2.14.2+1c61d82), Fcore (1.0.0), GSit (3.1.0), ImageFrame (1.8.7.0), Jobs (5.2.6.5), JobsReborn-PatchPlaceBreak (4.0.2), LuckPerms (5.5.17), LushRewards (3.3.2), ModernChatInjector (2.0.0), Multiverse-Core (5.3.4), Orebfuscator (5.5.6), PlaceholderAPI (2.11.7), ProtectionStones (2.10.5), ProtocolLib (5.4.0), QuickShop-Hikari (6.2.0.10), SimplePluginHider (1.0.1), SkinsRestorer (15.9.1), TAB (5.3.2), Topper (4.4.1), Vault (1.7.3-b131), ViaBackwards (5.5.1), ViaVersion (5.5.1), VoidGen (2.3.4), WorldGuard (7.0.14+2339-43997ec), packetevents (2.11.1), voicechat (2.6.7)
+[20:22:31] [ServerMain/INFO]: [FeatherMorph - Bootstrap] Loading bootstrap...
+[20:22:31] [ServerMain/INFO]: [FeatherMorph - Bootstrap] Done!
+[20:22:39] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:22:39] [ServerMain/INFO]: [FeatherMorph - Bootstrap] Successfully registered datapack recipes!
+[20:22:39] [ServerMain/INFO]: [FeatherMorph - Bootstrap] Successfully registered datapack disguise_tags!
+[20:22:39] [ServerMain/INFO]: [FeatherMorph - Bootstrap] Successfully registered datapack loot_tables!
+[20:22:41] [Worker-Main-1/ERROR]: Invalid path in pack: feathermorph:loot_table/README.md, ignoring
+[20:22:43] [ServerMain/INFO]: Loaded 1409 recipes
+[20:22:43] [ServerMain/INFO]: Loaded 1520 advancements
+[20:22:43] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[20:22:43] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 868.5ms
+[20:22:44] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[20:22:44] [Server thread/INFO]: Loading properties
+[20:22:44] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[20:22:44] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[20:22:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:22:44] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:22:44] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[20:22:44] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[20:22:45] [Server thread/INFO]: Default game type: SURVIVAL
+[20:22:45] [Server thread/INFO]: Generating keypair
+[20:22:45] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:22:45] [Server thread/INFO]: Using epoll channel type
+[20:22:45] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[20:22:45] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[20:22:47] [Server thread/INFO]: [FeatherMorph - Bootstrap] Creating FeatherMorphMain...
+[20:22:47] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.5.1
+[20:22:47] [Server thread/INFO]: [ViaVersion] ViaVersion 5.5.1 is now loaded. Registering protocol transformers and injecting...
+[20:22:48] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[20:22:48] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[20:22:49] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[20:22:49] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[20:22:50] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.17
+[20:22:51] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[20:22:51] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[20:22:51] [Server thread/INFO]: [FastAsyncWorldEdit] Loading server plugin FastAsyncWorldEdit v2.14.2+1c61d82
+[20:22:53] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@1a70e9b9]
+[20:22:53] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.7
+[20:22:53] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2
+[20:22:53] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.14+2339-43997ec
+[20:22:53] [Server thread/INFO]: [CMILib] Loading server plugin CMILib v1.5.7.5
+[20:22:53] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.4.0
+[20:22:54] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.5.1
+[20:22:54] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.2
+[20:22:54] [Server thread/INFO]: [Jobs] Loading server plugin Jobs v5.2.6.5
+[20:22:54] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.3.2
+[20:22:54] [Server thread/INFO]: [Fcore] Loading server plugin Fcore v1.0.0
+[20:22:54] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.11.1
+[20:22:55] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.40
+[20:22:55] [Server thread/INFO]: [VoidGen] Loading server plugin VoidGen v2.3.4
+[20:22:55] [Server thread/INFO]: [Topper] Loading server plugin Topper v4.4.1
+[20:22:55] [Server thread/INFO]: [Topper] Using PaperMC's Cache for Name Provider
+[20:22:55] [Server thread/INFO]: [FakeSeed] Loading server plugin FakeSeed v1.0.0
+[20:22:55] [Server thread/INFO]: [ProtectionStones] Loading server plugin ProtectionStones v2.10.5
+[20:22:55] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.9.8
+[20:22:55] [Server thread/INFO]: [Orebfuscator] Loading server plugin Orebfuscator v5.5.6
+[20:22:55] [Server thread/INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI v6.16.2
+[20:22:55] [Server thread/INFO]: [ModernChatInjector] Loading server plugin ModernChatInjector v2.0.0
+[20:22:55] [Server thread/INFO]: [LushRewards] Loading server plugin LushRewards v3.3.2
+[20:22:55] [Server thread/INFO]: [LushRewards] Successfully enabled LushLib
+[20:22:55] [Server thread/INFO]: [ImageFrame] Loading server plugin ImageFrame v1.8.7.0
+[20:22:55] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.9.1
+[20:22:55] [Server thread/INFO]: [GSit] Loading server plugin GSit v3.1.0
+[20:22:56] [Server thread/INFO]: [CrazyAuctions] Loading server plugin CrazyAuctions v1.7.0
+[20:22:56] [Server thread/INFO]: [JobsReborn-PatchPlaceBreak] Loading server plugin JobsReborn-PatchPlaceBreak v4.0.2
+[20:22:56] [Server thread/INFO]: [HuskHomes] Loading server plugin HuskHomes v4.9.9-50a32dc
+[20:22:56] [Server thread/INFO]: [HuskHomes] Registered 'on_load' hooks
+[20:22:56] [Server thread/INFO]: [HuskHomes] Successfully loaded HuskHomes v4.9.9-50a32dc
+[20:22:56] [Server thread/INFO]: [NookureStaff] Loading server plugin NookureStaff v1.5.6-85844ef
+[20:22:56] [Server thread/INFO]: [Clans] Loading server plugin Clans v1.6.1
+[20:22:56] [Server thread/INFO]: [FeatherMorph] Loading server plugin FeatherMorph v2.4.6
+[20:22:56] [Server thread/INFO]: [CustomJoinMessages] Loading server plugin CustomJoinMessages v17.9.1
+[20:22:56] [Server thread/INFO]: [SimplePluginHider] Loading server plugin SimplePluginHider v1.0.1
+[20:22:56] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.6.7
+[20:22:56] [Server thread/INFO]: [AnimatedScoreboard] Loading server plugin AnimatedScoreboard v0.3.7
+[20:22:56] [Server thread/INFO]: [CommandWhitelist] Loading server plugin CommandWhitelist v2.12.0
+[20:22:56] [Server thread/INFO]: [MiniMOTD] Loading server plugin MiniMOTD v2.2.1
+[20:22:56] [Server thread/INFO]: [ChunkyBorder] Loading server plugin ChunkyBorder v1.2.23
+[20:22:56] [Server thread/INFO]: [QuickShop-Hikari] Loading server plugin QuickShop-Hikari v6.2.0.10
+[20:22:56] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] QuickShop-Hikari - Bootstrap -> Execute the initialization sequence
+[20:22:56] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Bootloader preparing for startup, please wait...
+[20:22:56] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Initializing libraries...
+[20:22:57] [Server thread/INFO]: [QuickShop-Hikari] Maven repository mirror test result:
+[20:22:57] [Server thread/INFO]: [QuickShop-Hikari] [US] APACHE: 147ms
+[20:22:57] [Server thread/INFO]: [QuickShop-Hikari] [US] CENTRAL: 157ms
+[20:22:57] [Server thread/INFO]: [QuickShop-Hikari] [CN] TENCENT: 185ms
+[20:22:57] [Server thread/INFO]: [QuickShop-Hikari] [CN] ALIYUN: 294ms
+[20:22:57] [Server thread/INFO]: [QuickShop-Hikari] [CN] HUAWEI: 727ms
+[20:22:57] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading 12 libraries (0 skipped libraries)...
+[20:22:57] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library org.apache.commons:commons-lang3:3.14.0 [1/12]
+[20:22:57] [Server thread/ERROR]: [STDERR] [org.slf4j.helpers.Util] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+[20:22:57] [Server thread/ERROR]: [STDERR] [org.slf4j.helpers.Util] SLF4J: Defaulting to no-operation (NOP) logger implementation
+[20:22:57] [Server thread/ERROR]: [STDERR] [org.slf4j.helpers.Util] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[20:22:57] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library org.apache.commons:commons-compress:1.25.0 [2/12]
+[20:22:57] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library com.google.code.gson:gson:2.10.1 [3/12]
+[20:22:57] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library com.google.guava:guava:33.1.0-jre [4/12]
+[20:22:57] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library com.rollbar:rollbar-java:1.9.0 [5/12]
+[20:22:57] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library cc.carm.lib:easysql-hikaricp:0.4.7 [6/12]
+[20:22:57] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library com.h2database:h2:2.1.214 [7/12]
+[20:22:57] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library com.konghq:unirest-java:3.14.5 [8/12]
+[20:22:57] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library net.sourceforge.csvjdbc:csvjdbc:1.0.42 [9/12]
+[20:22:57] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library org.dom4j:dom4j:2.1.4 [10/12]
+[20:22:57] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library com.vdurmont:semver4j:3.1.0 [11/12]
+[20:22:57] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Loading library com.ghostchu.crowdin:crowdinota:1.0.3 [12/12]
+[20:22:58] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Initialing Unirest...
+[20:22:58] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Initializing platform...
+[20:22:58] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Platform detected: Paper
+[20:22:58] [Server thread/INFO]: [QuickShop-Hikari] Slf4jLogger initialized
+[20:22:58] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Platform initialized: com.ghostchu.quickshop.platform.paper.PaperPlatform
+[20:22:58] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Boot QuickShop instance...
+[20:22:58] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] Creating QuickShop instance...
+[20:22:58] [Server thread/INFO]: [QuickShop-Hikari] Registering Bukkit Service: com.ghostchu.quickshop.api.QuickShopProvider
+[20:22:58] [Server thread/INFO]: [QuickShop-Hikari] QuickShop Hikari - Early boot step - Booting up
+[20:22:58] [Server thread/INFO]: [QuickShop-Hikari] Self testing...
+[20:22:58] [Server thread/INFO]: [QuickShop-Hikari] Reading the configuration...
+[20:22:58] [Server thread/INFO]: [QuickShop-Hikari] [ConfigUpdater] Saving configuration changes...
+[20:22:58] [Server thread/INFO]: [QuickShop-Hikari] Setting up privacy controller...
+[20:22:58] [Server thread/INFO]: [QuickShop-Hikari] Setting up QuickShop registry....
+[20:22:58] [Server thread/INFO]: [QuickShop-Hikari] Setting up metrics manager...
+[20:22:58] [Server thread/INFO]: [QuickShop-Hikari] Loading player name and unique id mapping...
+[20:22:58] [Server thread/INFO]: [QuickShop-Hikari] Loading translations (This may take a while)...
+[20:22:58] [Server thread/INFO]: [QuickShop-Hikari] Please wait us fetch the translation updates from Crowdin OTA service...
+[20:22:58] [Server thread/INFO]: [CrowdinOTA] Downloading Crowdin distribution manifest from remote server...
+[20:22:58] [Server thread/INFO]: [OTAFileInstance-0] Downloading translations for 0 locales...
+[20:22:58] [Server thread/INFO]: [OTAFileInstance-1] Downloading translations for 0 locales...
+[20:22:58] [Server thread/INFO]: [QuickShop-Hikari] Loading up translations from Crowdin OTA, this may need a while...
+[20:23:00] [Server thread/INFO]: [QuickShop-Hikari] Loading up translations from Crowdin OTA, this may need a while...
+[20:23:01] [Server thread/INFO]: [QuickShop-Hikari] Register InventoryWrapper...
+[20:23:01] [Server thread/INFO]: [QuickShop-Hikari] Initializing NexusManager...
+[20:23:01] [Server thread/INFO]: [QuickShop-Hikari] QuickShop Hikari - Early boot step - Complete
+[20:23:01] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] QuickShop-Hikari - Bootstrap -> Complete (5248ms). Waiting for enable...
+[20:23:01] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.3.4
+[20:23:01] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:23:01] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.17
+[20:23:02] [Server thread/INFO]:         __    
+[20:23:02] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.17
+[20:23:02] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[20:23:02] [Server thread/INFO]: 
+[20:23:02] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[20:23:03] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[20:23:04] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[20:23:04] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2810ms)
+[20:23:04] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[20:23:04] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[20:23:04] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[20:23:04] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[20:23:04] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[20:23:04] [Server thread/INFO]: [FastAsyncWorldEdit] Enabling FastAsyncWorldEdit v2.14.2+1c61d82
+[20:23:05] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] LZ4 Compression Binding loaded successfully
+[20:23:05] [Server thread/INFO]: [com.fastasyncworldedit.core.Fawe] ZSTD Compression Binding loaded successfully
+[20:23:05] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[20:23:05] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[20:23:06] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.fawe.v1_21_6.PaperweightFaweAdapter as the Bukkit adapter
+[20:23:07] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.4.0
+[20:23:07] [Server thread/INFO]: [VoidGen] Enabling VoidGen v2.3.4
+[20:23:07] [Server thread/INFO]: [VoidGen] Using VoidChunkGen: VERSION_1_21_3
+[20:23:08] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.9.1
+[20:23:08] [Thread-17/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] A new release for FastAsyncWorldEdit is available: 2.14.3. You are currently on 2.14.2.
+Download from https://modrinth.com/plugin/fastasyncworldedit or https://hangar.papermc.io/IntellectualSites/FastAsyncWorldEdit
+[20:23:08] [Thread-18/WARN]: [com.fastasyncworldedit.core.util.UpdateNotification] An update for FastAsyncWorldEdit is available. You are 1248 build(s) out of date.
+You are running build 0, the latest version is build 1248.
+Update at https://ci.athion.net/job/FastAsyncWorldEdit
+[20:23:09] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.8.
+[20:23:09] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[20:23:09] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.9.1]
+[20:23:09] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[20:23:09] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:23:09] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:23:09] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:23:09] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:23:09] [Server thread/INFO]: Preparing level "world"
+[20:23:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:23:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[20:23:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[20:23:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[20:23:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[20:23:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[20:23:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:23:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.9.1
+[20:23:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: ee713cb
+[20:23:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[20:23:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[20:23:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[20:23:09] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[20:23:10] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:23:11] [Server thread/INFO]: Preparing spawn area: 0%
+[20:23:11] [Server thread/INFO]: Preparing spawn area: 2%
+[20:23:11] [Server thread/INFO]: Preparing spawn area: 2%
+[20:23:13] [Server thread/INFO]: Preparing spawn area: 22%
+[20:23:13] [Server thread/INFO]: Preparing spawn area: 22%
+[20:23:13] [Server thread/INFO]: Time elapsed: 2369 ms
+[20:23:13] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:23:13] [Server thread/INFO]: Preparing spawn area: 0%
+[20:23:13] [Server thread/INFO]: Preparing spawn area: 12%
+[20:23:14] [Server thread/INFO]: Time elapsed: 774 ms
+[20:23:14] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:23:14] [Server thread/INFO]: Preparing spawn area: 0%
+[20:23:14] [Server thread/INFO]: Time elapsed: 307 ms
+[20:23:14] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.5.1
+[20:23:14] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.7-1.21.8 (772)
+[20:23:14] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.7
+[20:23:15] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[20:23:15] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
+[20:23:15] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[20:23:15] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[20:23:16] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[20:23:16] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[20:23:16] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[20:23:16] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[20:23:16] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[20:23:16] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[20:23:16] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[20:23:16] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[20:23:16] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[20:23:16] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[20:23:16] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[20:23:16] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[20:23:16] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[20:23:16] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[20:23:16] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[20:23:16] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[20:23:16] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[20:23:16] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[20:23:16] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[20:23:16] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[20:23:16] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[20:23:16] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[20:23:16] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[20:23:16] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
+[20:23:16] [Server thread/INFO]: [Essentials] Using locale es
+[20:23:17] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[20:23:17] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[20:23:17] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[20:23:17] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[20:23:17] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.14+2339-43997ec
+[20:23:18] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[20:23:18] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[20:23:18] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[20:23:18] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[20:23:18] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[20:23:18] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[20:23:18] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[20:23:18] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[20:23:18] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[20:23:18] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[20:23:18] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[20:23:18] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[20:23:18] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[20:23:18] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[20:23:18] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[20:23:18] [Server thread/INFO]: [WorldGuard] Loading region data...
+[20:23:18] [Server thread/INFO]: [CMILib] Enabling CMILib v1.5.7.5
+[20:23:20] [Server thread/INFO]: Server version: v1_21_R5 - 1.21.8 - paper  1.21.8-6-782ce95 (MC: 1.21.8)
+[20:23:21] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:23:21] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: cmil [1.5.7.5]
+[20:23:21] [Server thread/INFO]: PlaceholderAPI hooked.
+[20:23:21] [Server thread/INFO]: Updated (EN) language file. Took 110ms
+[20:23:21] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.5.1
+[20:23:21] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.2
+[20:23:21] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[20:23:21] [Server thread/INFO]: [Jobs] Enabling Jobs v5.2.6.5
+[20:23:21] [Server thread/INFO]: ------------- Jobs -------------
+[20:23:21] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: jobsr [5.2.6.5]
+[20:23:21] [Server thread/INFO]: PlaceholderAPI hooked.
+[20:23:21] [Server thread/INFO]: Connected to database (SqLite)
+[20:23:22] [Server thread/INFO]: Loaded 8 titles
+[20:23:22] [Server thread/INFO]: Loaded 2 restricted areas!
+[20:23:22] [Server thread/INFO]: Loaded 53 protected blocks timers
+[20:23:22] [Server thread/INFO]: Loaded 1569 custom item names
+[20:23:22] [Server thread/INFO]: Loaded 86 custom entity names
+[20:23:22] [Server thread/INFO]: Loaded 2 custom MythicMobs names
+[20:23:22] [Server thread/INFO]: Loaded 42 custom enchant names
+[20:23:22] [Server thread/INFO]: Loaded 46 custom enchant names
+[20:23:22] [Server thread/INFO]: Loaded 16 custom color names
+[20:23:22] [Server thread/INFO]: Update shops items icon section and use 'ItemStack' instead
+[20:23:22] [Server thread/INFO]: Loaded 4 shop items
+[20:23:23] [Server thread/INFO]: Loaded 1 quests for Constructor
+[20:23:23] [Server thread/INFO]: Loaded 1 quests for Granjero
+[20:23:23] [Server thread/INFO]: Loaded 1 quests for Pescador
+[20:23:23] [Server thread/INFO]: Loaded 1 quests for Minero
+[20:23:23] [Server thread/INFO]: Loaded 1 quests for Leñador
+[20:23:23] [Server thread/INFO]: Loaded 1 quests for Cazador
+[20:23:23] [Server thread/INFO]: Loaded 6 jobs
+[20:23:23] [Server thread/INFO]: Loaded 0 boosted items
+[20:23:23] [Jobs-DatabaseSaveTask/INFO]: Started database save task.
+[20:23:23] [Jobs-BufferedPaymentThread/INFO]: Started buffered payment thread.
+[20:23:23] [Server thread/INFO]: Preloaded 3 players data in 0.05
+[20:23:23] [Server thread/INFO]: WorldGuard detected.
+[20:23:23] [Server thread/INFO]: Registering listeners...
+[20:23:23] [Server thread/INFO]: Listeners registered successfully
+[20:23:23] [Server thread/INFO]: Plugin has been enabled successfully.
+[20:23:23] [Server thread/INFO]: ------------------------------------
+[20:23:23] [Server thread/INFO]: [TAB] Enabling TAB v5.3.2
+[20:23:24] [Server thread/INFO]: [TAB] Enabled in 522ms
+[20:23:24] [Server thread/INFO]: [Fcore] Enabling Fcore v1.0.0
+[20:23:24] [Server thread/INFO]: [Fcore] Fcore enabled!
+[20:23:24] [Server thread/INFO]: [packetevents] Enabling packetevents v2.11.1
+[20:23:24] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[20:23:24] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.40
+[20:23:24] [Server thread/INFO]: [Topper] Enabling Topper v4.4.1
+[20:23:24] [packetevents-update-check-thread/INFO]: [packetevents] You are running the latest release of PacketEvents. Your build: (2.11.1)
+[20:23:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: topper [4.4.1]
+[20:23:24] [Server thread/INFO]: [FakeSeed] Enabling FakeSeed v1.0.0
+[20:23:24] [Server thread/INFO]: [FakeSeed] FakeSeed has been enabled!
+[20:23:24] [Server thread/INFO]: [ProtectionStones] Enabling ProtectionStones v2.10.5
+[20:23:24] [Server thread/INFO]: [WorldGuard] Registering session handler dev.espi.protectionstones.flags.GreetingFlagHandler
+[20:23:24] [Server thread/INFO]: [WorldGuard] Registering session handler dev.espi.protectionstones.flags.FarewellFlagHandler
+[20:23:24] [Thread-37/INFO]: [Topper] You are using the latest version
+[20:23:24] [Server thread/INFO]: [ProtectionStones] PlaceholderAPI support enabled!
+[20:23:24] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: protectionstones [2.10.5]
+[20:23:24] [Server thread/INFO]: [ProtectionStones] LuckPerms support enabled!
+[20:23:25] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
+[20:23:25] [Server thread/INFO]: [ProtectionStones] - COAL_ORE (8)
+[20:23:25] [Server thread/INFO]: [ProtectionStones] - ANCIENT_DEBRIS (128)
+[20:23:25] [Server thread/INFO]: [ProtectionStones] - DIAMOND_ORE (64)
+[20:23:25] [Server thread/INFO]: [ProtectionStones] - IRON_ORE (16)
+[20:23:25] [Server thread/INFO]: [ProtectionStones] - GOLD_ORE (32)
+[20:23:25] [Server thread/INFO]: [ProtectionStones] Building region cache...
+[20:23:25] [Server thread/INFO]: [ProtectionStones] Building UUID cache... (if slow change async-load-uuid-cache in the config to true)
+[20:23:25] [Server thread/INFO]: [ProtectionStones] Checking if PS regions have been updated to UUIDs...
+[20:23:25] [Server thread/INFO]: [ProtectionStones] §fProtectionStones has successfully started!
+[20:23:25] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.9.8
+[20:23:25] [Server thread/INFO]: [DecentHolograms] Initialized NMS adapter for v1_21_R5 (1.21.8).
+[20:23:25] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.8! Trying to find NMS support
+[20:23:25] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R5' loaded!
+[20:23:25] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
+[20:23:25] [Server thread/INFO]: [DecentHolograms] NBT-API loaded successfully.
+[20:23:25] [Server thread/INFO]: [Orebfuscator] Enabling Orebfuscator v5.5.6
+[20:23:25] [Server thread/INFO]: [Orebfuscator] Searching NMS adapter for server version "v1_21_R5_mojang"!
+[20:23:26] [Server thread/INFO]: [Orebfuscator] NMS adapter for server version "v1_21_R5_mojang" found!
+[20:23:27] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.16.2
+[20:23:27] [Thread-38/WARN]: [Orebfuscator] +------------------------------------------------------------+
+[20:23:27] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initializing paper meta...
+[20:23:27] [Thread-38/WARN]: [Orebfuscator] |                      UPDATE AVAILABLE                      |
+[20:23:27] [Thread-38/WARN]: [Orebfuscator] |                                                            |
+[20:23:27] [Thread-38/WARN]: [Orebfuscator] |   https://modrinth.com/plugin/orebfuscator/version/5.5.7   |
+[20:23:27] [Thread-38/WARN]: [Orebfuscator] +------------------------------------------------------------+
+[20:23:27] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-es.yml as language file
+[20:23:27] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Carga completada 7 configuraciones de la sección de /secciones/
+[20:23:27] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completada la carga de la configuración de 7 tiendas desde /shops/
+[20:23:27] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Actualizando la configuración de la tienda...
+[20:23:27] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using EssentialsX Economy as economy provider
+[20:23:27] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Se completó la carga de 1 proveedor(es) de economía para todas las 6 secciones de tiendas.
+[20:23:27] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Usando minecraft versión 1.21.8...
+[20:23:27] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Proveedor spawner establecido en AUTO en la configuración
+[20:23:27] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
+[20:23:27] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
+[20:23:27] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: esgui [1.1.0]
+[20:23:27] [Server thread/INFO]: [EconomyShopGUI] [INFO]: El modo de depuración está habilitado.
+[20:23:27] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Cargando todos los elementos...
+[20:23:28] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Iniciado - Tomó 849ms para completar
+[20:23:28] [Server thread/INFO]: [ModernChatInjector] Enabling ModernChatInjector v2.0.0
+[20:23:28] [Server thread/INFO]: [ModernChatInjector] Using PlaceholderAPI version 2.11.7
+[20:23:28] [Server thread/INFO]: [ModernChatInjector] Hooked EssentialsX Chat version 2.21.2
+[20:23:28] [Server thread/INFO]: [LushRewards] Enabling LushRewards v3.3.2
+[20:23:28] [Server thread/INFO]: [LushRewards] Loaded global item-template: upcoming-reward
+[20:23:28] [Server thread/INFO]: [LushRewards] Loaded global item-template: #
+[20:23:28] [Server thread/INFO]: [LushRewards] Loaded reward-template: iron_ingots
+[20:23:28] [Server thread/INFO]: [LushRewards] Loaded item-template: default-reward
+[20:23:28] [Server thread/INFO]: [LushRewards] Loaded item-template: redeemable-reward
+[20:23:28] [Server thread/INFO]: [LushRewards] Loaded item-template: collected-reward
+[20:23:28] [Server thread/INFO]: [LushRewards] Loaded item-template: P
+[20:23:28] [Server thread/INFO]: [LushRewards] Successfully loaded 1 reward collections from 'goals'
+[20:23:28] [Server thread/INFO]: [LushRewards] Successfully enabled module 'global-playtime-rewards'
+[20:23:28] [Server thread/INFO]: [LushRewards] Loaded item-template: default-reward
+[20:23:28] [Server thread/INFO]: [LushRewards] Loaded item-template: redeemable-reward
+[20:23:28] [Server thread/INFO]: [LushRewards] Loaded item-template: collected-reward
+[20:23:28] [Server thread/INFO]: [LushRewards] Loaded item-template: missed-reward
+[20:23:28] [Server thread/INFO]: [LushRewards] Loaded item-template: P
+[20:23:28] [Server thread/INFO]: [LushRewards] Successfully loaded 31 reward collections from 'daily-rewards'
+[20:23:28] [Server thread/INFO]: [LushRewards] Successfully enabled module 'daily-rewards'
+[20:23:28] [Server thread/INFO]: [LushRewards] Successfully enabled module 'playtime-tracker'
+[20:23:28] [Server thread/INFO]: [LushRewards] Setting up 'sqlite' database
+[20:23:28] [Server thread/INFO]: [LushRewards] Found plugin "PlaceholderAPI". Enabling PlaceholderAPI support.
+[20:23:28] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: lushrewards [3.3.2]
+[20:23:28] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: rewarder [3.3.2]
+[20:23:28] [Server thread/INFO]: [LushRewards] Successfully enabled module 'placeholder-api'
+[20:23:28] [Server thread/INFO]: [ImageFrame] Enabling ImageFrame v1.8.7.0
+[20:23:28] [pool-68-thread-1/INFO]: [LushRewards] You are up to date! (3.3.2)
+[20:23:28] [Server thread/INFO]: [ImageFrame] ImageFrame has hooked into ViaVersion!
+[20:23:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: imageframe [1.0.0]
+[20:23:36] [Server thread/INFO]: [ImageFrame] ImageFrame has been Enabled!
+[20:23:36] [Server thread/INFO]: [GSit] Enabling GSit v3.1.0
+[20:23:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gsit [3.1.0]
+[20:23:36] [Server thread/INFO]: [WorldGuard] Registering session handler dev.geco.gsit.link.worldguard.RegionFlagHandler
+[20:23:36] [Server thread/INFO]: SurVius | El plugin ha sido habilitado con éxito.
+[20:23:36] [Server thread/INFO]: SurVius | ¡Se ha enlazado con PlaceholderAPI exitosamente!
+[20:23:36] [Server thread/INFO]: SurVius | ¡Se ha enlazado con WorldGuard exitosamente!
+[20:23:36] [Server thread/INFO]: [CrazyAuctions] Enabling CrazyAuctions v1.7.0
+[20:23:36] [Server thread/INFO]: [JobsReborn-PatchPlaceBreak] Enabling JobsReborn-PatchPlaceBreak v4.0.2
+[20:23:38] [Server thread/INFO]: [JobsReborn-PatchPlaceBreak] Connecting to database 'jdbc:sqlite:plugins/JobsReborn-PatchPlaceBreak/sqlite-data.db'...
+[20:23:38] [Server thread/INFO]: [JobsReborn-PatchPlaceBreak] HikariPool-1 - Starting...
+[20:23:38] [Server thread/INFO]: [JobsReborn-PatchPlaceBreak] HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@208c4bba
+[20:23:38] [Server thread/INFO]: [JobsReborn-PatchPlaceBreak] HikariPool-1 - Start completed.
+[20:23:38] [Server thread/INFO]: [JobsReborn-PatchPlaceBreak] Connected to the database successfully.
+[20:23:39] [Server thread/INFO]: [JobsReborn-PatchPlaceBreak] Database: jdbc:sqlite:plugins/JobsReborn-PatchPlaceBreak/sqlite-data.db (SQLite 3.49)
+[20:23:39] [Server thread/INFO]: [JobsReborn-PatchPlaceBreak] Current version of schema "main": 3.0.0
+[20:23:39] [Server thread/INFO]: [JobsReborn-PatchPlaceBreak] Schema "main" is up to date. No migration necessary.
+[20:23:39] [Server thread/INFO]: [JobsReborn-PatchPlaceBreak] Successfully validated 5 migrations (execution time 00:00.003s)
+[20:23:39] [Server thread/INFO]: [JobsReborn-PatchPlaceBreak] Event listeners registered.
+[20:23:39] [Server thread/INFO]: [JobsReborn-PatchPlaceBreak] bStats metrics collection activated.
+[20:23:39] [Server thread/INFO]: [JobsReborn-PatchPlaceBreak] JobsReborn-PatchPlaceBreak successfully enabled.
+[20:23:39] [Server thread/INFO]: [HuskHomes] Enabling HuskHomes v4.9.9-50a32dc
+[20:23:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: huskhomes [4.9.9]
+[20:23:39] [Server thread/INFO]: [HuskHomes] Registered 'on_enable' hooks
+[20:23:39] [Server thread/INFO]: [HuskHomes] Successfully enabled HuskHomes v4.9.9-50a32dc
+[20:23:39] [Server thread/INFO]: [NookureStaff] Enabling NookureStaff v1.5.6-85844ef
+[20:23:39] [Server thread/INFO]: 
+ ▐ ▄             ▄ •▄ ▄• ▄▌▄▄▄  ▄▄▄ .    .▄▄ · ▄▄▄▄▄ ▄▄▄· ·▄▄▄·▄▄▄
+•█▌▐█▪     ▪     █▌▄▌▪█▪██▌▀▄ █·▀▄.▀·    ▐█ ▀. •██  ▐█ ▀█ ▐▄▄·▐▄▄·
+▐█▐▐▌ ▄█▀▄  ▄█▀▄ ▐▀▀▄·█▌▐█▌▐▀▀▄ ▐▀▀▪▄    ▄▀▀▀█▄ ▐█.▪▄█▀▀█ ██▪ ██▪
+██▐█▌▐█▌.▐▌▐█▌.▐▌▐█.█▌▐█▄█▌▐█•█▌▐█▄▄▌    ▐█▄▪▐█ ▐█▌·▐█ ▪▐▌██▌.██▌.
+▀▀ █▪ ▀█▄▀▪ ▀█▄▀▪·▀  ▀ ▀▀▀ .▀  ▀ ▀▀▀      ▀▀▀▀  ▀▀▀  ▀  ▀ ▀▀▀ ▀▀▀
+
+[20:23:39] [Server thread/INFO]: NookureStaff v1.5.6-85844ef by Angelillo15
+[20:23:39] [Server thread/INFO]: [NookureStaff] Loading library HikariCP
+[20:23:39] [Server thread/INFO]: [NookureStaff] Loading library caffeine
+[20:23:39] [Server thread/INFO]: [NookureStaff] Loading library checker-qual
+[20:23:39] [Server thread/INFO]: [NookureStaff] Loading library error_prone_annotations
+[20:23:39] [Server thread/INFO]: [NookureStaff] Loading library jedis
+[20:23:39] [Server thread/INFO]: [NookureStaff] Loading library commons-lang3
+[20:23:39] [Server thread/INFO]: [NookureStaff] Loading library commons-pool2
+[20:23:39] [Server thread/INFO]: [NookureStaff] Loading library json
+[20:23:39] [Server thread/INFO]: [NookureStaff] Loading library protobuf-javalite
+[20:23:39] [Server thread/INFO]: [NookureStaff] Loading library NookCore-Inventory
+[20:23:39] [Server thread/INFO]: [NookureStaff] Loading library pebble
+[20:23:39] [Server thread/INFO]: [NookureStaff] Loading library unbescape
+[20:23:39] [Server thread/INFO]: [NookureStaff] Loading library slf4j-api
+[20:23:39] [Server thread/INFO]: [NookureStaff] Loading library annotations
+[20:23:39] [Server thread/INFO]: [NookureStaff] Loading library jakarta.xml.bind-api
+[20:23:39] [Server thread/INFO]: [NookureStaff] Loading library jakarta.activation-api
+[20:23:39] [Server thread/INFO]: [NookureStaff] Loading library jaxb-runtime
+[20:23:39] [Server thread/INFO]: [NookureStaff] Loading library jaxb-core
+[20:23:39] [Server thread/INFO]: [NookureStaff] Loading library angus-activation
+[20:23:39] [Server thread/INFO]: [NookureStaff] Loading library txw2
+[20:23:39] [Server thread/INFO]: [NookureStaff] Loading library istack-commons-runtime
+[20:23:39] [Server thread/INFO]: [NookureStaff] Loading library caffeine
+[20:23:39] [Server thread/INFO]: [NookureStaff] Loading library checker-qual
+[20:23:39] [Server thread/INFO]: [NookureStaff] Loading library error_prone_annotations
+[20:23:39] [Server thread/WARN]: [NookureStaff] You are using a development build. Please, consider this before reporting any issue.
+[20:23:41] [Server thread/INFO]: NookureStaff | INFO > 💉  Injecting plugin...
+[20:23:41] [Server thread/INFO]: NookureStaff | INFO > 💉  Plugin injected!
+[20:23:41] [Server thread/INFO]: [com.nookure.staff.libs.hikari.HikariDataSource] HikariPool-1 - Starting...
+[20:23:41] [Server thread/INFO]: [com.nookure.staff.libs.hikari.pool.HikariPool] HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@5fdeeae5
+[20:23:41] [Server thread/INFO]: [com.nookure.staff.libs.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[20:23:41] [Server thread/INFO]: [io.avaje.config] Loaded properties from [] 
+[20:23:42] [Server thread/INFO]: [io.ebean.migration] DB migrations completed in 41ms - executed:0 totalMigrations:3 mode:legacy
+[20:23:42] [Server thread/INFO]: [io.ebean.core] Started database[nkstaff] platform[SQLITE] in 880ms
+[20:23:42] [Server thread/INFO]: NookureStaff | INFO > Successfully connected to the database!
+[20:23:42] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: nkstaff [1.5.6-85844ef]
+[20:23:42] [Server thread/INFO]: [Clans] Enabling Clans v1.6.1
+[20:23:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: clans [1.0]
+[20:23:43] [Server thread/INFO]: [Clans] ================================================
+[20:23:43] [Server thread/INFO]: [Clans]  
+[20:23:43] [Server thread/INFO]: [Clans]     ██████╗██╗      █████╗ ███╗   ██╗███████╗
+[20:23:43] [Server thread/INFO]: [Clans]    ██╔════╝██║     ██╔══██╗████╗  ██║██╔════╝
+[20:23:43] [Server thread/INFO]: [Clans]    ██║     ██║     ███████║██╔██╗ ██║███████╗
+[20:23:43] [Server thread/INFO]: [Clans]    ██║     ██║     ██╔══██║██║╚██╗██║╚════██║
+[20:23:43] [Server thread/INFO]: [Clans]    ╚██████╗███████╗██║  ██║██║ ╚████║███████║
+[20:23:43] [Server thread/INFO]: [Clans]     ╚═════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝
+[20:23:43] [Server thread/INFO]: [Clans]  
+[20:23:43] [Server thread/INFO]: [Clans]                  Version: 1.6.1               
+[20:23:43] [Server thread/INFO]: [Clans]                  Plugin Started               
+[20:23:43] [Server thread/INFO]: [Clans]  
+[20:23:43] [Server thread/INFO]: [Clans]                 (Made by Flubel)              
+[20:23:43] [Server thread/INFO]: [Clans]  
+[20:23:43] [Server thread/INFO]: [Clans] ================================================
+[20:23:43] [Server thread/INFO]: [Clans]  Fcore detected, enabling Fcore integration...
+[20:23:43] [Server thread/INFO]: [FeatherMorph] Enabling FeatherMorph v2.4.6
+[20:23:43] [Server thread/INFO]: [FeatherMorph] Registering Placeholders...
+[20:23:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: feathermorph [1.5.0]
+[20:23:43] [Server thread/INFO]: [CustomJoinMessages] Enabling CustomJoinMessages v17.9.1
+[20:23:44] [Server thread/INFO]: [CustomJoinMessages] [ACF] Enabled Asynchronous Tab Completion Support!
+[20:23:44] [Server thread/INFO]: [SimplePluginHider] Enabling SimplePluginHider v1.0.1
+[20:23:44] [Server thread/INFO]: [voicechat] Enabling voicechat v2.6.7
+[20:23:44] [Server thread/INFO]: [voicechat] Initializing compatibility for version 1.21.8-R0.1
+[20:23:44] [Server thread/INFO]: [voicechat] Compatibility version 20
+[20:23:44] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[20:23:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: voicechat [2.6.7]
+[20:23:44] [Server thread/INFO]: [voicechat] Successfully registered PlaceholderAPI expansion
+[20:23:44] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
+[20:23:44] [Server thread/INFO]: [AnimatedScoreboard] Enabling AnimatedScoreboard v0.3.7
+[20:23:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: animatedscoreboard [0.0.1]
+[20:23:44] [Server thread/INFO]: [CommandWhitelist] Enabling CommandWhitelist v2.12.0
+[20:23:45] [Server thread/WARN]: [CommandWhitelist] Using ProtocolLib for command filter!
+[20:23:45] [Server thread/WARN]: [CommandWhitelist] Please make sure you actually need this. This is not a "better way to do it".
+[20:23:45] [Server thread/INFO]: [MiniMOTD] Enabling MiniMOTD v2.2.1
+[20:23:46] [Server thread/ERROR]: [MiniMOTD] Failed to register events for class xyz.jpenilla.minimotd.paper.MiniMOTDPaper because io/papermc/paper/threadedregions/RegionizedServerInitEvent does not exist.
+[20:23:46] [Server thread/INFO]: [ChunkyBorder] Enabling ChunkyBorder v1.2.23
+[20:23:46] [Server thread/INFO]: [QuickShop-Hikari] Enabling QuickShop-Hikari v6.2.0.10
+[20:23:46] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] QuickShop-Hikari - Bootstrap -> Execute the enable sequence
+[20:23:46] [Server thread/INFO]: [QuickShop-Hikari] QuickShop Hikari
+[20:23:46] [Server thread/INFO]: [QuickShop-Hikari] Registering Bukkit Service: com.ghostchu.quickshop.api.QuickShopProvider
+[20:23:46] [Server thread/INFO]: [QuickShop-Hikari] Starting plugin self-test, please wait...
+[20:23:46] [Server thread/INFO]: [QuickShop-Hikari] [OK] Spigot Based Server Test
+[20:23:46] [Server thread/INFO]: [QuickShop-Hikari] [OK] Old QuickShop Test
+[20:23:46] [Server thread/INFO]: [QuickShop-Hikari] [OK] ModdedServer Based Test
+[20:23:46] [Server thread/INFO]: [QuickShop-Hikari] [OK] ModdedServer Database Driver Test
+[20:23:46] [Server thread/INFO]: [QuickShop-Hikari] [OK] CoreSupport Test
+[20:23:46] [Server thread/INFO]: [QuickShop-Hikari] [OK] Virtual DisplayItem Support Test
+[20:23:46] [Server thread/INFO]: [QuickShop-Hikari] [OK] ProtocolLib Incorrect Locate Test
+[20:23:46] [Server thread/INFO]: [QuickShop-Hikari] [OK] GameVersion supporting Test
+[20:23:46] [Server thread/INFO]: [QuickShop-Hikari] [OK] Permission Manager Test
+[20:23:46] [Server thread/INFO]: [QuickShop-Hikari] [OK] PacketListenerAPI Conflict Test
+[20:23:46] [Server thread/INFO]: [QuickShop-Hikari] [OK] Reremake Test
+[20:23:46] [Server thread/INFO]: [QuickShop-Hikari] [OK] EcoEnchants V11 Check
+[20:23:46] [Server thread/INFO]: [QuickShop-Hikari] [OK] End of life Test
+[20:23:46] [Server thread/INFO]: [QuickShop-Hikari] Reading the configuration...
+[20:23:46] [Server thread/INFO]: [QuickShop-Hikari] [ConfigUpdater] Saving configuration changes...
+[20:23:46] [Server thread/INFO]: [QuickShop-Hikari] Contributors: Ghost_chu, PotatoCraft Studio, Netherfoam, Timtower, KaiNoMood (KaiKikuchi), sandtechnology, jho5245, cakoyo, Andre601, Ectabro, Chris6ix, portlek, log4b0at, deadman96385, tiararinne, DoctaEnkoda, CarmJos, YuanYuanOwO, Mgazul, mart-r, Tim269, raphtaliapt, creatorfromhell, LoneDev6, Steven-OS, confuxeon, ibmibmibm, judgetread, mfnalex, Warriorrrr, PyvesB, yannicklamprecht, ORelio, RMSCA, Starmism, yiwenwang2090, PaulBGD, Nlkomaru, harry0198, Draesia, Localized community members on Crowdin
+[20:23:46] [Server thread/INFO]: [QuickShop-Hikari] Original author: Netherfoam, Timtower, KaiNoMood, sandtechnology
+[20:23:46] [Server thread/INFO]: [QuickShop-Hikari] Let's start loading the plugin
+[20:23:46] [Server thread/INFO]: [QuickShop-Hikari] Setting up ItemExpressionRegistry...
+[20:23:46] [Server thread/INFO]: [QuickShop-Hikari] Using Virtual Displays. Attempting to initialize packet factory...
+[20:23:46] [Server thread/INFO]: [QuickShop-Hikari] Setting up database...
+[20:23:46] [Server thread/INFO]: [QuickShop-Hikari] Create database backup...
+[20:23:46] [Server thread/INFO]: [cc.carm.lib.easysql.hikari.HikariDataSource] HikariPool-1 - Starting...
+[20:23:46] [Server thread/INFO]: [cc.carm.lib.easysql.hikari.HikariDataSource] HikariPool-1 - Start completed.
+[20:23:46] [Server thread/INFO]: [QuickShop-Hikari] Checking and updating database columns, it may take a while...
+[20:23:46] [Server thread/INFO]: [QuickShop-Hikari] Database upgrade script running... Current Database Version: 19
+[20:23:46] [Server thread/INFO]: [QuickShop-Hikari] Finished!
+[20:23:46] [Server thread/INFO]: [QuickShop-Hikari] Selected permission provider: Bukkit
+[20:23:46] [Server thread/WARN]: [QuickShop-Hikari] Unrecommended use of display-auto-despawn. This feature may have a heavy impact on the server's performance!
+[20:23:46] [Server thread/INFO]: [QuickShop-Hikari] Registering commands...
+[20:23:46] [Server thread/INFO]: [QuickShop-Hikari] Loaded 1 rules for listener blacklist.
+[20:23:46] [Server thread/INFO]: [QuickShop-Hikari] EventManager selected: QSEventManager
+[20:23:47] [Server thread/INFO]: [QuickShop-Hikari] Loading shops from database...
+[20:23:47] [Server thread/INFO]: [QuickShop-Hikari] Used 16ms to fetch 1 shops from database.
+[20:23:47] [Server thread/INFO]: [QuickShop-Hikari] Loading shops into memory...
+[20:23:47] [Server thread/INFO]: [QuickShop-Hikari] Used 56ms to load 1 shops into memory (0 shops will be loaded after chunks/world loaded).
+[20:23:47] [Server thread/INFO]: [QuickShop-Hikari] Registering listeners...
+[20:23:47] [Server thread/INFO]: [QuickShop-Hikari] Cleaning MsgUtils...
+[20:23:47] [Server thread/INFO]: [QuickShop-Hikari] Cleaning purchase messages from the database that are over a week old...
+[20:23:47] [Server thread/INFO]: [QuickShop-Hikari] Log actions is enabled. Actions will be logged in the qs.log file!
+[20:23:47] [Server thread/INFO]: [QuickShop-Hikari] [Shop Purger] Purge not enabled!
+[20:23:47] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: qs [6.2.0.10]
+[20:23:47] [Server thread/INFO]: [QuickShop-Hikari] Successfully loaded PlaceHolderAPI support!
+[20:23:47] [Server thread/INFO]: [QuickShop-Hikari] [OK] Virtual DisplayItem Support Test
+[20:23:47] [Server thread/INFO]: [QuickShop-Hikari/Bootstrap] QuickShop-Hikari - Bootstrap -> All Complete. (1075ms)
+[20:23:47] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.3.4
+[20:23:47] [Server thread/INFO]: [VoidGen] 
+[20:23:47] [Server thread/INFO]: [VoidGen] > ——————————————————————[ world ]——————————————————————
+[20:23:47] [Server thread/INFO]: [VoidGen] > 
+[20:23:47] [Server thread/INFO]: [VoidGen] > Generator settings have not been set, we will use the default settings:
+[20:23:47] [Server thread/INFO]: [VoidGen] > {"biome":"the_void"}
+[20:23:47] [Server thread/INFO]: [VoidGen] > 
+[20:23:47] [Server thread/INFO]: [VoidGen] > ——————————————————————[ world ]——————————————————————
+[20:23:47] [Server thread/INFO]: [VoidGen] 
+[20:23:47] [Server thread/INFO]: [VoidGen] 
+[20:23:47] [Server thread/INFO]: [VoidGen] > ——————————————————————[ void ]——————————————————————
+[20:23:47] [Server thread/INFO]: [VoidGen] > 
+[20:23:47] [Server thread/INFO]: [VoidGen] > Generator settings have not been set, we will use the default settings:
+[20:23:47] [Server thread/INFO]: [VoidGen] > {"biome":"the_void"}
+[20:23:47] [Server thread/INFO]: [VoidGen] > 
+[20:23:47] [Server thread/INFO]: [VoidGen] > ——————————————————————[ void ]——————————————————————
+[20:23:47] [Server thread/INFO]: [VoidGen] 
+[20:23:48] [Server thread/INFO]: Preparing start region for dimension minecraft:void
+[20:23:48] [Server thread/INFO]: Preparing spawn area: 0%
+[20:23:48] [Server thread/INFO]: Time elapsed: 226 ms
+[20:23:48] [Server thread/INFO]: [WorldGuard] (void) TNT ignition is PERMITTED.
+[20:23:48] [Server thread/INFO]: [WorldGuard] (void) Lighters are PERMITTED.
+[20:23:48] [Server thread/INFO]: [WorldGuard] (void) Lava fire is PERMITTED.
+[20:23:48] [Server thread/INFO]: [WorldGuard] (void) Fire spread is UNRESTRICTED.
+[20:23:48] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'void'
+[20:23:48] [Server thread/INFO]: [QuickShop-Hikari] Loading shops from database...
+[20:23:48] [Server thread/INFO]: [QuickShop-Hikari] Used 0ms to fetch 0 shops from database.
+[20:23:48] [Server thread/INFO]: [QuickShop-Hikari] Loading shops into memory...
+[20:23:48] [Server thread/INFO]: [QuickShop-Hikari] Used 0ms to load 0 shops into memory (0 shops will be loaded after chunks/world loaded).
+[20:23:48] [Server thread/ERROR]: [Multiverse-Core] Failed to load world test: Failure{reason=WORLD_FOLDER_INVALID}
+[20:23:48] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.3.4]
+[20:23:48] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[20:23:48] [Server thread/INFO]: [Multiverse-Core] Version 5.3.4 (API v5.3) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[20:23:48] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[20:23:48] [Server thread/INFO]: [VoidGen] VoidGen hooked into Multiverse!
+[20:23:49] [Server thread/INFO]: [spark] Starting background profiler...
+[20:23:50] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[20:23:50] [Server thread/INFO]: Done preparing level "world" (40.325s)
+[20:23:50] [Server thread/INFO]: Running delayed init tasks
+[20:23:50] [Craft Scheduler Thread - 6 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[20:23:50] [Craft Scheduler Thread - 7 - Essentials/INFO]: [Essentials] Obteniendo información de versión...
+[20:23:50] [Craft Scheduler Thread - 20 - QuickShop-Hikari/INFO]: [QuickShop-Hikari] Start to caching usernames (async)...
+[20:23:50] [Craft Scheduler Thread - 13 - DecentHolograms/INFO]: [DecentHolograms] Loading holograms... 
+[20:23:50] [Craft Scheduler Thread - 14 - Vault/INFO]: [Vault] Checking for Updates ... 
+[20:23:50] [Craft Scheduler Thread - 10 - AnimatedScoreboard/INFO]: [AnimatedScoreboard] Checking for an update!
+[20:23:50] [Craft Scheduler Thread - 6 - CMILib/INFO]: New version of CMILib was detected. Please update it (1.5.7.5 -> 1.5.8.0)
+[20:23:50] [Craft Scheduler Thread - 10 - AnimatedScoreboard/INFO]: [AnimatedScoreboard] You are 1 version behind! Get AnimatedScoreboard(v0.3.8) at:
+[20:23:50] [Craft Scheduler Thread - 10 - AnimatedScoreboard/INFO]: [AnimatedScoreboard] https://www.spigotmc.org/resources/20848
+[20:23:50] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.regions.WorldGuardFeature] Plugin 'WorldGuard' found. Using it now.
+[20:23:50] [Server thread/INFO]: [com.fastasyncworldedit.bukkit.FaweBukkit] Attempting to use plugin 'WorldGuard'
+[20:23:50] [Craft Scheduler Thread - 4 - DecentHolograms/INFO]: 
+A newer version of DecentHolograms is available. Download it from: 
+- https://www.spigotmc.org/resources/96927/
+- https://modrinth.com/plugin/decentholograms
+[20:23:50] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[20:23:50] [Craft Scheduler Thread - 13 - DecentHolograms/INFO]: [DecentHolograms] Loaded 17 holograms!
+[20:23:50] [Craft Scheduler Thread - 14 - Vault/INFO]: [Vault] No new version available
+[20:23:50] [Server thread/INFO]: [Jobs] Successfully linked with Vault. (Essentials)
+[20:23:50] [Server thread/INFO]: [Jobs] Successfully linked with Vault. (LuckPerms)
+[20:23:50] [Craft Scheduler Thread - 21 - Clans/INFO]: [Clans] Plugin Running at latest Version
+[20:23:51] [Server thread/INFO]: [QuickShop-Hikari] Using economy system: EssentialsX Economy
+[20:23:51] [Server thread/INFO]: [QuickShop-Hikari] Selected economy bridge: BuiltIn-Vault
+[20:23:51] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.6.0, you're on: 5.5.1
+[20:23:51] [Server thread/INFO]: Done (86.132s)! For help, type "help"
+[20:23:51] [Server thread/INFO]: [FeatherMorph] Default backend: xyz.nifeather.morph.backends.server.ServerBackend@7f0d6492
+[20:23:51] [Server thread/INFO]: [FeatherMorph] Saving default generated skill configurations...
+[20:23:51] [Server thread/INFO]: [FeatherMorph] Done saving default generated skill configurations!
+[20:23:51] [Thread-69/INFO]: [FeatherMorph] Checking updates...
+[20:23:51] [Server thread/INFO]: [FeatherMorph] Running init for FeatherMorphAPI...
+[20:23:51] [Server thread/INFO]: [FeatherMorph] Done running init for FeatherMorphAPI
+[20:23:51] [Server thread/INFO]: [voicechat] Loading plugins
+[20:23:51] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[20:23:51] [Server thread/INFO]: [voicechat] Initializing plugins
+[20:23:51] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[20:23:51] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[20:23:51] [VoiceChatServerThread/INFO]: [voicechat] Voice host is 'pacific-zus.gl.at.ply.gg'
+[20:23:51] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[20:23:52] [Thread-69/INFO]: [FeatherMorph] Already on the latest version for 1.21.8
+[20:23:52] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.3]
+[20:23:52] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: statistic [2.0.2]
+[20:23:52] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.9]
+[20:23:52] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 14320
+[20:23:52] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[20:23:52] [Server thread/WARN]: [PlaceholderAPI] Cannot load expansion playertime due to a missing plugin: PlayerTime
+[20:23:52] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: localtime [1.2]
+[20:23:52] [Server thread/INFO]: 6 placeholder hook(s) registered!
+[20:23:52] [Craft Scheduler Thread - 19 - ImageFrame/INFO]: [ImageFrame] Data loading completed! Loaded 2 ImageMaps!
+[20:23:55] [Craft Scheduler Thread - 18 - HuskHomes/INFO]: [HuskHomes] Registered 'after_load' hooks
+[20:26:00] [User Authenticator #0/INFO]: UUID of player A7Mango is adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:26:00] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, Essentials, ProtocolLib, WorldGuard]
+[20:26:03] [Server thread/INFO]: ⋙ [+] A7Mango se ha unido al servidor!
+[20:26:03] [Server thread/INFO]: A7Mango[/127.59.112.3:34179] logged in with entity id 167 at ([world]595.8393781112376, 66.5, 860.9645804479716)
+[20:26:03] [Server thread/INFO]: [voicechat] Received secret request of A7Mango (20)
+[20:26:03] [Server thread/INFO]: [voicechat] Sent secret to A7Mango
+[20:26:03] [Craft Scheduler Thread - 10 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get A7Mango's timezone. Will use default timezone.
+[20:26:04] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:26:05] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:26:05] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player A7Mango (adf3b7b8-d0ad-3aa9-8632-4158b2f8b900) successfully connected to voice chat
+[20:26:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2512ms or 50 ticks behind
+[20:26:25] [Server thread/INFO]: A7Mango issued server command: /bal
+[20:26:30] [Server thread/INFO]: A7Mango issued server command: /commandwhitelist
+[20:26:47] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900 timed out
+[20:26:47] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player A7Mango
+[20:26:47] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to A7Mango
+[20:26:47] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:26:48] [Server thread/INFO]: A7Mango issued server command: /deop A7Mango
+[20:26:48] [Server thread/INFO]: [A7Mango: Made A7Mango no longer a server operator]
+[20:26:49] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:26:49] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player A7Mango (adf3b7b8-d0ad-3aa9-8632-4158b2f8b900) successfully connected to voice chat
+[20:27:03] [Server thread/INFO]: A7Mango issued server command: /ah
+[20:27:05] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900 timed out
+[20:27:05] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player A7Mango
+[20:27:05] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to A7Mango
+[20:27:05] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:27:06] [Server thread/INFO]: A7Mango issued server command: /ah
+[20:27:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:27:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player A7Mango (adf3b7b8-d0ad-3aa9-8632-4158b2f8b900) successfully connected to voice chat
+[20:27:17] [Server thread/INFO]: A7Mango issued server command: /spawn
+[20:27:29] [Server thread/INFO]: A7Mango issued server command: /afk
+[20:27:29] [Server thread/INFO]: [Essentials] A7Mango ha denegado el acceso al comando.
+[20:27:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900 timed out
+[20:27:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player A7Mango
+[20:27:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to A7Mango
+[20:27:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:27:45] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:27:45] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player A7Mango (adf3b7b8-d0ad-3aa9-8632-4158b2f8b900) successfully connected to voice chat
+[20:27:55] [luckperms-command-executor/INFO]: [LP] Command not recognised.
+[20:28:01] [luckperms-command-executor/INFO]: [LP] Preparing a new editor session, please wait...
+[20:28:08] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900 timed out
+[20:28:08] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player A7Mango
+[20:28:08] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to A7Mango
+[20:28:08] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:28:10] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:28:10] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player A7Mango (adf3b7b8-d0ad-3aa9-8632-4158b2f8b900) successfully connected to voice chat
+[20:28:11] [luckperms-worker-5/WARN]: [LuckPerms] Command execution [editor] has not completed. Trace: 
+  java.base/java.lang.Object.wait0(Native Method)
+  java.base/java.lang.Object.wait(Object.java:366)
+  java.base/java.lang.Object.wait(Object.java:339)
+  me.lucko.luckperms.lib.okhttp3.internal.http2.Http2Stream.waitForIo(Http2Stream.java:660)
+  me.lucko.luckperms.lib.okhttp3.internal.http2.Http2Stream.takeHeaders(Http2Stream.java:151)
+  me.lucko.luckperms.lib.okhttp3.internal.http2.Http2ExchangeCodec.readResponseHeaders(Http2ExchangeCodec.java:136)
+  me.lucko.luckperms.lib.okhttp3.internal.connection.Exchange.readResponseHeaders(Exchange.java:115)
+  me.lucko.luckperms.lib.okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:94)
+  me.lucko.luckperms.lib.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+  me.lucko.luckperms.lib.okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:43)
+  me.lucko.luckperms.lib.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+  me.lucko.luckperms.lib.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)
+  me.lucko.luckperms.lib.okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94)
+  me.lucko.luckperms.lib.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+  me.lucko.luckperms.lib.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)
+  me.lucko.luckperms.lib.okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+  me.lucko.luckperms.lib.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+  me.lucko.luckperms.lib.okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:88)
+  me.lucko.luckperms.lib.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+  me.lucko.luckperms.lib.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)
+  me.lucko.luckperms.lib.okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:229)
+  me.lucko.luckperms.lib.okhttp3.RealCall.execute(RealCall.java:81)
+  me.lucko.luckperms.common.http.AbstractHttpClient.makeHttpRequest(AbstractHttpClient.java:47)
+  me.lucko.luckperms.common.http.BytesocksClient.createSocket(BytesocksClient.java:67)
+  me.lucko.luckperms.common.webeditor.socket.WebEditorSocket.initialize(WebEditorSocket.java:86)
+  me.lucko.luckperms.common.webeditor.WebEditorSession.createSocket(WebEditorSession.java:94)
+  me.lucko.luckperms.common.webeditor.WebEditorSession.open(WebEditorSession.java:86)
+  me.lucko.luckperms.common.commands.misc.EditorCommand.execute(EditorCommand.java:110)
+  me.lucko.luckperms.common.command.abstraction.SingleCommand.execute(SingleCommand.java:56)
+  me.lucko.luckperms.common.command.abstraction.SingleCommand.execute(SingleCommand.java:48)
+  me.lucko.luckperms.common.command.CommandManager.execute(CommandManager.java:289)
+  me.lucko.luckperms.common.command.CommandManager.lambda$executeCommand$1(CommandManager.java:193)
+  java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+  java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+  java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+  java.base/java.lang.Thread.run(Thread.java:1583)
+[20:28:11] [luckperms-command-executor/WARN]: [LuckPerms] Unable to establish socket connection
+java.net.SocketTimeoutException: timeout
+	at me.lucko.luckperms.lib.okhttp3.internal.http2.Http2Stream$StreamTimeout.newTimeoutException(Http2Stream.java:678) ~[?:?]
+	at me.lucko.luckperms.lib.okhttp3.internal.http2.Http2Stream$StreamTimeout.exitAndThrowIfTimedOut(Http2Stream.java:686) ~[?:?]
+	at me.lucko.luckperms.lib.okhttp3.internal.http2.Http2Stream.takeHeaders(Http2Stream.java:154) ~[?:?]
+	at me.lucko.luckperms.lib.okhttp3.internal.http2.Http2ExchangeCodec.readResponseHeaders(Http2ExchangeCodec.java:136) ~[?:?]
+	at me.lucko.luckperms.lib.okhttp3.internal.connection.Exchange.readResponseHeaders(Exchange.java:115) ~[?:?]
+	at me.lucko.luckperms.lib.okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:94) ~[?:?]
+	at me.lucko.luckperms.lib.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[?:?]
+	at me.lucko.luckperms.lib.okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:43) ~[?:?]
+	at me.lucko.luckperms.lib.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[?:?]
+	at me.lucko.luckperms.lib.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[?:?]
+	at me.lucko.luckperms.lib.okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94) ~[?:?]
+	at me.lucko.luckperms.lib.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[?:?]
+	at me.lucko.luckperms.lib.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[?:?]
+	at me.lucko.luckperms.lib.okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[?:?]
+	at me.lucko.luckperms.lib.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[?:?]
+	at me.lucko.luckperms.lib.okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:88) ~[?:?]
+	at me.lucko.luckperms.lib.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142) ~[?:?]
+	at me.lucko.luckperms.lib.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117) ~[?:?]
+	at me.lucko.luckperms.lib.okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:229) ~[?:?]
+	at me.lucko.luckperms.lib.okhttp3.RealCall.execute(RealCall.java:81) ~[?:?]
+	at me.lucko.luckperms.common.http.AbstractHttpClient.makeHttpRequest(AbstractHttpClient.java:47) ~[?:?]
+	at me.lucko.luckperms.common.http.BytesocksClient.createSocket(BytesocksClient.java:67) ~[?:?]
+	at me.lucko.luckperms.common.webeditor.socket.WebEditorSocket.initialize(WebEditorSocket.java:86) ~[?:?]
+	at me.lucko.luckperms.common.webeditor.WebEditorSession.createSocket(WebEditorSession.java:94) ~[?:?]
+	at me.lucko.luckperms.common.webeditor.WebEditorSession.open(WebEditorSession.java:86) ~[?:?]
+	at me.lucko.luckperms.common.commands.misc.EditorCommand.execute(EditorCommand.java:110) ~[?:?]
+	at me.lucko.luckperms.common.command.abstraction.SingleCommand.execute(SingleCommand.java:56) ~[?:?]
+	at me.lucko.luckperms.common.command.abstraction.SingleCommand.execute(SingleCommand.java:48) ~[?:?]
+	at me.lucko.luckperms.common.command.CommandManager.execute(CommandManager.java:289) ~[?:?]
+	at me.lucko.luckperms.common.command.CommandManager.lambda$executeCommand$1(CommandManager.java:193) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[20:28:21] [luckperms-command-executor/WARN]: java.lang.RuntimeException: Error uploading data to bytebin
+[20:28:21] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.common.webeditor.WebEditorSession.uploadRequestData(WebEditorSession.java:210)
+[20:28:21] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.common.webeditor.WebEditorSession.createInitialSession(WebEditorSession.java:129)
+[20:28:21] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.common.webeditor.WebEditorSession.open(WebEditorSession.java:87)
+[20:28:21] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.common.commands.misc.EditorCommand.execute(EditorCommand.java:110)
+[20:28:21] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.common.command.abstraction.SingleCommand.execute(SingleCommand.java:56)
+[20:28:21] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.common.command.abstraction.SingleCommand.execute(SingleCommand.java:48)
+[20:28:21] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.common.command.CommandManager.execute(CommandManager.java:289)
+[20:28:21] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.common.command.CommandManager.lambda$executeCommand$1(CommandManager.java:193)
+[20:28:21] [luckperms-command-executor/WARN]: 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+[20:28:21] [luckperms-command-executor/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[20:28:21] [luckperms-command-executor/WARN]: 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[20:28:21] [luckperms-command-executor/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[20:28:21] [luckperms-command-executor/WARN]: Caused by: java.net.SocketTimeoutException: timeout
+[20:28:21] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.okhttp3.internal.http2.Http2Stream$StreamTimeout.newTimeoutException(Http2Stream.java:678)
+[20:28:21] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.okhttp3.internal.http2.Http2Stream$StreamTimeout.exitAndThrowIfTimedOut(Http2Stream.java:686)
+[20:28:21] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.okhttp3.internal.http2.Http2Stream.takeHeaders(Http2Stream.java:154)
+[20:28:21] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.okhttp3.internal.http2.Http2ExchangeCodec.readResponseHeaders(Http2ExchangeCodec.java:136)
+[20:28:21] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.okhttp3.internal.connection.Exchange.readResponseHeaders(Exchange.java:115)
+[20:28:21] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:94)
+[20:28:21] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+[20:28:21] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:43)
+[20:28:21] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+[20:28:21] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)
+[20:28:21] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:94)
+[20:28:21] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+[20:28:21] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)
+[20:28:21] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
+[20:28:21] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+[20:28:21] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:88)
+[20:28:21] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:142)
+[20:28:21] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:117)
+[20:28:21] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:229)
+[20:28:21] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.lib.okhttp3.RealCall.execute(RealCall.java:81)
+[20:28:21] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.common.http.AbstractHttpClient.makeHttpRequest(AbstractHttpClient.java:47)
+[20:28:21] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.common.http.BytebinClient.makeHttpRequest(BytebinClient.java:76)
+[20:28:21] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.common.http.BytebinClient.postContent(BytebinClient.java:102)
+[20:28:21] [luckperms-command-executor/WARN]: 	at me.lucko.luckperms.common.webeditor.WebEditorSession.uploadRequestData(WebEditorSession.java:205)
+[20:28:21] [luckperms-command-executor/WARN]: 	... 11 more
+[20:28:22] [luckperms-command-executor/INFO]: [LP] Unable to communicate with the editor. Check the console for errors.
+[20:28:42] [luckperms-command-executor/INFO]: [LP] Command not recognised.
+[20:28:46] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900 timed out
+[20:28:46] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player A7Mango
+[20:28:46] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to A7Mango
+[20:28:47] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:28:49] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:28:49] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player A7Mango (adf3b7b8-d0ad-3aa9-8632-4158b2f8b900) successfully connected to voice chat
+[20:29:01] [luckperms-command-executor/INFO]: [LP] Group Sub Commands: (/lp group <group> ...)
+[20:29:01] [luckperms-command-executor/INFO]: > info
+[20:29:01] [luckperms-command-executor/INFO]: > permission
+[20:29:01] [luckperms-command-executor/INFO]: > parent
+[20:29:01] [luckperms-command-executor/INFO]: > meta
+[20:29:01] [luckperms-command-executor/INFO]: > editor
+[20:29:01] [luckperms-command-executor/INFO]: > listmembers - [page]
+[20:29:01] [luckperms-command-executor/INFO]: > setweight - <weight>
+[20:29:01] [luckperms-command-executor/INFO]: > setdisplayname - <name> [context...]
+[20:29:01] [luckperms-command-executor/INFO]: > showtracks
+[20:29:01] [luckperms-command-executor/INFO]: > clear - [context...]
+[20:29:01] [luckperms-command-executor/INFO]: > rename - <name>
+[20:29:01] [luckperms-command-executor/INFO]: > clone - <name>
+[20:29:11] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900 timed out
+[20:29:11] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player A7Mango
+[20:29:11] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to A7Mango
+[20:29:12] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:29:14] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:29:14] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player A7Mango (adf3b7b8-d0ad-3aa9-8632-4158b2f8b900) successfully connected to voice chat
+[20:29:14] [luckperms-command-executor/INFO]: [LP] Command not recognised.
+[20:29:20] [luckperms-command-executor/INFO]: [LP] Group Sub Commands: (/lp group <group> ...)
+[20:29:20] [luckperms-command-executor/INFO]: > info
+[20:29:20] [luckperms-command-executor/INFO]: > permission
+[20:29:20] [luckperms-command-executor/INFO]: > parent
+[20:29:20] [luckperms-command-executor/INFO]: > meta
+[20:29:20] [luckperms-command-executor/INFO]: > editor
+[20:29:20] [luckperms-command-executor/INFO]: > listmembers - [page]
+[20:29:20] [luckperms-command-executor/INFO]: > setweight - <weight>
+[20:29:20] [luckperms-command-executor/INFO]: > setdisplayname - <name> [context...]
+[20:29:20] [luckperms-command-executor/INFO]: > showtracks
+[20:29:20] [luckperms-command-executor/INFO]: > clear - [context...]
+[20:29:20] [luckperms-command-executor/INFO]: > rename - <name>
+[20:29:20] [luckperms-command-executor/INFO]: > clone - <name>
+[20:29:22] [luckperms-command-executor/INFO]: [LP] Command not recognised.
+[20:29:24] [luckperms-command-executor/INFO]: [LP] Meta Sub Commands: (/lp group <group> meta ...)
+[20:29:24] [luckperms-command-executor/INFO]: > info
+[20:29:24] [luckperms-command-executor/INFO]: > set - <key> <value> [context...]
+[20:29:24] [luckperms-command-executor/INFO]: > unset - <key> [context...]
+[20:29:24] [luckperms-command-executor/INFO]: > settemp - <key> <value> <duration> [context...]
+[20:29:24] [luckperms-command-executor/INFO]: > unsettemp - <key> [context...]
+[20:29:24] [luckperms-command-executor/INFO]: > addprefix - <priority> <prefix> [context...]
+[20:29:24] [luckperms-command-executor/INFO]: > addsuffix - <priority> <suffix> [context...]
+[20:29:24] [luckperms-command-executor/INFO]: > setprefix - [priority] <prefix> [context...]
+[20:29:24] [luckperms-command-executor/INFO]: > setsuffix - [priority] <suffix> [context...]
+[20:29:24] [luckperms-command-executor/INFO]: > removeprefix - <priority> [prefix] [context...]
+[20:29:24] [luckperms-command-executor/INFO]: > removesuffix - <priority> [suffix] [context...]
+[20:29:24] [luckperms-command-executor/INFO]: > addtempprefix - <priority> <prefix> <duration> [context...]
+[20:29:24] [luckperms-command-executor/INFO]: > addtempsuffix - <priority> <suffix> <duration> [context...]
+[20:29:24] [luckperms-command-executor/INFO]: > settempprefix - <priority> <prefix> <duration> [context...]
+[20:29:24] [luckperms-command-executor/INFO]: > settempsuffix - <priority> <suffix> <duration> [context...]
+[20:29:24] [luckperms-command-executor/INFO]: > removetempprefix - <priority> [prefix] [context...]
+[20:29:24] [luckperms-command-executor/INFO]: > removetempsuffix - <priority> [suffix] [context...]
+[20:29:24] [luckperms-command-executor/INFO]: > clear - [type] [context...]
+[20:29:38] [luckperms-command-executor/INFO]: [LP] Set essentials.afk to true for default in context global.
+[20:29:42] [Server thread/INFO]: A7Mango issued server command: /afk
+[20:29:50] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900 timed out
+[20:29:50] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player A7Mango
+[20:29:50] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to A7Mango
+[20:29:50] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:29:52] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:29:52] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player A7Mango (adf3b7b8-d0ad-3aa9-8632-4158b2f8b900) successfully connected to voice chat
+[20:29:59] [Thread-137/INFO]: SurVius | Configuration reloaded.
+[20:30:01] [Server thread/INFO]: A7Mango issued server command: /afk
+[20:30:03] [Server thread/INFO]: A7Mango issued server command: /afk
+[20:30:05] [Server thread/INFO]: A7Mango issued server command: /afk
+[20:30:08] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900 timed out
+[20:30:08] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player A7Mango
+[20:30:08] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to A7Mango
+[20:30:08] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:30:10] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:30:10] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player A7Mango (adf3b7b8-d0ad-3aa9-8632-4158b2f8b900) successfully connected to voice chat
+[20:30:40] [Server thread/INFO]: A7Mango issued server command: /cofre silentbuy ff0349f8-3cf5-440c-8a9f-579f55759ba7
+[20:30:42] [Server thread/INFO]: A7Mango issued server command: /cofre silentsell ff0349f8-3cf5-440c-8a9f-579f55759ba7
+[20:30:46] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900 timed out
+[20:30:46] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player A7Mango
+[20:30:46] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to A7Mango
+[20:30:46] [Server thread/INFO]: A7Mango issued server command: /cofre silentbuy ff0349f8-3cf5-440c-8a9f-579f55759ba7
+[20:30:46] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:30:48] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:30:48] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player A7Mango (adf3b7b8-d0ad-3aa9-8632-4158b2f8b900) successfully connected to voice chat
+[20:31:00] [Server thread/INFO]: A7Mango issued server command: /cofre silentsell ff0349f8-3cf5-440c-8a9f-579f55759ba7
+[20:31:11] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900 timed out
+[20:31:11] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player A7Mango
+[20:31:11] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to A7Mango
+[20:31:12] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:31:14] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:31:14] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player A7Mango (adf3b7b8-d0ad-3aa9-8632-4158b2f8b900) successfully connected to voice chat
+[20:31:18] [Server thread/INFO]: A7Mango issued server command: /cofre
+[20:31:31] [Thread-157/INFO]: SurVius | Configuration reloaded.
+[20:31:34] [Server thread/INFO]: A7Mango issued server command: /cofre about
+[20:31:48] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900 timed out
+[20:31:48] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player A7Mango
+[20:31:48] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to A7Mango
+[20:31:49] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:31:51] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:31:51] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player A7Mango (adf3b7b8-d0ad-3aa9-8632-4158b2f8b900) successfully connected to voice chat
+[20:32:06] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900 timed out
+[20:32:06] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player A7Mango
+[20:32:06] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to A7Mango
+[20:32:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:32:09] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:32:09] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player A7Mango (adf3b7b8-d0ad-3aa9-8632-4158b2f8b900) successfully connected to voice chat
+[20:32:12] [Server thread/INFO]: A7Mango issued server command: /cofre silentremove ff0349f8-3cf5-440c-8a9f-579f55759ba7
+[20:32:14] [Server thread/INFO]: A7Mango issued server command: /cofre silentremove ff0349f8-3cf5-440c-8a9f-579f55759ba7
+[20:32:47] [Server thread/INFO]: Made A7Mango a server operator
+[20:32:51] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900 timed out
+[20:32:51] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player A7Mango
+[20:32:51] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to A7Mango
+[20:32:51] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:32:53] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:32:53] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player A7Mango (adf3b7b8-d0ad-3aa9-8632-4158b2f8b900) successfully connected to voice chat
+[20:33:04] [Server thread/INFO]: A7Mango issued server command: /rg flag spawn block-place deny
+[20:33:10] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900 timed out
+[20:33:10] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player A7Mango
+[20:33:10] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to A7Mango
+[20:33:10] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:33:12] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:33:12] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player A7Mango (adf3b7b8-d0ad-3aa9-8632-4158b2f8b900) successfully connected to voice chat
+[20:33:18] [WorldGuard Region I/O/INFO]: [WorldGuard] Region data changes made in 'world' have been background saved
+[20:33:22] [Server thread/INFO]: A7Mango issued server command: /gm 1
+[20:33:48] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900 timed out
+[20:33:48] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player A7Mango
+[20:33:48] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to A7Mango
+[20:33:48] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:33:50] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:33:50] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player A7Mango (adf3b7b8-d0ad-3aa9-8632-4158b2f8b900) successfully connected to voice chat
+[20:34:01] [Server thread/INFO]: A7Mango issued server command: /thru
+[20:34:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900 timed out
+[20:34:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player A7Mango
+[20:34:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to A7Mango
+[20:34:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:34:15] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:34:15] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player A7Mango (adf3b7b8-d0ad-3aa9-8632-4158b2f8b900) successfully connected to voice chat
+[20:34:41] [Server thread/INFO]: A7Mango issued server command: /thru
+[20:34:44] [Server thread/INFO]: A7Mango issued server command: /thru
+[20:34:51] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900 timed out
+[20:34:51] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player A7Mango
+[20:34:51] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to A7Mango
+[20:34:52] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:34:54] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:34:54] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player A7Mango (adf3b7b8-d0ad-3aa9-8632-4158b2f8b900) successfully connected to voice chat
+[20:35:07] [Server thread/INFO]: A7Mango issued server command: /thru
+[20:35:10] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900 timed out
+[20:35:10] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player A7Mango
+[20:35:10] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to A7Mango
+[20:35:11] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:35:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:35:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player A7Mango (adf3b7b8-d0ad-3aa9-8632-4158b2f8b900) successfully connected to voice chat
+[20:35:21] [Server thread/INFO]: A7Mango issued server command: /thru
+[20:35:23] [Server thread/INFO]: A7Mango issued server command: /thru
+[20:35:43] [Server thread/WARN]: Player A7Mango just tried to change non-editable sign
+[20:35:48] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900 timed out
+[20:35:48] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player A7Mango
+[20:35:48] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to A7Mango
+[20:35:48] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:35:50] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:35:50] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player A7Mango (adf3b7b8-d0ad-3aa9-8632-4158b2f8b900) successfully connected to voice chat
+[20:36:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900 timed out
+[20:36:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player A7Mango
+[20:36:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to A7Mango
+[20:36:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:36:15] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:36:15] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player A7Mango (adf3b7b8-d0ad-3aa9-8632-4158b2f8b900) successfully connected to voice chat
+[20:36:32] [Server thread/INFO]: A7Mango issued server command: /a
+[20:36:38] [Server thread/INFO]: A7Mango issued server command: /as
+[20:36:40] [Server thread/INFO]: A7Mango issued server command: /asd
+[20:36:49] [Server thread/INFO]: A7Mango issued server command: /asb
+[20:36:50] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900 timed out
+[20:36:50] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player A7Mango
+[20:36:50] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to A7Mango
+[20:36:50] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:36:52] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:36:52] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player A7Mango (adf3b7b8-d0ad-3aa9-8632-4158b2f8b900) successfully connected to voice chat
+[20:37:15] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900 timed out
+[20:37:15] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player A7Mango
+[20:37:15] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to A7Mango
+[20:37:15] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:37:17] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:37:17] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player A7Mango (adf3b7b8-d0ad-3aa9-8632-4158b2f8b900) successfully connected to voice chat
+[20:37:30] [Server thread/INFO]: A7Mango issued server command: /enchant alldamage
+[20:37:33] [Server thread/INFO]: A7Mango issued server command: /enchant alldamage 5
+[20:37:54] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900 timed out
+[20:37:54] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player A7Mango
+[20:37:54] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to A7Mango
+[20:37:55] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player adf3b7b8-d0ad-3aa9-8632-4158b2f8b900
+[20:38:12] [Server thread/INFO]: A7Mango issued server command: /asd
+[20:39:33] [Server thread/INFO]: A7Mango issued server command: /rewards gui daily-rewards
+[20:39:38] [Server thread/INFO]: A7Mango issued server command: /rewards

@@ -1,0 +1,22 @@
+location: world:593.500:70.000:888.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&e&lTOP DE DINERO'
+    height: 0.3
+  - content: '&7#1 &f%topper_money;top_name;1% &7- &e%topper_money;top_value;1%'
+    height: 0.3
+  - content: '&7#2 &f%topper_money;top_name;2% &7- &e%topper_money;top_value;2%'
+    height: 0.3
+  - content: '&7#3 &f%topper_money;top_name;3% &7- &e%topper_money;top_value;3%'
+    height: 0.3
+  - content: '&7#4 &f%topper_money;top_name;4% &7- &e%topper_money;top_value;4%'
+    height: 0.3
+  - content: '&7#5 &f%topper_money;top_name;5% &7- &e%topper_money;top_value;5%'
+    height: 0.3
+  actions: {}

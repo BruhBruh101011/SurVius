@@ -1,0 +1,12 @@
+location: world:567.500:69.200:860.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: "&#93A3FF&l- &#94C2FC&lE&#94D1FB&ls&#94E0F9&lc&#95F0F8&le&#95FFF6&ln&#95FFF6&lc&#95FFF6&li&#95FFF6&la&#95FFF6&ll &#95FFF6&l-"
+    height: 0.3
+  actions: {}

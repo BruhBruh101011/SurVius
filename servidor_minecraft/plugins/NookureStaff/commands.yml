@@ -1,0 +1,158 @@
+# ▐ ▄             ▄ •▄ ▄• ▄▌▄▄▄  ▄▄▄ .    .▄▄ · ▄▄▄▄▄ ▄▄▄· ·▄▄▄·▄▄▄
+# •█▌▐█▪     ▪     █▌▄▌▪█▪██▌▀▄ █·▀▄.▀·    ▐█ ▀. •██  ▐█ ▀█ ▐▄▄·▐▄▄·
+# ▐█▐▐▌ ▄█▀▄  ▄█▀▄ ▐▀▀▄·█▌▐█▌▐▀▀▄ ▐▀▀▪▄    ▄▀▀▀█▄ ▐█.▪▄█▀▀█ ██▪ ██▪
+# ██▐█▌▐█▌.▐▌▐█▌.▐▌▐█.█▌▐█▄█▌▐█•█▌▐█▄▄▌    ▐█▄▪▐█ ▐█▌·▐█ ▪▐▌██▌.██▌.
+# ▀▀ █▪ ▀█▄▀▪ ▀█▄▀▪·▀  ▀ ▀▀▀ .▀  ▀ ▀▀▀      ▀▀▀▀  ▀▀▀  ▀  ▀ ▀▀▀ ▀▀▀
+# 
+# Remember to join my Discord server if you need help:
+# https://discord.nookure.com/
+
+commands:
+  vanish:
+    # The name of the command
+    name: vanish
+
+    # The aliases of the command
+    aliases: []
+
+    # The permission required to execute the command
+    permission: nookure.staff.vanish
+
+    # The description of the command
+    description: Vanish command
+
+    # The usage of the command
+    usage: Toggle your vanish status
+
+    # Whether the command is enabled
+    enabled: true
+  NookureStaff:
+    # The name of the command
+    name: NookureStaff
+
+    # The aliases of the command
+    aliases:
+      - nkstaff
+      - ns
+
+    # The permission required to execute the command
+    permission: nookure.staff.admin
+
+    # The description of the command
+    description: Main command for NookureStaff
+
+    # The usage of the command
+    usage: ''
+
+    # Whether the command is enabled
+    enabled: true
+  staff:
+    # The name of the command
+    name: staff
+
+    # The aliases of the command
+    aliases: []
+
+    # The permission required to execute the command
+    permission: nookure.staff.mode
+
+    # The description of the command
+    description: Staff mode main command
+
+    # The usage of the command
+    usage: ''
+
+    # Whether the command is enabled
+    enabled: true
+  freeze:
+    # The name of the command
+    name: freeze
+
+    # The aliases of the command
+    aliases: []
+
+    # The permission required to execute the command
+    permission: nookure.staff.freeze
+
+    # The description of the command
+    description: ''
+
+    # The usage of the command
+    usage: ''
+
+    # Whether the command is enabled
+    enabled: true
+  freezechat:
+    # The name of the command
+    name: freezechat
+
+    # The aliases of the command
+    aliases: []
+
+    # The permission required to execute the command
+    permission: nookure.staff.freeze
+
+    # The description of the command
+    description: ''
+
+    # The usage of the command
+    usage: /freezechat <player>
+
+    # Whether the command is enabled
+    enabled: true
+  staffchat:
+    # The name of the command
+    name: staffchat
+
+    # The aliases of the command
+    aliases:
+      - sc
+
+    # The permission required to execute the command
+    permission: nookure.staff.staffchat
+
+    # The description of the command
+    description: Send a message to all staff members
+
+    # The usage of the command
+    usage: /staffchat <message>
+
+    # Whether the command is enabled
+    enabled: true
+  note:
+    # The name of the command
+    name: note
+
+    # The aliases of the command
+    aliases:
+      - notes
+
+    # The permission required to execute the command
+    permission: nookure.staff.notes
+
+    # The description of the command
+    description: Manage user notes
+
+    # The usage of the command
+    usage: ''
+
+    # Whether the command is enabled
+    enabled: true
+  player-list:
+    # The name of the command
+    name: player-list
+
+    # The aliases of the command
+    aliases: []
+
+    # The permission required to execute the command
+    permission: nookure.staff.player-list
+
+    # The description of the command
+    description: List all the players on the server.
+
+    # The usage of the command
+    usage: ''
+
+    # Whether the command is enabled
+    enabled: true

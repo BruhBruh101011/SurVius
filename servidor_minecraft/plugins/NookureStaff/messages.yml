@@ -1,0 +1,172 @@
+# ▐ ▄             ▄ •▄ ▄• ▄▌▄▄▄  ▄▄▄ .    .▄▄ · ▄▄▄▄▄ ▄▄▄· ·▄▄▄·▄▄▄
+# •█▌▐█▪     ▪     █▌▄▌▪█▪██▌▀▄ █·▀▄.▀·    ▐█ ▀. •██  ▐█ ▀█ ▐▄▄·▐▄▄·
+# ▐█▐▐▌ ▄█▀▄  ▄█▀▄ ▐▀▀▄·█▌▐█▌▐▀▀▄ ▐▀▀▪▄    ▄▀▀▀█▄ ▐█.▪▄█▀▀█ ██▪ ██▪
+# ██▐█▌▐█▌.▐▌▐█▌.▐▌▐█.█▌▐█▄█▌▐█•█▌▐█▄▄▌    ▐█▄▪▐█ ▐█▌·▐█ ▪▐▌██▌.██▌.
+# ▀▀ █▪ ▀█▄▀▪ ▀█▄▀▪·▀  ▀ ▀▀▀ .▀  ▀ ▀▀▀      ▀▀▀▀  ▀▀▀  ▀  ▀ ▀▀▀ ▀▀▀
+# 
+# Remember to join my Discord server if you need help:
+# https://discord.nookure.com/
+
+staff-mode:
+  # Message sent to the player when the staff mode is toggled on.
+  toggled-on: '{prefix} <gray>Staff mode ha sido <green>activado</green>.'
+
+  # Message sent to the player when the staff mode is toggled off.
+  toggled-off: '{prefix} <gray>Staff mode ha sido <red>desactivado</red>.'
+
+  # Message sent to others when a player toggles staff mode on.
+  toggled-on-others: '{prefix} <red>{player}</red> <gray>ha</gray> <green>activado</green> <gray>su staff mode.</gray>.'
+
+  # Message sent to others when a player toggles staff mode off.
+  toggled-off-others: '{prefix} <red>{player}</red> <gray>ha</gray> <red>desactivado</red> <gray>su staff mode.</gray>.'
+
+  # Message sent to the player when there are no players online.
+  no-players-online: '{prefix} <red>No hay usuarios en línea.'
+
+  # Message sent to the player when teleporting to another player.
+  teleporting-to: '{prefix} <gray>Tepeandose a <red>{player}</red>.'
+
+  # Action bar format for the staff mode.
+  action-bar: '<red>Vanisheado <gray>(</gray> {vanished} <gray>)</gray> <red>StaffChat <gray>(</gray> {staffChat} <gray>)</gray> <red>TPS: <red>{tps}'
+
+  # Message sent to the player when the invsee command is used incorrectly.
+  invsee-command-usage: '{prefix} <gray>Uso: <red>/staff invsee <player>'
+
+  # Message sent to the player when the invsee enderchest command is used incorrectly.
+  invsee-enderchest-command-usage: '{prefix} <gray>Usage: <red>/staff enderchest <player>'
+vanish:
+  # Message sent to the player when the vanish is toggled on.
+  vanish-enabled: '{prefix} <gray>Has</gray> <green>activado</green> <gray>tu vanish</gray>.'
+
+  # Message to broadcast to online players when a staff member enable vanish.
+  # Change it to "" to disable the broadcast.
+  vanish-enabled-broadcast: ⋙ [<dark_red><b>-<white>] <yellow><b>{player}
+
+  # Message sent to the player when the vanish is toggled off.
+  vanish-disabled: '{prefix} <gray>Has</gray> <red>desactivado</red> <gray>tu vanish</gray>.'
+
+  # Message to broadcast to online players when a staff member disable vanish.
+  # Change it to "" to disable the broadcast.
+  vanish-disabled-broadcast: ⋙ [<green><b>+<white>] <yellow><b>{player} <white><b>se ha unido al servidor!
+
+  # Message sent to the player when he/she joins the server and is still in vanish mode.
+  you-are-still-in-vanish: <green>Sigues en modo vanish.
+freeze:
+  # The message to send to the player when he or she is frozen.
+  frozen-message: <bold><dark_aqua>Congelado <dark_gray>»</bold> <gray>Has sido <green>congelado</green>.</gray>
+
+  # The message to send to the player when he or she is unfrozen.
+  unfrozen-message: <bold><dark_aqua>Congelado <dark_gray>»</bold> <gray>Has sido <green>descongelado</green>.</gray>
+
+  # The message to send to the staff member when the player is frozen.
+  staff-frozen-message: <bold><dark_aqua>Congelado <dark_gray>»</bold> <gray>{player} ha sido <green>congelado</green> por <green>{staff}</green>.</gray>
+
+  # The message to send to the staff member when the player is unfrozen.
+  staff-unfrozen-message: <bold><dark_aqua>Congelado <dark_gray>»</bold> <gray>{player} ha sido <green>descongelado</green> por <green>{staff}</green>.</gray>
+
+  # The message to repeat in the chat when the player is frozen.
+  chat-frozen-message: |2
+        &7████&c█&7████
+        &7███&c█&6█&c█&7███
+        &7██&c█&6█&0█&6█&c█&7██
+        &7██&c█&6█&0█&6█&c█&7██   Has sido congelado!
+        &7█&c█&6██&0█&6██&c█&7█  Únete al discord:
+        &7█&c█&6█████&c█&7█  https://discord.gg/C2EMnu9Ymx
+        &c█&6███&0█&6███&c█  Tienes {time} para unirte.
+        &c█████████
+
+  # This message will be sent to the staff when the player who he froze leaves the server.
+  confirm-punish-message: |
+    <gray>The <green>player</green> <red>{player}</red> se ha ido mientras estaba congelado
+    Quieres ejecutar los comandos especificados cuando alguien congelado se va? <hover:show_text:'Perdonarlo'><red><click:run_command:'/freeze /remove {uuid}'>[x]</click></red></hover> <click:run_command:/freeze /exec {uuid}><green><hover:show_text:'Castigarlo'>[✔]</hover></green> </click>
+
+  # Message sent when a staff tries to freeze a player with nookure.staff.freeze.bypass permission.
+  freeze-bypass-message: <bold><dark_aqua>Congelado <dark_gray>»</bold> <gray>You can't freeze that player.</gray>
+
+  # The usage message for the /freeze command.
+  freeze-command-usage: <bold><dark_aqua>Congelado <dark_gray>»</bold> <red>You must use /freeze {player} to freeze a player.</red>
+
+  # The format of the chat message when the player is frozen.
+  freeze-chat-format: '{player} <dark_gray>(Congelado)</dark_gray> » <gray>{message}</gray>'
+
+  # Chat format for staff members that are talking to frozen players.
+  freeze-staff-chat-format: '{player} <dark_gray>(staff)</dark_gray> -> {target} <dark_gray>(Congelado)</dark_gray> » <gray>{message}</gray>'
+
+  # FreezeChat command usage message.
+  freeze-chat-usage: <bold><dark_aqua>Congelado <dark_gray>»</bold> <red>Debes usar /freezechat {player} <message> para chatear con un jugador congelado.</red>
+
+  # Congelado Chat when a player isn't frozen and you try to use it.
+  not-frozen-chat: <bold><dark_aqua>Congelado <dark_gray>»</bold> <red>No puedes usar el freeze chat si el jugador no está congelado.</red>
+
+  # Congelado Chat when a player isn't online and you try to use it.
+  player-not-online: <bold><dark_aqua>Congelado <dark_gray>»</bold> <red>Ese jugador no está en linea.</red>
+
+  # Message sent when a player is forgiven
+  forgive-message: <bold><dark_aqua>Congelado <dark_gray>»</bold> <gray>Has perdonado a {player}.</gray>
+
+  # Message sent when a player is punished
+  punish-message: <bold><dark_aqua>Congelado <dark_gray>»</bold> <gray>Has castigado a {player}.</gray>
+
+  # Message sent when the timer has been paused for a player
+  the-timer-has-been-paused-for: <bold><dark_aqua>Congelado <dark_gray>»</bold> <gray>Has pausado el timer para {player}.</gray>
+
+  # Message sent when the staff has paused the timer for a player
+  the-staff-has-paused-the-timer: <bold><dark_aqua>Congelado <dark_gray>»</bold> <gray>El staff ha pausado el timer.</gray>
+
+  # Message sent when a player is not frozen.
+  player-not-frozen: <bold><dark_aqua>Congelado <dark_gray>»</bold> <red>Ese jugador no está congelado.</red>
+staff-chat:
+  # The format for sent messages on Staff Chat.
+  format: <b><dark_aqua>SC</dark_aqua></b> <green>{player} <dark_gray>({server}) <dark_gray><bold>»</bold> <gray>{message}
+
+  # Enable the staff chat as main chat.
+  enable: '{prefix} <green>Has activado el staff chat!'
+
+  # Disable the staff chat as main chat.
+  disable: '{prefix} <red>Has desactivado el staff chat!'
+placeholder:
+  # The result to display when a placeholder displays an affirmative value.
+  placeholder-true: <green>✔
+
+  # The result to display when a placeholder displays a negative value.
+  placeholder-false: <red>✘
+pin:
+  the-pin-is-incorrect: <red>The PIN is incorrect.
+  correct-pin: <green>The PIN is correct.
+  pin-set: <green>Your PIN has been set to {pin}.
+  already-logged-in: <red>You are already logged in.
+  doesnt-allowed-to-do-that-until-logged-in: <red>You don't have permission to do that until you enter your PIN.
+  change-pin-command-usage: '<red>Usage: /changepin <new pin> <-- Must be 4 digits.'
+  pin-delete-command-usage: '<red>Usage: /deletepin <uuid|name>'
+  pin-deleted: <green>The PIN has been successfully deleted for {player}.
+  pin-changed: <green>Your PIN has been changed to {pin}.
+  pin-not-set: <red>You don't have a PIN set.
+  you-must-have-to-set-a-pin: |
+    {center}<bold>◆ <red>Nookure <white>Network</white> ◆</bold>
+
+    {center}<gray>You <red>must</red> have to set a <red>PIN</red> before you can play on this server.
+    {center}<gray>Use <red><u><click:run_command:'/setpin'>/setpin</click></u></red> to set a PIN.
+    {center}<gray>You have {time} to set a PIN.
+  pin-time-expired: <red>Your time to set a PIN has expired.
+
+# The prefix for all staff messages.
+# If you want to use the prefix in a message, use {prefix}.
+prefix: <b><gradient:#00FF5A:#3DFF91>SurVius</gradient> <gray>»</gray></b>
+
+# Reload message
+reload: '{prefix} <gray>Configuration reloaded, mayor changes may not take effect until the server is restarted.'
+
+# Player not found message
+player-not-found: '{prefix} <red>No se ha encontrado a el jugador {player}.'
+
+# The message when you don't have a permission
+no-permission: '{prefix} <red>No tienes permiso.'
+
+# The message when a player has been registered as a staff member during the command execution.
+you-are-now-an-staff-during-command-execution: '{prefix} <green>Repite el comando pls.'
+
+# The message when a player has been registered as a staff member during the permission interceptor.
+you-are-now-an-staff-during-permission-interceptor: '{prefix} <green>Xd.'
+
+# The message when only staff members can execute a command.
+only-staff-members-can-execute-this-command: '{prefix} <red>Solo el staff puede ejecutar este comando.'

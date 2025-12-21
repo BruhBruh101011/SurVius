@@ -1,0 +1,161 @@
+Hunter:
+  fullname: Cazador
+  shortname: C
+  FullDescription:
+  - "Gana dinero Cazando."
+  ChatColour: RED
+  chat-display: full
+  max-level: 200
+  leveling-progression-equation: (10*(joblevel)+(joblevel*joblevel*4))*0.15
+  income-progression-equation: baseincome+(baseincome*(joblevel-1)*0.01)-((baseincome+(baseincome*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  points-progression-equation: basepoints+(basepoints*(joblevel-1)*0.01)-((basepoints+(basepoints*(joblevel-1)*0.01))
+    * ((numjobs-1)*0.05))
+  experience-progression-equation: baseexperience-(baseexperience*((numjobs-1) *0.01))
+  rejoinCooldown: 10
+  maxDailyQuests: 1
+
+  Quests:
+    '1':
+      Name: Predator
+      Objectives:
+      - Kill;Wolf;10
+      - Kill;Creeper;3
+      - Kill;Skeleton;10
+      RewardCommands:
+      - eco give [playerName] 100
+      - msg [playerName] Completed quest!
+      RewardDesc:
+      - Kill everything what moves and get money
+      - Get 100 for this!
+
+  Gui:
+    ItemStack: bow
+
+  Tame:
+    Wolf:
+      income: 3.0
+      points: 3.0
+      experience: 2.25
+    Ocelot:
+      income: 3.0
+      points: 3.0
+      experience: 2.25
+    Horse:
+      income: 3.0
+      points: 3.0
+      experience: 2.25
+
+  Kill:
+    Chicken:
+      income: 0.75
+      points: 0.75
+      experience: 0.75
+    Cow:
+      income: 0.9
+      points: 0.75
+      experience: 0.75
+    Pig:
+      income: 0.75
+      points: 0.75
+      experience: 0.75
+    Sheep:
+      income: 0.75
+      points: 0.75
+      experience: 0.75
+    Wolf:
+      income: 1.5
+      points: 1.5
+      experience: 0.75
+    Creeper:
+      income: 2.25
+      points: 2.25
+      experience: 2.25
+    Skeleton:
+      income: 1.5
+      points: 1.5
+      experience: 2.25
+    Spider:
+      income: 1.5
+      points: 1.5
+      experience: 2.25
+    Zombie:
+      income: 1.5
+      points: 1.5
+      experience: 2.25
+    BLAZE:
+      income: 3.0
+      points: 3.0
+      experience: 2.25
+    CAVE_SPIDER:
+      income: 3.0
+      points: 3.0
+      experience: 2.25
+    ENDERMAN:
+      income: 0.3
+      points: 0.3
+      experience: 0.3
+    GHAST:
+      income: 4.5
+      points: 4.5
+      experience: 4.5
+    GIANT:
+      income: 37.5
+      points: 37.5
+      experience: 15.0
+    IRON_GOLEM:
+      income: 4.5
+      points: 4.5
+      experience: 4.5
+    mushroom_cow:
+      income: 0.75
+      points: 0.75
+      experience: 0.75
+    SILVERFISH:
+      income: 0.45
+      points: 0.45
+      experience: 0.75
+    SNOWMAN:
+      income: 0.3
+      points: 0.3
+      experience: 0.6
+    SQUID:
+      income: 0.3
+      points: 0.3
+      experience: 0.3
+    RABBIT:
+      income: 0.3
+      points: 0.3
+      experience: 0.3
+    GUARDIAN:
+      income: 0.3
+      points: 0.3
+      experience: 0.3
+    SHULKER:
+      income: 0.75
+      points: 0.75
+      experience: 0.75
+    PHANTOM:
+      income: 0.75
+      points: 0.75
+      experience: 0.75
+    DROWNED:
+      income: 0.75
+      points: 0.75
+      experience: 0.75
+    HUSK:
+      income: 0.75
+      points: 0.75
+      experience: 0.75
+    WITHER:
+      income: 7.5
+      points: 7.5
+      experience: 18.0
+    ENDER_DRAGON:
+      income: 300.0
+      points: 300.0
+      experience: 300.0
+    Player:
+      income: 1.35
+      points: 1.35
+      experience: 1.125

@@ -1,0 +1,24 @@
+location: world:538.500:73.000:855.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#00FF5A&lI&#0FFF68&ln&#1FFF76&lf&#2EFF83&lo &7&l| &f&lHomes Públicas'
+    height: 0.3
+  - content: '&7Puedes hacer &a&opúblicas &7tus casas usando'
+    height: 0.3
+  - content: '&b&o/edithome <nombre de una casa tuya existente>'
+    height: 0.3
+  - content: '&7y haciendo click en &a"Hacer Público..."'
+    height: 0.3
+  - content: '&7cualquier persona se podrá tepear a tu casa'
+    height: 0.3
+  - content: '&7Útil para hacer granjas públicas, zonas de comercio, etc.'
+    height: 0.3
+  - content: '&7Explora las &acasas públicas &7usando &b&o/phomelist'
+    height: 0.3
+  actions: {}

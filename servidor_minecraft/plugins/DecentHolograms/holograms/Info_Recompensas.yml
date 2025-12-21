@@ -1,0 +1,27 @@
+location: world:535.500:73.000:860.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#00FF5A&lI&#0FFF68&ln&#1FFF76&lf&#2EFF83&lo &7&l| &f&lRecompensas'
+    height: 0.3
+  - content: '&7Consigue &arecompensas &7por &ojugar!&7, hay &o2 tipos&7:'
+    height: 0.3
+  - content: '&7Recompensas &ldiarias &7(por racha):'
+    height: 0.3
+  - content: '&b&o/rewards gui daily-rewards'
+    height: 0.3
+  - content: '&7Recompensas de &lplaytime:'
+    height: 0.3
+  - content: '&b&o/rewards gui global-playtime-rewards'
+    height: 0.3
+  - content: '&f(Recuerda reclamarlas &ltodos los días&f!)'
+    height: 0.3
+  actions: {}
+
+#/rewards gui daily-rewards
+#/rewards gui global-playtime-rewards

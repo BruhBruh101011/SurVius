@@ -1,0 +1,22 @@
+location: world:574.500:71.000:832.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#00FF5A&lI&#0FFF68&ln&#1FFF76&lf&#2EFF83&lo &7&l| &f&lClanes'
+    height: 0.3
+  - content: '&7Quieres &lcrear &7un &lclan&7?, usa &b&o/clan'
+    height: 0.3
+  - content: '&7para ver &ltodos &7los &ocomandos &7disponibles'
+    height: 0.3
+  - content: '&7ten en cuenta de que necesitas un'
+    height: 0.3
+  - content: '&7&lmínimo &7de &l&a$500 &7para crear uno.'
+    height: 0.3
+  - content: '&7o también te puedes unir a uno existente, gratis!'
+    height: 0.3
+  actions: {}

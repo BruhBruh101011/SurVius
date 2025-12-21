@@ -1,0 +1,22 @@
+location: world:546.500:73.000:855.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#00FF5A&lI&#0FFF68&ln&#1FFF76&lf&#2EFF83&lo &7&l| &f&lTpa'
+    height: 0.3
+  - content: '&7Quieres &btepearte &7a alguien?, usa &b&o/tpa <user>'
+    height: 0.3
+  - content: '&7y el otro jugador &odebe usar:'
+    height: 0.3
+  - content: '&b&o/tpaccept &7para &a&oaceptar &7la solicitud'
+    height: 0.3
+  - content: '&b&o/tpdecline &7para &c&odenegar &7la solicitud'
+    height: 0.3
+  - content: '&7O &b&o/tpignore &7para &f&oignorar&7 solicitudes.'
+    height: 0.3
+  actions: {}

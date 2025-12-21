@@ -1,0 +1,39 @@
+pages:
+  page1:
+    items:
+      '1':
+        material: CAULDRON
+        buy: 25
+        sell: 5
+      '4':
+        material: DISPENSER
+        buy: 20
+        sell: 5
+      '5':
+        material: DROPPER
+        buy: 8
+        sell: 2
+      '6':
+        material: HOPPER
+        buy: 27.5
+        sell: 9
+      '12':
+        material: OBSERVER
+        buy: 22.5
+        sell: 5
+      '18':
+        material: COMPARATOR
+        buy: 15
+        sell: 4
+      '19':
+        material: REPEATER
+        buy: 12.5
+        sell: 3
+      '23':
+        material: PISTON
+        buy: 15.25
+        sell: 3
+      '24':
+        material: STICKY_PISTON
+        buy: 22.25
+        sell: 5

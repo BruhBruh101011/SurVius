@@ -1,0 +1,20 @@
+location: world:594.631:68.864:841.162
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&#00FF5A&lI&#0FFF68&ln&#1FFF76&lf&#2EFF83&lo &7&l| &f&lParkour'
+    height: 0.3
+  - content: '&7Estás aburrido?, completa este'
+    height: 0.3
+  - content: '&eparkour&7, y como premio puedes obtener:'
+    height: 0.3
+  - content: '&7- Unas gracias de parte de bruh.'
+    height: 0.3
+  - content: '&7- Que &dArriin &7te &obaile &7en el &opalo de ahí ->.'
+    height: 0.3
+  actions: {}
